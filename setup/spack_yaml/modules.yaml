@@ -1,0 +1,64 @@
+modules:
+    enable::
+        - lmod
+    lmod:
+        core_compilers:
+            - 'gcc@4.9.2'
+        hash_length: 0
+        whitelist:
+            - bash
+            - cmake
+            - curl
+            - gcc
+            - git
+            - gnuplot
+            # NOTE: DO NOT PUT `lmod` HERE! It comes from login/z01_Totient.[c]sh
+            - lua
+            - tmux
+            - vim
+            - zsh
+        blacklist:
+            # NOTE: spack generated module file infinite recursion.
+            #       made custom module file
+            - intel-parallel-studio
+            - '%gcc@4.9.2'
+            # Remove bloat from python side
+            # Leaves: py-cython, py-numpy, py-scipy, py-pandas
+            #         py-six, py-virtualenv
+            - py-appdirs
+            - py-bottleneck
+            - py-dateutil
+            - py-numexpr
+            - py-packaging
+            - py-pip
+            - py-pyparsing
+            - py-pytz
+            - py-setuptools
+        all:
+            suffixes:
+                '^openblas': openblas
+                '^netlib-lapack': netlib
+                '^netlib-scalapack': netlib
+                '^python@2.0.0:2.99.99': py2
+                '^python@3.0.0:3.99.99': py3
+            filter:
+                environment_blacklist: ['CPATH', 'LIBRARY_PATH']
+            environment:
+                set:
+                    '${PACKAGE}_ROOT': '${PREFIX}'
+        gcc:
+            environment:
+                set:
+                    CC: gcc
+                    CXX: g++
+                    FC: gfortran
+                    F90: gfortran
+                    F77: gfortran
+#         @David: you know mpi, do the moduelfiles need to set anything
+#                 specific wrt to environment variables?
+#         openmpi:
+#             environment:
+#                 set:
+#                     SLURM_MPI_TYPE: pmi2
+#                     OMPI_MCA_btl_openib_warn_default_gid_prefix: '0'
+

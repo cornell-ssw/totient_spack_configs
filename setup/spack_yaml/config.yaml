@@ -1,0 +1,19 @@
+# The tmpfs on Totient is very small (2.1GB), which is not sufficient
+# for compiling larger packages and compilers.  This will prevent the
+# stages from being built in /tmp/<user>/spack-stage and instead keep
+# the stage contained down in spack/var/spack/stage
+#
+# The other primary reason for doing this is that I'm compiling things
+# using two different spack instances (one for compilers, one for
+# everything else).  A rampant `spack clean -a` could affect a
+# currently running installation if the hashes for a given package
+# being built resolve to the same thing.
+config:
+    build_stage:
+        # Un-comment this line if you need a big package e.g. llvm to build
+        # NOTE: always use `spack clean -a` to delete this stuff.  It
+        #       maintains its own database, sometimes if you delete its
+        #       stage manually it freaks out and then you really go home
+        #       crying
+        # - /home/$user/zzz_spack_stage_DO_NOT_DELETE_MANUALLY
+        - $spack/var/spack/stage

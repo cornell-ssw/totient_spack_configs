@@ -1,0 +1,34 @@
+packages:
+    texlive:
+        buildable: False
+        version: [live]
+        variants: scheme=full
+        paths:
+            texlive@live: scheme=full
+    # Without this, GCC "can't determine suffix of object files".
+    gcc:
+        variants: +binutils
+    # In order to get `spack` and `lmod` for the compilers setup to work,
+    # we need to 'install' this package exactly once.  By making it
+    # buildable: False, it basically just makes it so that `spack` will
+    # register it in the database and create an `lmod` agreeable modulefile
+    intel-parallel-studio:
+        buildable: False
+        # These were determined by viewing what is symlinked directly into
+        #     /usr/local/intel/composer_xe
+        # from the parent directory /usr/local/intel, plus OpenMP
+        # NOTE: because of mkl existing, we also have lapack and scalapack
+        #       and blas (see providers below)
+        # NOTE: I do not know what DAAL is or if it was included, being conservative
+        # NOTE: Use spack to get TBB, the Intel one is bjorked (?)
+        variants: +ipp+mkl+mpi~tbb+openmp~daal
+        # NOTE: crazy hacks.  This is a concretizer bug.  Since this is a
+        #       buildable: False package, we must include the `variants` in
+        #       the path specification as well!  It's either a bug or a feature.
+        paths:
+            intel-parallel-studio@composer.2015.3+ipp+mkl+mpi~tbb+openmp~daal: /usr/local/intel
+    # The host compiler would generally be preferred to use for compiling
+    # other compilers, but `llvm` failed because it needs libatomic.  As
+    # such, we use 4.9.2 provided by RHEL's devtoolset3.
+    all:
+        compiler: [gcc@4.9.2]

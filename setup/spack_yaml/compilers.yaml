@@ -1,0 +1,87 @@
+compilers:
+###############################################################################
+# Already present on system                                                   #
+###############################################################################
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel6
+    paths:
+        cc: /usr/bin/gcc
+        cxx: /usr/bin/g++
+        f77: /usr/bin/gfortran
+        fc: /usr/bin/gfortran
+    spec: gcc@4.4.7
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: [devtoolset/3]
+    operating_system: rhel6
+    paths:
+        cc: /opt/rh/devtoolset-3/root/usr/bin/gcc
+        cxx: /opt/rh/devtoolset-3/root/usr/bin/g++
+        f77: /opt/rh/devtoolset-3/root/usr/bin/gfortran
+        fc: /opt/rh/devtoolset-3/root/usr/bin/gfortran
+    spec: gcc@4.9.2
+    target: x86_64
+- compiler:
+    environment: {}
+    # I don't know why this is necessary :'(
+    extra_rpaths: [/usr/local/intel/composer_xe_2015.3.187/compiler/lib/intel64]
+    flags: {}
+    modules: [psxe/2015] # also loads devtoolset/3 internally
+    operating_system: rhel6
+    paths:
+        cc: /usr/local/intel/bin/icc
+        cxx: /usr/local/intel/bin/icpc
+        f77: /usr/local/intel/bin/ifort
+        fc: /usr/local/intel/bin/ifort
+    spec: intel@15.0.3
+    target: x86_64
+###############################################################################
+# Installed via spack_compilers                                               #
+#                                                                             #
+# Current:                                                                    #
+# - gcc@7.2.0                                                                 #
+# - gcc@6.4.0                                                                 #
+#                                                                             #
+# TODO:                                                                       #
+# - llvm@4.0.0                                                                #
+# - llvm@3.8.0                                                                #
+#                                                                             #
+# NOTE:                                                                       #
+# As of 2017, the LLVM fortran compiler is still not available.  Some         #
+# packages in Spack REQUIRE a fortran compiler.  Advise explicitly specifying #
+# either Intel's or possibly just host fortran compiler.                      #
+#                                                                             #
+###############################################################################
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel6
+    paths:
+        cc: /share/apps/spack/spack_compilers/opt/spack/linux-rhel6-x86_64/gcc-4.9.2/gcc-7.2.0-j74oaigj3p5ikuneldzgxzqg42m3s3op/bin/gcc
+        cxx: /share/apps/spack/spack_compilers/opt/spack/linux-rhel6-x86_64/gcc-4.9.2/gcc-7.2.0-j74oaigj3p5ikuneldzgxzqg42m3s3op/bin/g++
+        f77: /share/apps/spack/spack_compilers/opt/spack/linux-rhel6-x86_64/gcc-4.9.2/gcc-7.2.0-j74oaigj3p5ikuneldzgxzqg42m3s3op/bin/gfortran
+        fc: /share/apps/spack/spack_compilers/opt/spack/linux-rhel6-x86_64/gcc-4.9.2/gcc-7.2.0-j74oaigj3p5ikuneldzgxzqg42m3s3op/bin/gfortran
+    spec: gcc@7.2.0
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: rhel6
+    paths:
+        cc: /share/apps/spack/spack_compilers/opt/spack/linux-rhel6-x86_64/gcc-4.9.2/gcc-6.4.0-jdutf7f2jgun6prd2zoiiftp2vfsa2i4/bin/gcc
+        cxx: /share/apps/spack/spack_compilers/opt/spack/linux-rhel6-x86_64/gcc-4.9.2/gcc-6.4.0-jdutf7f2jgun6prd2zoiiftp2vfsa2i4/bin/g++
+        f77: /share/apps/spack/spack_compilers/opt/spack/linux-rhel6-x86_64/gcc-4.9.2/gcc-6.4.0-jdutf7f2jgun6prd2zoiiftp2vfsa2i4/bin/gfortran
+        fc: /share/apps/spack/spack_compilers/opt/spack/linux-rhel6-x86_64/gcc-4.9.2/gcc-6.4.0-jdutf7f2jgun6prd2zoiiftp2vfsa2i4/bin/gfortran
+    spec: gcc@6.4.0
+    target: x86_64

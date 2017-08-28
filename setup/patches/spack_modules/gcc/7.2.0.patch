@@ -1,0 +1,11 @@
+--- a/share/apps/spack/spack_compilers/share/spack/lmod/linux-rhel6-x86_64/Core/gcc/7.2.0.lua
++++ b/share/apps/spack/spack_compilers/share/spack/lmod/linux-rhel6-x86_64/Core/gcc/7.2.0.lua
+@@ -11,7 +11,7 @@ family("compiler")
+ 
+ -- MODULEPATH modifications
+ 
+-prepend_path("MODULEPATH", "/share/apps/spack/spack_compilers/share/spack/lmod/linux-rhel6-x86_64/gcc/7.2.0")
++prepend_path("MODULEPATH", "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/7.2.0")
+ 
+ -- END MODULEPATH modifications
+ 
