@@ -2722,6 +2722,55 @@ spiderT = {
         },
       },
     },
+    cmake = {
+      defaultT = {},
+      dirT = {},
+      fileT = {
+        ["cmake/3.9.0"]  = {
+          ["Name"] = "cmake",
+          ["Version"] = "3.9.0",
+          ["canonical"] = "3.9.0",
+          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/intel/15.0.3/cmake/3.9.0.lua",
+          ["help"] = "A cross-platform, open-source build system. CMake is a family of tools designed to build, test and package software.",
+          ["luaExt"] = 6,
+          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/intel/15.0.3",
+          ["pV"] = "000000003.000000009.*zfinal",
+          pathA = {
+            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/intel-15.0.3/cmake-3.9.0-xgzwzlzdd44lq3pv5pcrefengzozevk6/bin"] = 1,
+          },
+          ["wV"] = "000000003.000000009.*zfinal",
+          whatis = {
+            "Name : cmake", "Version : 3.9.0",
+          },
+        },
+      },
+    },
+    curl = {
+      defaultT = {},
+      dirT = {},
+      fileT = {
+        ["curl/7.54.0"]  = {
+          ["Name"] = "curl",
+          ["Version"] = "7.54.0",
+          ["canonical"] = "7.54.0",
+          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/intel/15.0.3/curl/7.54.0.lua",
+          ["help"] = "cURL is an open source command line tool and library for transferring data with URL syntax",
+          lpathA = {
+            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/intel-15.0.3/curl-7.54.0-hxjfi272bc2z4yeqqgp23nskg53xlsai/lib"] = 1,
+          },
+          ["luaExt"] = 7,
+          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/intel/15.0.3",
+          ["pV"] = "000000007.000000054.*zfinal",
+          pathA = {
+            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/intel-15.0.3/curl-7.54.0-hxjfi272bc2z4yeqqgp23nskg53xlsai/bin"] = 1,
+          },
+          ["wV"] = "000000007.000000054.*zfinal",
+          whatis = {
+            "Name : curl", "Version : 7.54.0",
+          },
+        },
+      },
+    },
     gsl = {
       defaultT = {},
       dirT = {},
@@ -2744,6 +2793,277 @@ spiderT = {
           ["wV"] = "000000002.000000003.*zfinal",
           whatis = {
             "Name : gsl", "Version : 2.3",
+          },
+        },
+      },
+    },
+    ["intel-tbb"]  = {
+      defaultT = {},
+      dirT = {},
+      fileT = {
+        ["intel-tbb/2017.6"]  = {
+          ["Name"] = "intel-tbb",
+          ["Version"] = "2017.6",
+          ["canonical"] = "2017.6",
+          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/intel/15.0.3/intel-tbb/2017.6.lua",
+          ["help"] = "Widely used C++ template library for task parallelism. Intel Threading Building Blocks (Intel TBB) lets you easily write parallel C++ programs that take full advantage of multicore performance, that are portable and composable, and that have future-proof scalability. ",
+          lpathA = {
+            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/intel-15.0.3/intel-tbb-2017.6-xpcvo2oylzv7fd2kkr3exg5gte4rgmw3/lib"] = 1,
+          },
+          ["luaExt"] = 7,
+          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/intel/15.0.3",
+          ["pV"] = "000002017.000000006.*zfinal",
+          ["wV"] = "000002017.000000006.*zfinal",
+          whatis = {
+            "Name : intel-tbb", "Version : 2017.6",
+          },
+        },
+      },
+    },
+    jasper = {
+      defaultT = {},
+      dirT = {},
+      fileT = {
+        ["jasper/1.900.1"]  = {
+          ["Name"] = "jasper",
+          ["Version"] = "1.900.1",
+          ["canonical"] = "1.900.1",
+          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/intel/15.0.3/jasper/1.900.1.lua",
+          ["help"] = "Library for manipulating JPEG-2000 images",
+          lpathA = {
+            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/intel-15.0.3/jasper-1.900.1-6kv6c4jtcvczigkecbmvo433t6qrqyps/lib"] = 1,
+          },
+          ["luaExt"] = 8,
+          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/intel/15.0.3",
+          ["pV"] = "000000001.000000900.000000001.*zfinal",
+          pathA = {
+            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/intel-15.0.3/jasper-1.900.1-6kv6c4jtcvczigkecbmvo433t6qrqyps/bin"] = 1,
+          },
+          ["wV"] = "000000001.000000900.000000001.*zfinal",
+          whatis = {
+            "Name : jasper", "Version : 1.900.1",
+          },
+        },
+      },
+    },
+    jpeg = {
+      defaultT = {},
+      dirT = {},
+      fileT = {
+        ["jpeg/9b"]  = {
+          ["Name"] = "jpeg",
+          ["Version"] = "9b",
+          ["canonical"] = "9b",
+          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/intel/15.0.3/jpeg/9b.lua",
+          ["help"] = "libjpeg is a widely used free library with functions for handling the JPEG image data format. It implements a JPEG codec (encoding and decoding) alongside various utilities for handling JPEG data.",
+          lpathA = {
+            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/intel-15.0.3/jpeg-9b-4e5sdmsui4dsa2ekvva7ptnlkmkcnc6f/lib"] = 1,
+          },
+          ["luaExt"] = 3,
+          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/intel/15.0.3",
+          ["pV"] = "000000009.*b.*zfinal",
+          pathA = {
+            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/intel-15.0.3/jpeg-9b-4e5sdmsui4dsa2ekvva7ptnlkmkcnc6f/bin"] = 1,
+          },
+          ["wV"] = "000000009.*b.*zfinal",
+          whatis = {
+            "Name : jpeg", "Version : 9b",
+          },
+        },
+      },
+    },
+    ["libjpeg-turbo"]  = {
+      defaultT = {},
+      dirT = {},
+      fileT = {
+        ["libjpeg-turbo/1.5.0"]  = {
+          ["Name"] = "libjpeg-turbo",
+          ["Version"] = "1.5.0",
+          ["canonical"] = "1.5.0",
+          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/intel/15.0.3/libjpeg-turbo/1.5.0.lua",
+          ["help"] = "libjpeg-turbo is a fork of the original IJG libjpeg which uses SIMD to accelerate baseline JPEG compression and decompression. libjpeg is a library that implements JPEG image encoding, decoding and transcoding.",
+          lpathA = {
+            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/intel-15.0.3/libjpeg-turbo-1.5.0-f742lsmrfltwxabtmsn5xurkqa6uz337/lib"] = 1,
+          },
+          ["luaExt"] = 6,
+          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/intel/15.0.3",
+          ["pV"] = "000000001.000000005.*zfinal",
+          pathA = {
+            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/intel-15.0.3/libjpeg-turbo-1.5.0-f742lsmrfltwxabtmsn5xurkqa6uz337/bin"] = 1,
+          },
+          ["wV"] = "000000001.000000005.*zfinal",
+          whatis = {
+            "Name : libjpeg-turbo", "Version : 1.5.0",
+          },
+        },
+      },
+    },
+    libpng = {
+      defaultT = {},
+      dirT = {},
+      fileT = {
+        ["libpng/1.6.29"]  = {
+          ["Name"] = "libpng",
+          ["Version"] = "1.6.29",
+          ["canonical"] = "1.6.29",
+          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/intel/15.0.3/libpng/1.6.29.lua",
+          ["help"] = "libpng is the official PNG reference library.",
+          lpathA = {
+            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/intel-15.0.3/libpng-1.6.29-dtxbnzxglyhhehcibldgrlwqilhhgppe/lib"] = 1,
+          },
+          ["luaExt"] = 7,
+          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/intel/15.0.3",
+          ["pV"] = "000000001.000000006.000000029.*zfinal",
+          pathA = {
+            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/intel-15.0.3/libpng-1.6.29-dtxbnzxglyhhehcibldgrlwqilhhgppe/bin"] = 1,
+          },
+          ["wV"] = "000000001.000000006.000000029.*zfinal",
+          whatis = {
+            "Name : libpng", "Version : 1.6.29",
+          },
+        },
+      },
+    },
+    libsigsegv = {
+      defaultT = {},
+      dirT = {},
+      fileT = {
+        ["libsigsegv/2.11"]  = {
+          ["Name"] = "libsigsegv",
+          ["Version"] = "2.11",
+          ["canonical"] = "2.11",
+          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/intel/15.0.3/libsigsegv/2.11.lua",
+          ["help"] = "GNU libsigsegv is a library for handling page faults in user mode.",
+          lpathA = {
+            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/intel-15.0.3/libsigsegv-2.11-lr2wv5fxwa4n3q7aniqbrmjp2uvhw2lm/lib"] = 1,
+          },
+          ["luaExt"] = 5,
+          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/intel/15.0.3",
+          ["pV"] = "000000002.000000011.*zfinal",
+          ["wV"] = "000000002.000000011.*zfinal",
+          whatis = {
+            "Name : libsigsegv", "Version : 2.11",
+          },
+        },
+      },
+    },
+    libszip = {
+      defaultT = {},
+      dirT = {},
+      fileT = {
+        ["libszip/2.1.1"]  = {
+          ["Name"] = "libszip",
+          ["Version"] = "2.1.1",
+          ["canonical"] = "2.1.1",
+          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/intel/15.0.3/libszip/2.1.1.lua",
+          ["help"] = "Szip is an implementation of the extended-Rice lossless compression algorithm. It provides lossless compression of scientific data, and is provided with HDF software products. ",
+          lpathA = {
+            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/intel-15.0.3/libszip-2.1.1-uhnem2fgo6wr5zl5ewepdii3v4n7llxi/lib"] = 1,
+          },
+          ["luaExt"] = 6,
+          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/intel/15.0.3",
+          ["pV"] = "000000002.000000001.000000001.*zfinal",
+          ["wV"] = "000000002.000000001.000000001.*zfinal",
+          whatis = {
+            "Name : libszip", "Version : 2.1.1",
+          },
+        },
+      },
+    },
+    libtiff = {
+      defaultT = {},
+      dirT = {},
+      fileT = {
+        ["libtiff/4.0.8"]  = {
+          ["Name"] = "libtiff",
+          ["Version"] = "4.0.8",
+          ["canonical"] = "4.0.8",
+          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/intel/15.0.3/libtiff/4.0.8.lua",
+          ["help"] = "libtiff graphics format library",
+          lpathA = {
+            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/intel-15.0.3/libtiff-4.0.8-fp6rq2uo2z3fuyo7cqjwdc36ktjd5tdj/lib"] = 1,
+          },
+          ["luaExt"] = 6,
+          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/intel/15.0.3",
+          ["pV"] = "000000004.000000000.000000008.*zfinal",
+          pathA = {
+            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/intel-15.0.3/libtiff-4.0.8-fp6rq2uo2z3fuyo7cqjwdc36ktjd5tdj/bin"] = 1,
+          },
+          ["wV"] = "000000004.000000000.000000008.*zfinal",
+          whatis = {
+            "Name : libtiff", "Version : 4.0.8",
+          },
+        },
+      },
+    },
+    m4 = {
+      defaultT = {},
+      dirT = {},
+      fileT = {
+        ["m4/1.4.18"]  = {
+          ["Name"] = "m4",
+          ["Version"] = "1.4.18",
+          ["canonical"] = "1.4.18",
+          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/intel/15.0.3/m4/1.4.18.lua",
+          ["help"] = "GNU M4 is an implementation of the traditional Unix macro processor.",
+          ["luaExt"] = 7,
+          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/intel/15.0.3",
+          ["pV"] = "000000001.000000004.000000018.*zfinal",
+          pathA = {
+            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/intel-15.0.3/m4-1.4.18-k2j2oc4s2gmthub3gaqum5bma2llo4xp/bin"] = 1,
+          },
+          ["wV"] = "000000001.000000004.000000018.*zfinal",
+          whatis = {
+            "Name : m4", "Version : 1.4.18",
+          },
+        },
+      },
+    },
+    metis = {
+      defaultT = {},
+      dirT = {},
+      fileT = {
+        ["metis/5.1.0"]  = {
+          ["Name"] = "metis",
+          ["Version"] = "5.1.0",
+          ["canonical"] = "5.1.0",
+          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/intel/15.0.3/metis/5.1.0.lua",
+          ["help"] = "METIS is a set of serial programs for partitioning graphs, partitioning finite element meshes, and producing fill reducing orderings for sparse matrices. The algorithms implemented in METIS are based on the multilevel recursive-bisection, multilevel k-way, and multi-constraint partitioning schemes.",
+          lpathA = {
+            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/intel-15.0.3/metis-5.1.0-cghsiyfnetxleivlelg2fqjjnsvcg3z2/lib"] = 1,
+          },
+          ["luaExt"] = 6,
+          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/intel/15.0.3",
+          ["pV"] = "000000005.000000001.*zfinal",
+          pathA = {
+            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/intel-15.0.3/metis-5.1.0-cghsiyfnetxleivlelg2fqjjnsvcg3z2/bin"] = 1,
+          },
+          ["wV"] = "000000005.000000001.*zfinal",
+          whatis = {
+            "Name : metis", "Version : 5.1.0",
+          },
+        },
+      },
+    },
+    nasm = {
+      defaultT = {},
+      dirT = {},
+      fileT = {
+        ["nasm/2.11.06"]  = {
+          ["Name"] = "nasm",
+          ["Version"] = "2.11.06",
+          ["canonical"] = "2.11.06",
+          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/intel/15.0.3/nasm/2.11.06.lua",
+          ["help"] = "NASM (Netwide Assembler) is an 80x86 assembler designed for portability and modularity. It includes a disassembler as well.",
+          ["luaExt"] = 8,
+          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/intel/15.0.3",
+          ["pV"] = "000000002.000000011.000000006.*zfinal",
+          pathA = {
+            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/intel-15.0.3/nasm-2.11.06-ltjx3wwwnn5i6omkij6vulmcgufhpyow/bin"] = 1,
+          },
+          ["wV"] = "000000002.000000011.000000006.*zfinal",
+          whatis = {
+            "Name : nasm", "Version : 2.11.06",
           },
         },
       },
@@ -2819,6 +3139,46 @@ spiderT = {
           ["wV"] = "000000000.000000029.000000002.*zfinal",
           whatis = {
             "Name : pkg-config", "Version : 0.29.2",
+          },
+        },
+      },
+    },
+    ["py-six"]  = {
+      defaultT = {},
+      dirT = {},
+      fileT = {
+        ["py-six/1.10.0-py2"]  = {
+          ["Name"] = "py-six",
+          ["Version"] = "1.10.0",
+          ["canonical"] = "1.10.0-py2",
+          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/intel/15.0.3/py-six/1.10.0-py2.lua",
+          ["help"] = "Python 2 and 3 compatibility utilities.",
+          lpathA = {
+            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/intel-15.0.3/py-six-1.10.0-g3ttirorseiouqaverofdxy4xkwa4zt4/lib"] = 1,
+          },
+          ["luaExt"] = 11,
+          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/intel/15.0.3",
+          ["pV"] = "000000001.000000010.*y.000000002.*zfinal",
+          ["wV"] = "000000001.000000010.*y.000000002.*zfinal",
+          whatis = {
+            "Name : py-six", "Version : 1.10.0",
+          },
+        },
+        ["py-six/1.10.0-py3"]  = {
+          ["Name"] = "py-six",
+          ["Version"] = "1.10.0",
+          ["canonical"] = "1.10.0-py3",
+          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/intel/15.0.3/py-six/1.10.0-py3.lua",
+          ["help"] = "Python 2 and 3 compatibility utilities.",
+          lpathA = {
+            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/intel-15.0.3/py-six-1.10.0-nh2xxod6igepw7roxmydnz3utpowweyw/lib"] = 1,
+          },
+          ["luaExt"] = 11,
+          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/intel/15.0.3",
+          ["pV"] = "000000001.000000010.*y.000000003.*zfinal",
+          ["wV"] = "000000001.000000010.*y.000000003.*zfinal",
+          whatis = {
+            "Name : py-six", "Version : 1.10.0",
           },
         },
       },
@@ -2917,6 +3277,32 @@ spiderT = {
           ["wV"] = "000000003.000000020.*zfinal",
           whatis = {
             "Name : sqlite", "Version : 3.20.0",
+          },
+        },
+      },
+    },
+    xz = {
+      defaultT = {},
+      dirT = {},
+      fileT = {
+        ["xz/5.2.3"]  = {
+          ["Name"] = "xz",
+          ["Version"] = "5.2.3",
+          ["canonical"] = "5.2.3",
+          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/intel/15.0.3/xz/5.2.3.lua",
+          ["help"] = "XZ Utils is free general-purpose data compression software with high compression ratio. XZ Utils were written for POSIX-like systems, but also work on some not-so-POSIX systems. XZ Utils are the successor to LZMA Utils.",
+          lpathA = {
+            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/intel-15.0.3/xz-5.2.3-5nbc7lelsauab23ytvqpmvbox4cig7zt/lib"] = 1,
+          },
+          ["luaExt"] = 6,
+          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/intel/15.0.3",
+          ["pV"] = "000000005.000000002.000000003.*zfinal",
+          pathA = {
+            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/intel-15.0.3/xz-5.2.3-5nbc7lelsauab23ytvqpmvbox4cig7zt/bin"] = 1,
+          },
+          ["wV"] = "000000005.000000002.000000003.*zfinal",
+          whatis = {
+            "Name : xz", "Version : 5.2.3",
           },
         },
       },
@@ -3517,288 +3903,6 @@ spiderT = {
           },
         },
       },
-    },
-  },
-  ["/share/apps/spack/spack_all/share/spack/modules/linux-rhel6-x86_64"]  = {
-    ["bzip2-1.0.6-intel-15.0.3-vyamrts"]  = {
-      defaultT = {},
-      dirT = {},
-      ["file"] = "/share/apps/spack/spack_all/share/spack/modules/linux-rhel6-x86_64/bzip2-1.0.6-intel-15.0.3-vyamrts",
-      fileT = {},
-      metaModuleT = {
-        ["canonical"] = "bzip2-1.0.6-intel-15.0.3-vyamrts",
-        ["fn"] = "/share/apps/spack/spack_all/share/spack/modules/linux-rhel6-x86_64/bzip2-1.0.6-intel-15.0.3-vyamrts",
-        lpathA = {
-          ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/intel-15.0.3/bzip2-1.0.6-vyamrtse6x7jwg2tokywil3c42cto3ng/lib"] = 1,
-        },
-        ["mpath"] = "/share/apps/spack/spack_all/share/spack/modules/linux-rhel6-x86_64",
-        ["pV"] = "~",
-        pathA = {
-          ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/intel-15.0.3/bzip2-1.0.6-vyamrtse6x7jwg2tokywil3c42cto3ng/bin"] = 1,
-        },
-        ["wV"] = "~",
-        whatis = {
-          "bzip2 @1.0.6 ",
-        },
-      },
-      ["mpath"] = "/share/apps/spack/spack_all/share/spack/modules/linux-rhel6-x86_64",
-    },
-    ["intel-parallel-studio-composer.2015.3-intel-15.0.3-7gite2v"]  = {
-      defaultT = {},
-      dirT = {},
-      ["file"] = "/share/apps/spack/spack_all/share/spack/modules/linux-rhel6-x86_64/intel-parallel-studio-composer.2015.3-intel-15.0.3-7gite2v",
-      fileT = {},
-      metaModuleT = {
-        ["canonical"] = "intel-parallel-studio-composer.2015.3-intel-15.0.3-7gite2v",
-        ["fn"] = "/share/apps/spack/spack_all/share/spack/modules/linux-rhel6-x86_64/intel-parallel-studio-composer.2015.3-intel-15.0.3-7gite2v",
-        lpathA = {
-          ["/opt/intel/mic/coi/host-linux-release/lib"] = 1,
-          ["/opt/intel/mic/myo/lib"] = 1,
-          ["/usr/local/intel/composer_xe_2015.3.187/compiler/lib/intel64"] = 1,
-          ["/usr/local/intel/composer_xe_2015.3.187/debugger/libipt/intel64/lib"] = 1,
-          ["/usr/local/intel/composer_xe_2015.3.187/ipp/lib/intel64"] = 1,
-          ["/usr/local/intel/composer_xe_2015.3.187/ipp/tools/intel64/perfsys"] = 1,
-          ["/usr/local/intel/composer_xe_2015.3.187/mkl/lib/intel64"] = 1,
-          ["/usr/local/intel/composer_xe_2015.3.187/mpirt/lib/intel64"] = 1,
-          ["/usr/local/intel/composer_xe_2015.3.187/tbb/lib/intel64/gcc4.4"] = 1,
-          ["/usr/local/intel/impi/5.0.3.048/intel64/lib"] = 1,
-          ["/usr/local/intel/itac/9.0.3.051/intel64/slib"] = 1,
-          ["/usr/local/intel/itac/9.0.3.051/mic/slib"] = 1,
-          ["/usr/local/intel/lib"] = 1,
-        },
-        ["mpath"] = "/share/apps/spack/spack_all/share/spack/modules/linux-rhel6-x86_64",
-        ["pV"] = "~",
-        pathA = {
-          ["/usr/local/intel/advisor_xe_2015.1.10.380555/bin64"] = 1,
-          ["/usr/local/intel/bin"] = 1,
-          ["/usr/local/intel/composer_xe_2015.3.187/bin/intel64"] = 1,
-          ["/usr/local/intel/composer_xe_2015.3.187/debugger/gdb/intel64_mic/bin"] = 1,
-          ["/usr/local/intel/impi/5.0.3.048/intel64/bin"] = 1,
-          ["/usr/local/intel/inspector_xe_2015.1.2.379161/bin64"] = 1,
-          ["/usr/local/intel/itac/9.0.3.051/intel64/bin"] = 1,
-          ["/usr/local/intel/vtune_amplifier_xe_2015.3.0.403110/bin64"] = 1,
-        },
-        ["wV"] = "~",
-        whatis = {
-          "intel-parallel-studio @composer.2015.3 ",
-        },
-      },
-      ["mpath"] = "/share/apps/spack/spack_all/share/spack/modules/linux-rhel6-x86_64",
-    },
-    ["intel-parallel-studio-composer.2015.3-intel-15.0.3-7odedah"]  = {
-      defaultT = {},
-      dirT = {},
-      ["file"] = "/share/apps/spack/spack_all/share/spack/modules/linux-rhel6-x86_64/intel-parallel-studio-composer.2015.3-intel-15.0.3-7odedah",
-      fileT = {},
-      metaModuleT = {
-        ["canonical"] = "intel-parallel-studio-composer.2015.3-intel-15.0.3-7odedah",
-        ["fn"] = "/share/apps/spack/spack_all/share/spack/modules/linux-rhel6-x86_64/intel-parallel-studio-composer.2015.3-intel-15.0.3-7odedah",
-        ["mpath"] = "/share/apps/spack/spack_all/share/spack/modules/linux-rhel6-x86_64",
-        ["pV"] = "~",
-        pathA = {
-          ["/usr/local/intel/composer_xe_2015.3.187/bin"] = 1,
-        },
-        ["wV"] = "~",
-        whatis = {
-          "intel-parallel-studio @composer.2015.3 ",
-        },
-      },
-      ["mpath"] = "/share/apps/spack/spack_all/share/spack/modules/linux-rhel6-x86_64",
-    },
-    ["intel-parallel-studio-composer.2015.3-intel-15.0.3-hphyq7g"]  = {
-      defaultT = {},
-      dirT = {},
-      ["file"] = "/share/apps/spack/spack_all/share/spack/modules/linux-rhel6-x86_64/intel-parallel-studio-composer.2015.3-intel-15.0.3-hphyq7g",
-      fileT = {},
-      metaModuleT = {
-        ["canonical"] = "intel-parallel-studio-composer.2015.3-intel-15.0.3-hphyq7g",
-        ["fn"] = "/share/apps/spack/spack_all/share/spack/modules/linux-rhel6-x86_64/intel-parallel-studio-composer.2015.3-intel-15.0.3-hphyq7g",
-        ["mpath"] = "/share/apps/spack/spack_all/share/spack/modules/linux-rhel6-x86_64",
-        ["pV"] = "~",
-        ["wV"] = "~",
-        whatis = {
-          "intel-parallel-studio @composer.2015.3 ",
-        },
-      },
-      ["mpath"] = "/share/apps/spack/spack_all/share/spack/modules/linux-rhel6-x86_64",
-    },
-    ["ncurses-6.0-intel-15.0.3-pggcdh3"]  = {
-      defaultT = {},
-      dirT = {},
-      ["file"] = "/share/apps/spack/spack_all/share/spack/modules/linux-rhel6-x86_64/ncurses-6.0-intel-15.0.3-pggcdh3",
-      fileT = {},
-      metaModuleT = {
-        ["canonical"] = "ncurses-6.0-intel-15.0.3-pggcdh3",
-        ["fn"] = "/share/apps/spack/spack_all/share/spack/modules/linux-rhel6-x86_64/ncurses-6.0-intel-15.0.3-pggcdh3",
-        lpathA = {
-          ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/intel-15.0.3/ncurses-6.0-pggcdh3tef7soh26htirxnmw6irceg77/lib"] = 1,
-        },
-        ["mpath"] = "/share/apps/spack/spack_all/share/spack/modules/linux-rhel6-x86_64",
-        ["pV"] = "~",
-        pathA = {
-          ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/intel-15.0.3/ncurses-6.0-pggcdh3tef7soh26htirxnmw6irceg77/bin"] = 1,
-        },
-        ["wV"] = "~",
-        whatis = {
-          "ncurses @6.0 ",
-        },
-      },
-      ["mpath"] = "/share/apps/spack/spack_all/share/spack/modules/linux-rhel6-x86_64",
-    },
-    ["openssl-1.0.2k-intel-15.0.3-r3c6u7q"]  = {
-      defaultT = {},
-      dirT = {},
-      ["file"] = "/share/apps/spack/spack_all/share/spack/modules/linux-rhel6-x86_64/openssl-1.0.2k-intel-15.0.3-r3c6u7q",
-      fileT = {},
-      metaModuleT = {
-        ["canonical"] = "openssl-1.0.2k-intel-15.0.3-r3c6u7q",
-        ["fn"] = "/share/apps/spack/spack_all/share/spack/modules/linux-rhel6-x86_64/openssl-1.0.2k-intel-15.0.3-r3c6u7q",
-        lpathA = {
-          ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/intel-15.0.3/openssl-1.0.2k-r3c6u7qvtqv2clc7iqadnj5rouwsyuyt/lib"] = 1,
-        },
-        ["mpath"] = "/share/apps/spack/spack_all/share/spack/modules/linux-rhel6-x86_64",
-        ["pV"] = "~",
-        pathA = {
-          ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/intel-15.0.3/openssl-1.0.2k-r3c6u7qvtqv2clc7iqadnj5rouwsyuyt/bin"] = 1,
-        },
-        ["wV"] = "~",
-        whatis = {
-          "openssl @1.0.2k ",
-        },
-      },
-      ["mpath"] = "/share/apps/spack/spack_all/share/spack/modules/linux-rhel6-x86_64",
-    },
-    ["pkg-config-0.29.2-intel-15.0.3-zgzbd4k"]  = {
-      defaultT = {},
-      dirT = {},
-      ["file"] = "/share/apps/spack/spack_all/share/spack/modules/linux-rhel6-x86_64/pkg-config-0.29.2-intel-15.0.3-zgzbd4k",
-      fileT = {},
-      metaModuleT = {
-        ["canonical"] = "pkg-config-0.29.2-intel-15.0.3-zgzbd4k",
-        ["fn"] = "/share/apps/spack/spack_all/share/spack/modules/linux-rhel6-x86_64/pkg-config-0.29.2-intel-15.0.3-zgzbd4k",
-        ["mpath"] = "/share/apps/spack/spack_all/share/spack/modules/linux-rhel6-x86_64",
-        ["pV"] = "~",
-        pathA = {
-          ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/intel-15.0.3/pkg-config-0.29.2-zgzbd4kgqch5bq427sqfkbgmgceaila4/bin"] = 1,
-        },
-        ["wV"] = "~",
-        whatis = {
-          "pkg-config @0.29.2 ",
-        },
-      },
-      ["mpath"] = "/share/apps/spack/spack_all/share/spack/modules/linux-rhel6-x86_64",
-    },
-    ["python-2.7.13-intel-15.0.3-wrvbv7i"]  = {
-      defaultT = {},
-      dirT = {},
-      ["file"] = "/share/apps/spack/spack_all/share/spack/modules/linux-rhel6-x86_64/python-2.7.13-intel-15.0.3-wrvbv7i",
-      fileT = {},
-      metaModuleT = {
-        ["canonical"] = "python-2.7.13-intel-15.0.3-wrvbv7i",
-        ["fn"] = "/share/apps/spack/spack_all/share/spack/modules/linux-rhel6-x86_64/python-2.7.13-intel-15.0.3-wrvbv7i",
-        lpathA = {
-          ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/intel-15.0.3/python-2.7.13-wrvbv7ihipy2x54vzo2fsuspsrfrv43q/lib"] = 1,
-        },
-        ["mpath"] = "/share/apps/spack/spack_all/share/spack/modules/linux-rhel6-x86_64",
-        ["pV"] = "~",
-        pathA = {
-          ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/intel-15.0.3/python-2.7.13-wrvbv7ihipy2x54vzo2fsuspsrfrv43q/bin"] = 1,
-        },
-        ["wV"] = "~",
-        whatis = {
-          "python @2.7.13 ",
-        },
-      },
-      ["mpath"] = "/share/apps/spack/spack_all/share/spack/modules/linux-rhel6-x86_64",
-    },
-    ["python-3.6.1-intel-15.0.3-664mnn7"]  = {
-      defaultT = {},
-      dirT = {},
-      ["file"] = "/share/apps/spack/spack_all/share/spack/modules/linux-rhel6-x86_64/python-3.6.1-intel-15.0.3-664mnn7",
-      fileT = {},
-      metaModuleT = {
-        ["canonical"] = "python-3.6.1-intel-15.0.3-664mnn7",
-        ["fn"] = "/share/apps/spack/spack_all/share/spack/modules/linux-rhel6-x86_64/python-3.6.1-intel-15.0.3-664mnn7",
-        lpathA = {
-          ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/intel-15.0.3/python-3.6.1-664mnn7vb6ta6q6pusoupoepeumbftod/lib"] = 1,
-        },
-        ["mpath"] = "/share/apps/spack/spack_all/share/spack/modules/linux-rhel6-x86_64",
-        ["pV"] = "~",
-        pathA = {
-          ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/intel-15.0.3/python-3.6.1-664mnn7vb6ta6q6pusoupoepeumbftod/bin"] = 1,
-        },
-        ["wV"] = "~",
-        whatis = {
-          "python @3.6.1 ",
-        },
-      },
-      ["mpath"] = "/share/apps/spack/spack_all/share/spack/modules/linux-rhel6-x86_64",
-    },
-    ["readline-7.0-intel-15.0.3-d5q54jf"]  = {
-      defaultT = {},
-      dirT = {},
-      ["file"] = "/share/apps/spack/spack_all/share/spack/modules/linux-rhel6-x86_64/readline-7.0-intel-15.0.3-d5q54jf",
-      fileT = {},
-      metaModuleT = {
-        ["canonical"] = "readline-7.0-intel-15.0.3-d5q54jf",
-        ["fn"] = "/share/apps/spack/spack_all/share/spack/modules/linux-rhel6-x86_64/readline-7.0-intel-15.0.3-d5q54jf",
-        lpathA = {
-          ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/intel-15.0.3/readline-7.0-d5q54jfdiv2bx74laf5a42oi6g52sy2q/lib"] = 1,
-        },
-        ["mpath"] = "/share/apps/spack/spack_all/share/spack/modules/linux-rhel6-x86_64",
-        ["pV"] = "~",
-        pathA = {
-          ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/intel-15.0.3/readline-7.0-d5q54jfdiv2bx74laf5a42oi6g52sy2q/bin"] = 1,
-        },
-        ["wV"] = "~",
-        whatis = {
-          "readline @7.0 ",
-        },
-      },
-      ["mpath"] = "/share/apps/spack/spack_all/share/spack/modules/linux-rhel6-x86_64",
-    },
-    ["sqlite-3.20.0-intel-15.0.3-nzja66u"]  = {
-      defaultT = {},
-      dirT = {},
-      ["file"] = "/share/apps/spack/spack_all/share/spack/modules/linux-rhel6-x86_64/sqlite-3.20.0-intel-15.0.3-nzja66u",
-      fileT = {},
-      metaModuleT = {
-        ["canonical"] = "sqlite-3.20.0-intel-15.0.3-nzja66u",
-        ["fn"] = "/share/apps/spack/spack_all/share/spack/modules/linux-rhel6-x86_64/sqlite-3.20.0-intel-15.0.3-nzja66u",
-        lpathA = {
-          ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/intel-15.0.3/sqlite-3.20.0-nzja66uzx3fbup5j65gyf4d5ba6koqq7/lib"] = 1,
-        },
-        ["mpath"] = "/share/apps/spack/spack_all/share/spack/modules/linux-rhel6-x86_64",
-        ["pV"] = "~",
-        pathA = {
-          ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/intel-15.0.3/sqlite-3.20.0-nzja66uzx3fbup5j65gyf4d5ba6koqq7/bin"] = 1,
-        },
-        ["wV"] = "~",
-        whatis = {
-          "sqlite @3.20.0 ",
-        },
-      },
-      ["mpath"] = "/share/apps/spack/spack_all/share/spack/modules/linux-rhel6-x86_64",
-    },
-    ["zlib-1.2.11-intel-15.0.3-swclrke"]  = {
-      defaultT = {},
-      dirT = {},
-      ["file"] = "/share/apps/spack/spack_all/share/spack/modules/linux-rhel6-x86_64/zlib-1.2.11-intel-15.0.3-swclrke",
-      fileT = {},
-      metaModuleT = {
-        ["canonical"] = "zlib-1.2.11-intel-15.0.3-swclrke",
-        ["fn"] = "/share/apps/spack/spack_all/share/spack/modules/linux-rhel6-x86_64/zlib-1.2.11-intel-15.0.3-swclrke",
-        lpathA = {
-          ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/intel-15.0.3/zlib-1.2.11-swclrkeb6tr5zp5e6eyy2t6au33nnqhh/lib"] = 1,
-        },
-        ["mpath"] = "/share/apps/spack/spack_all/share/spack/modules/linux-rhel6-x86_64",
-        ["pV"] = "~",
-        ["wV"] = "~",
-        whatis = {
-          "zlib @1.2.11 ",
-        },
-      },
-      ["mpath"] = "/share/apps/spack/spack_all/share/spack/modules/linux-rhel6-x86_64",
     },
   },
   ["/share/apps/spack/spack_compilers/opt/spack/linux-rhel6-x86_64/gcc-4.9.2/lmod-7.4.11-ds2yqqh2l47t7crx7yvxit7vv47ns42m/lmod/lmod/modulefiles/Core"]  = {

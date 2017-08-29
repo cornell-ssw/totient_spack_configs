@@ -4,24 +4,6 @@
 #
 #     source /share/apps/spack/totient_spack_configs/admin_configs_bash_profile.sh
 
-######
-#####
-####
-###
-##
-#
-
-# Temporary, remove once the symlinks are up
-source /share/apps/spack/totient_spack_configs/setup/login/z00_lmod.sh
-source /share/apps/spack/totient_spack_configs/setup/login/z01_lmod_Totient.sh
-
-#
-##
-###
-####
-#####
-######
-
 #
 # Generally we assume `spack_all` is the spack you want.
 #

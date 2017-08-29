@@ -17,3 +17,12 @@ config:
         #       crying
         # - /home/$user/zzz_spack_stage_DO_NOT_DELETE_MANUALLY
         - $spack/var/spack/stage
+    module_roots:
+        # Tell spack to only use the `lmod` modules
+        # I couldn't get it to work by commenting out,
+        # The `setup-env.sh` sourced for the admin configs
+        # will populate MODULEPATH so we just cheat and tell
+        # it to look somewhere else.
+        dotkit: /dev/null
+        lmod: $spack/share/spack/lmod
+        tcl: /dev/null
