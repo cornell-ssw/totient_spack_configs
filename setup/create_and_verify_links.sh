@@ -136,9 +136,9 @@ if [[ "$HERE" != "$YAMLY_HOME" ]]; then
 fi
 
 # The config files we are using
-CONF_DEST_NAMES=(    compilers.yaml config.yaml modules.yaml    packages.yaml  )
-CC_CONF_SRC=(  compilers.yaml config.yaml modules.yaml cc_packages.yaml  )
-ALL_CONF_SRC=( compilers.yaml config.yaml modules.yaml all_packages.yaml )
+CONF_DEST_NAMES=( compilers.yaml  config.yaml      modules.yaml  packages.yaml     )
+CC_CONF_SRC=(     compilers.yaml  config_cc.yaml   modules.yaml  packages_cc.yaml  )
+ALL_CONF_SRC=(    compilers.yaml  config_all.yaml  modules.yaml  packages_all.yaml )
 
 # We want to symlink things into the spack root for each
 # instance, in the etc/spack folder.

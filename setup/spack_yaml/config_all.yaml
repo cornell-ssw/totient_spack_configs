@@ -1,0 +1,61 @@
+# The tmpfs on Totient is very small (2.1GB), which is not sufficient
+# for compiling larger packages and compilers.  This will prevent the
+# stages from being built in /tmp/<user>/spack-stage and instead keep
+# the stage contained down in spack/var/spack/stage
+#
+# The other primary reason for doing this is that I'm compiling things
+# using two different spack instances (one for compilers, one for
+# everything else).  A rampant `spack clean -a` could affect a
+# currently running installation if the hashes for a given package
+# being built resolve to the same thing.
+config:
+    build_stage:
+        # If building large packages, use something on the NFS shared drive
+        # *UNDERNEATH* your home directory.
+        #
+        # NOTE: DO NOT POINT TO WHERE SPACK_COMPILERS DOES!  Each spack
+        #       instance needs to acquire its own write lock on the stage
+        #       directory.  For reference, spack_compilers points to:
+        #
+        #       /home/$user/zzz_spack_stage_DO_NOT_DELETE_MANUALLY/spack_compilers_stage
+        #
+        #       Spack has an excellent locking system; see:
+        #
+        #           https://github.com/LLNL/spack/pull/4671
+        #
+        #       You would just have to wait until (e.g., `llvm`) is
+        #       finished.....better to just not allow that ;)
+        # TODO:
+        #     LLVM is compiling but staged in zzz_spack_stage_DO_NOT_DELETE_MANUALLY
+        #     So subdirectories spack_compilers_stage and spack_all
+        #     cannot be made yet.
+        #
+        #     >>>> FIX BOTH THIS FILE AND cc_config.yaml in this directory <<<<
+        #     >>>>                                                         <<<<
+        #     >>>>                                                         <<<<
+        #     >>>> /home/$user/zzz_spack_stage_DO_NOT_DELETE_MANUALLY/     <<<<
+        #     >>>> /home/$user/zzz_spack_stage_DO_NOT_DELETE_MANUALLY/     <<<<
+        #     >>>> /home/$user/zzz_spack_stage_DO_NOT_DELETE_MANUALLY/     <<<<
+        #     >>>> /home/$user/zzz_spack_stage_DO_NOT_DELETE_MANUALLY/     <<<<
+        #     >>>> /home/$user/zzz_spack_stage_DO_NOT_DELETE_MANUALLY/     <<<<
+        #     >>>> /home/$user/zzz_spack_stage_DO_NOT_DELETE_MANUALLY/     <<<<
+        #     >>>> /home/$user/zzz_spack_stage_DO_NOT_DELETE_MANUALLY/     <<<<
+        #     >>>> /home/$user/zzz_spack_stage_DO_NOT_DELETE_MANUALLY/     <<<<
+        #     >>>> /home/$user/zzz_spack_stage_DO_NOT_DELETE_MANUALLY/     <<<<
+        #     >>>> /home/$user/zzz_spack_stage_DO_NOT_DELETE_MANUALLY/     <<<<
+        #     >>>> /home/$user/zzz_spack_stage_DO_NOT_DELETE_MANUALLY/     <<<<
+        #     >>>> /home/$user/zzz_spack_stage_DO_NOT_DELETE_MANUALLY/     <<<<
+        #     >>>>                                                         <<<<
+        #     >>>>                                                         <<<<
+        # - /home/$user/zzz_spack_stage_DO_NOT_DELETE_MANUALLY/spack_all_stage
+        - /home/$user/000_spack_stage_DO_NOT_DELETE_MANUALLY__rename_after_llvm_this_is_spack_all
+        - $spack/var/spack/stage
+    module_roots:
+        # Tell spack to only use the `lmod` modules
+        # I couldn't get it to work by commenting out,
+        # The `setup-env.sh` sourced for the admin configs
+        # will populate MODULEPATH so we just cheat and tell
+        # it to look somewhere else.
+        dotkit: /dev/null
+        lmod: $spack/share/spack/lmod
+        tcl: /dev/null

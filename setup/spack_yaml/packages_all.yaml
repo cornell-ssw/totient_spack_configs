@@ -1,0 +1,77 @@
+# NOTE: VERY IMPORTANT:
+#
+#       If you want to use gcc to build things with `lapack` or
+#       `openblas` or `openmpi` etc, you *MUST* comment out the
+#       defaults from "HERE HERE HERE" to the end of the file.
+#       
+#       At this time, `spack` cannot do compiler-specific providers.
+packages:
+    texlive:
+        buildable: False
+        version: [live]
+        variants: scheme=full
+        paths:
+            texlive@live: /usr
+    boost:
+        version: [1.63.0]
+        variants: +atomic+chrono+date_time+filesystem+graph+iostreams+locale+log+math+mpi+multithreaded+program_options+python+random+regex+serialization+shared+signals+system+test+thread+timer+wave
+    suite-sparse:
+        version: [4.5.5]
+        variants: ~cuda+openmp+pic+tbb
+    fftw:
+        variants: +double+float_long_double+mpi+openmp~pfft_patches~quad
+        # Could not compile with intel compiler...
+        # compiler: [gcc@4.9.2]
+    openblas:
+        variants: +openmp+pic+shared
+    hdf5:
+        variants: +cxx~debug+fortran+mpi+pic+shared+szip~threadsafe
+    netcdf:
+        variants: +cdmremote+dap~hdf4+mpi+parallel-netcdf+shared
+    netlib-scalapack:
+        variants: +pic+shared
+    opencv:
+        variants: +core~cuda+eigen~gtk~highgui+imgproc+ipp+jasper+java+jpeg+openmp+png+python~qt+shared+tiff~vtk+zlib
+
+
+    py-matplotlib:
+        variants: ~tk+image+ipython+latex~animation 
+
+    all:
+        compiler: [gcc@7.2.0]
+
+    # HERE HERE HERE
+    # HERE HERE HERE
+    # HERE HERE HERE
+    # Comment out from here to the end of the file.
+    # 
+    # NOTE: NEVER EVER EVER do this *WHILE* something is installing.
+#    intel-parallel-studio:
+#        buildable: False
+#        # These were determined by viewing what is symlinked directly into
+#        #     /usr/local/intel/composer_xe
+#        # from the parent directory /usr/local/intel, plus OpenMP
+#        # NOTE: because of mkl existing, we also have lapack and scalapack
+#        #       and blas (see providers below)
+#        # NOTE: I do not know what DAAL is or if it was included, being conservative
+#        # NOTE: Use spack to get TBB, the Intel one is bjorked (?)
+#        variants: +ipp+mkl+mpi~tbb+openmp~daal
+#        # NOTE: crazy hacks.  This is a concretizer bug.  Since this is a
+#        #       buildable: False package, we must include the `variants` in
+#        #       the path specification as well!  It's either a bug or a feature.
+#        paths:
+#            intel-parallel-studio@composer.2015.3+ipp+mkl+mpi~tbb+openmp~daal: /usr/local/intel
+#    all:
+#        compiler: [intel@15.0.3]
+#        providers:
+#            ipp:       [intel-parallel-studio]
+#            mpi:       [intel-parallel-studio]
+#            mkl:       [intel-parallel-studio]
+#            lapack:    [intel-parallel-studio]
+#            scalapack: [intel-parallel-studio]
+#            blas:      [intel-parallel-studio]
+#            # This could not work with suite-sparse
+#            # tbb:       [intel-parallel-studio]
+#            tbb: [intel-tbb]
+#            # I do not know whether this was included
+#            # daal:      [intel-parallel-studio]
