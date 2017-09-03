@@ -11,6 +11,7 @@ add_property("state", "encouraged")
 -- MODULEPATH modifications
 
 prepend_path("MODULEPATH", "/share/apps/spack/spack_compilers/share/spack/lmod/linux-rhel6-x86_64/Core")
+prepend_path{"PATH", "/share/apps/script",delim=":",priority="0"}
 
 -- Default utilities to load in for all users
 

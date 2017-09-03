@@ -7,75 +7,29 @@ mrcT = {
   version2modT = {},
 }
 spiderT = {
-  ["/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/6.4.0"]  = {
-    autoconf = {
+  ["/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/clang/4.0.0"]  = {
+    binutils = {
       defaultT = {},
       dirT = {},
       fileT = {
-        ["autoconf/2.69"]  = {
-          ["Name"] = "autoconf",
-          ["Version"] = "2.69",
-          ["canonical"] = "2.69",
-          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/6.4.0/autoconf/2.69.lua",
-          ["help"] = "Autoconf -- system configuration part of autotools",
-          ["luaExt"] = 5,
-          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/6.4.0",
-          ["pV"] = "000000002.000000069.*zfinal",
-          pathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-6.4.0/autoconf-2.69-sk7bjnlphs35aslkzzmori3i74mpzklh/bin"] = 1,
-          },
-          ["wV"] = "000000002.000000069.*zfinal",
-          whatis = {
-            "Name : autoconf", "Version : 2.69",
-          },
-        },
-      },
-    },
-    automake = {
-      defaultT = {},
-      dirT = {},
-      fileT = {
-        ["automake/1.15"]  = {
-          ["Name"] = "automake",
-          ["Version"] = "1.15",
-          ["canonical"] = "1.15",
-          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/6.4.0/automake/1.15.lua",
-          ["help"] = "Automake -- make file builder part of autotools",
-          ["luaExt"] = 5,
-          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/6.4.0",
-          ["pV"] = "000000001.000000015.*zfinal",
-          pathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-6.4.0/automake-1.15-vwwwfuqowq7gvfsxm2vuofw3zlzfteaj/bin"] = 1,
-          },
-          ["wV"] = "000000001.000000015.*zfinal",
-          whatis = {
-            "Name : automake", "Version : 1.15",
-          },
-        },
-      },
-    },
-    bison = {
-      defaultT = {},
-      dirT = {},
-      fileT = {
-        ["bison/3.0.4"]  = {
-          ["Name"] = "bison",
-          ["Version"] = "3.0.4",
-          ["canonical"] = "3.0.4",
-          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/6.4.0/bison/3.0.4.lua",
-          ["help"] = "Bison is a general-purpose parser generator that converts an annotated context-free grammar into a deterministic LR or generalized LR (GLR) parser employing LALR(1) parser tables.",
+        ["binutils/2.28"]  = {
+          ["Name"] = "binutils",
+          ["Version"] = "2.28",
+          ["canonical"] = "2.28",
+          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/clang/4.0.0/binutils/2.28.lua",
+          ["help"] = "GNU binutils, which contain the linker, assembler, objdump and others",
           lpathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-6.4.0/bison-3.0.4-e4mbfdo4vh57sxcb77s6pufxnchvoloq/lib"] = 1,
+            ["/share/apps/spack/spack_compilers/opt/spack/linux-rhel6-x86_64/gcc-4.9.2/binutils-2.28-alrtwoaxcjhyppr2srli5n3od27s4yug/lib"] = 1,
           },
-          ["luaExt"] = 6,
-          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/6.4.0",
-          ["pV"] = "000000003.000000000.000000004.*zfinal",
+          ["luaExt"] = 5,
+          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/clang/4.0.0",
+          ["pV"] = "000000002.000000028.*zfinal",
           pathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-6.4.0/bison-3.0.4-e4mbfdo4vh57sxcb77s6pufxnchvoloq/bin"] = 1,
+            ["/share/apps/spack/spack_compilers/opt/spack/linux-rhel6-x86_64/gcc-4.9.2/binutils-2.28-alrtwoaxcjhyppr2srli5n3od27s4yug/bin"] = 1,
           },
-          ["wV"] = "000000003.000000000.000000004.*zfinal",
+          ["wV"] = "000000002.000000028.*zfinal",
           whatis = {
-            "Name : bison", "Version : 3.0.4",
+            "Name : binutils", "Version : 2.28",
           },
         },
       },
@@ -88,16 +42,16 @@ spiderT = {
           ["Name"] = "bzip2",
           ["Version"] = "1.0.6",
           ["canonical"] = "1.0.6",
-          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/6.4.0/bzip2/1.0.6.lua",
+          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/clang/4.0.0/bzip2/1.0.6.lua",
           ["help"] = "bzip2 is a freely available, patent free high-quality data compressor. It typically compresses files to within 10% to 15% of the best available techniques (the PPM family of statistical compressors), whilst being around twice as fast at compression and six times faster at decompression.",
           lpathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-6.4.0/bzip2-1.0.6-4m2m7tcemnvq2sdm6nvodvyvndpj3d44/lib"] = 1,
+            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/clang-4.0.0/bzip2-1.0.6-lhyrvc3sn45j6uels6tm5ig7yogaicsd/lib"] = 1,
           },
           ["luaExt"] = 6,
-          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/6.4.0",
+          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/clang/4.0.0",
           ["pV"] = "000000001.000000000.000000006.*zfinal",
           pathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-6.4.0/bzip2-1.0.6-4m2m7tcemnvq2sdm6nvodvyvndpj3d44/bin"] = 1,
+            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/clang-4.0.0/bzip2-1.0.6-lhyrvc3sn45j6uels6tm5ig7yogaicsd/bin"] = 1,
           },
           ["wV"] = "000000001.000000000.000000006.*zfinal",
           whatis = {
@@ -114,13 +68,13 @@ spiderT = {
           ["Name"] = "cmake",
           ["Version"] = "3.9.0",
           ["canonical"] = "3.9.0",
-          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/6.4.0/cmake/3.9.0.lua",
+          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/clang/4.0.0/cmake/3.9.0.lua",
           ["help"] = "A cross-platform, open-source build system. CMake is a family of tools designed to build, test and package software.",
           ["luaExt"] = 6,
-          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/6.4.0",
+          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/clang/4.0.0",
           ["pV"] = "000000003.000000009.*zfinal",
           pathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-6.4.0/cmake-3.9.0-c7pipjpgvdbs53dp77frrhflhn7aebp7/bin"] = 1,
+            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/clang-4.0.0/cmake-3.9.0-5sljoozlhbjazywut2t2e4lmb2lndlnl/bin"] = 1,
           },
           ["wV"] = "000000003.000000009.*zfinal",
           whatis = {
@@ -133,99 +87,24 @@ spiderT = {
       defaultT = {},
       dirT = {},
       fileT = {
-        ["curl/7.54.0"]  = {
+        ["curl/7.52.1"]  = {
           ["Name"] = "curl",
-          ["Version"] = "7.54.0",
-          ["canonical"] = "7.54.0",
-          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/6.4.0/curl/7.54.0.lua",
+          ["Version"] = "7.52.1",
+          ["canonical"] = "7.52.1",
+          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/clang/4.0.0/curl/7.52.1.lua",
           ["help"] = "cURL is an open source command line tool and library for transferring data with URL syntax",
           lpathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-6.4.0/curl-7.54.0-somdg7ttatmozlo2vqjrlwotxbel6qcv/lib"] = 1,
+            ["/share/apps/anaconda3/lib"] = 1,
           },
           ["luaExt"] = 7,
-          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/6.4.0",
-          ["pV"] = "000000007.000000054.*zfinal",
+          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/clang/4.0.0",
+          ["pV"] = "000000007.000000052.000000001.*zfinal",
           pathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-6.4.0/curl-7.54.0-somdg7ttatmozlo2vqjrlwotxbel6qcv/bin"] = 1,
+            ["/share/apps/anaconda3/bin"] = 1,
           },
-          ["wV"] = "000000007.000000054.*zfinal",
+          ["wV"] = "000000007.000000052.000000001.*zfinal",
           whatis = {
-            "Name : curl", "Version : 7.54.0",
-          },
-        },
-      },
-    },
-    flex = {
-      defaultT = {},
-      dirT = {},
-      fileT = {
-        ["flex/2.6.4"]  = {
-          ["Name"] = "flex",
-          ["Version"] = "2.6.4",
-          ["canonical"] = "2.6.4",
-          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/6.4.0/flex/2.6.4.lua",
-          ["help"] = "Flex is a tool for generating scanners.",
-          lpathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-6.4.0/flex-2.6.4-3l7sllchvbe3zq6w4pfnxuavlwbnsshn/lib"] = 1,
-          },
-          ["luaExt"] = 6,
-          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/6.4.0",
-          ["pV"] = "000000002.000000006.000000004.*zfinal",
-          pathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-6.4.0/flex-2.6.4-3l7sllchvbe3zq6w4pfnxuavlwbnsshn/bin"] = 1,
-          },
-          ["wV"] = "000000002.000000006.000000004.*zfinal",
-          whatis = {
-            "Name : flex", "Version : 2.6.4",
-          },
-        },
-      },
-    },
-    gettext = {
-      defaultT = {},
-      dirT = {},
-      fileT = {
-        ["gettext/0.19.8.1"]  = {
-          ["Name"] = "gettext",
-          ["Version"] = "0.19.8.1",
-          ["canonical"] = "0.19.8.1",
-          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/6.4.0/gettext/0.19.8.1.lua",
-          ["help"] = "GNU internationalization (i18n) and localization (l10n) library.",
-          lpathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-6.4.0/gettext-0.19.8.1-3rffbmg6yc64w774twqywzleu6sbddex/lib"] = 1,
-          },
-          ["luaExt"] = 9,
-          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/6.4.0",
-          ["pV"] = "000000000.000000019.000000008.000000001.*zfinal",
-          pathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-6.4.0/gettext-0.19.8.1-3rffbmg6yc64w774twqywzleu6sbddex/bin"] = 1,
-          },
-          ["wV"] = "000000000.000000019.000000008.000000001.*zfinal",
-          whatis = {
-            "Name : gettext", "Version : 0.19.8.1",
-          },
-        },
-      },
-    },
-    gmp = {
-      defaultT = {},
-      dirT = {},
-      fileT = {
-        ["gmp/6.1.2"]  = {
-          ["Name"] = "gmp",
-          ["Version"] = "6.1.2",
-          ["canonical"] = "6.1.2",
-          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/6.4.0/gmp/6.1.2.lua",
-          ["help"] = "GMP is a free library for arbitrary precision arithmetic, operating on signed integers, rational numbers, and floating-point numbers.",
-          lpathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-6.4.0/gmp-6.1.2-tp6moaqzffsjklkknmjfqbgxh2yvx7qi/lib"] = 1,
-          },
-          ["luaExt"] = 6,
-          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/6.4.0",
-          ["pV"] = "000000006.000000001.000000002.*zfinal",
-          ["wV"] = "000000006.000000001.000000002.*zfinal",
-          whatis = {
-            "Name : gmp", "Version : 6.1.2",
+            "Name : curl", "Version : 7.52.1",
           },
         },
       },
@@ -238,46 +117,20 @@ spiderT = {
           ["Name"] = "gsl",
           ["Version"] = "2.3",
           ["canonical"] = "2.3",
-          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/6.4.0/gsl/2.3.lua",
+          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/clang/4.0.0/gsl/2.3.lua",
           ["help"] = "The GNU Scientific Library (GSL) is a numerical library for C and C++ programmers. It is free software under the GNU General Public License. The library provides a wide range of mathematical routines such as random number generators, special functions and least-squares fitting. There are over 1000 functions in total with an extensive test suite.",
           lpathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-6.4.0/gsl-2.3-l4qv3ymwlaftqfqlqiwud7elkzerkrwe/lib"] = 1,
+            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/clang-4.0.0/gsl-2.3-obdkpjhkasvme6osihtitrwryfrkdvyc/lib"] = 1,
           },
           ["luaExt"] = 4,
-          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/6.4.0",
+          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/clang/4.0.0",
           ["pV"] = "000000002.000000003.*zfinal",
           pathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-6.4.0/gsl-2.3-l4qv3ymwlaftqfqlqiwud7elkzerkrwe/bin"] = 1,
+            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/clang-4.0.0/gsl-2.3-obdkpjhkasvme6osihtitrwryfrkdvyc/bin"] = 1,
           },
           ["wV"] = "000000002.000000003.*zfinal",
           whatis = {
             "Name : gsl", "Version : 2.3",
-          },
-        },
-      },
-    },
-    help2man = {
-      defaultT = {},
-      dirT = {},
-      fileT = {
-        ["help2man/1.47.4"]  = {
-          ["Name"] = "help2man",
-          ["Version"] = "1.47.4",
-          ["canonical"] = "1.47.4",
-          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/6.4.0/help2man/1.47.4.lua",
-          ["help"] = "help2man produces simple manual pages from the '--help' and '--version' output of other commands.",
-          lpathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-6.4.0/help2man-1.47.4-d372wcuzcy22ynsr4otoauijfqhwdwqv/lib"] = 1,
-          },
-          ["luaExt"] = 7,
-          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/6.4.0",
-          ["pV"] = "000000001.000000047.000000004.*zfinal",
-          pathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-6.4.0/help2man-1.47.4-d372wcuzcy22ynsr4otoauijfqhwdwqv/bin"] = 1,
-          },
-          ["wV"] = "000000001.000000047.000000004.*zfinal",
-          whatis = {
-            "Name : help2man", "Version : 1.47.4",
           },
         },
       },
@@ -290,16 +143,16 @@ spiderT = {
           ["Name"] = "hwloc",
           ["Version"] = "1.11.7",
           ["canonical"] = "1.11.7",
-          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/6.4.0/hwloc/1.11.7.lua",
+          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/clang/4.0.0/hwloc/1.11.7.lua",
           ["help"] = "The Portable Hardware Locality (hwloc) software package provides a portable abstraction (across OS, versions, architectures, ...) of the hierarchical topology of modern architectures, including NUMA memory nodes, sockets, shared caches, cores and simultaneous multithreading. It also gathers various system attributes such as cache and memory information as well as the locality of I/O devices such as network interfaces, InfiniBand HCAs or GPUs. It primarily aims at helping applications with gathering information about modern computing hardware so as to exploit it accordingly and efficiently.",
           lpathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-6.4.0/hwloc-1.11.7-qqnsc4kmbyd2zfkp5bf4pgr7bzycurko/lib"] = 1,
+            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/clang-4.0.0/hwloc-1.11.7-uhprrx6avpe3cvc7lukjjatp7nzeatv6/lib"] = 1,
           },
           ["luaExt"] = 7,
-          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/6.4.0",
+          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/clang/4.0.0",
           ["pV"] = "000000001.000000011.000000007.*zfinal",
           pathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-6.4.0/hwloc-1.11.7-qqnsc4kmbyd2zfkp5bf4pgr7bzycurko/bin"] = 1,
+            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/clang-4.0.0/hwloc-1.11.7-uhprrx6avpe3cvc7lukjjatp7nzeatv6/bin"] = 1,
           },
           ["wV"] = "000000001.000000011.000000007.*zfinal",
           whatis = {
@@ -316,43 +169,17 @@ spiderT = {
           ["Name"] = "intel-tbb",
           ["Version"] = "2017.6",
           ["canonical"] = "2017.6",
-          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/6.4.0/intel-tbb/2017.6.lua",
+          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/clang/4.0.0/intel-tbb/2017.6.lua",
           ["help"] = "Widely used C++ template library for task parallelism. Intel Threading Building Blocks (Intel TBB) lets you easily write parallel C++ programs that take full advantage of multicore performance, that are portable and composable, and that have future-proof scalability. ",
           lpathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-6.4.0/intel-tbb-2017.6-cvrussgvdcu7d6qmxo4tz7lmmabxhqbq/lib"] = 1,
+            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/clang-4.0.0/intel-tbb-2017.6-vl6ji65yh6mw45trf37t6fpvnfobcp52/lib"] = 1,
           },
           ["luaExt"] = 7,
-          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/6.4.0",
+          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/clang/4.0.0",
           ["pV"] = "000002017.000000006.*zfinal",
           ["wV"] = "000002017.000000006.*zfinal",
           whatis = {
             "Name : intel-tbb", "Version : 2017.6",
-          },
-        },
-      },
-    },
-    jasper = {
-      defaultT = {},
-      dirT = {},
-      fileT = {
-        ["jasper/1.900.1"]  = {
-          ["Name"] = "jasper",
-          ["Version"] = "1.900.1",
-          ["canonical"] = "1.900.1",
-          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/6.4.0/jasper/1.900.1.lua",
-          ["help"] = "Library for manipulating JPEG-2000 images",
-          lpathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-6.4.0/jasper-1.900.1-w2imbeeo6dtr6egvpxrnfcqxnvfqr2dc/lib"] = 1,
-          },
-          ["luaExt"] = 8,
-          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/6.4.0",
-          ["pV"] = "000000001.000000900.000000001.*zfinal",
-          pathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-6.4.0/jasper-1.900.1-w2imbeeo6dtr6egvpxrnfcqxnvfqr2dc/bin"] = 1,
-          },
-          ["wV"] = "000000001.000000900.000000001.*zfinal",
-          whatis = {
-            "Name : jasper", "Version : 1.900.1",
           },
         },
       },
@@ -365,20 +192,46 @@ spiderT = {
           ["Name"] = "jdk",
           ["Version"] = "8u141-b15",
           ["canonical"] = "8u141-b15",
-          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/6.4.0/jdk/8u141-b15.lua",
+          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/clang/4.0.0/jdk/8u141-b15.lua",
           ["help"] = "The Java Development Kit (JDK) released by Oracle Corporation in the form of a binary product aimed at Java developers.",
           lpathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-6.4.0/jdk-8u141-b15-uro6xxpjwwqsixmg2wvrgxldnhzprbtm/lib"] = 1,
+            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/clang-4.0.0/jdk-8u141-b15-eufzbei6oua6wu6xpyb4ce2yia7gejqs/lib"] = 1,
           },
           ["luaExt"] = 10,
-          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/6.4.0",
+          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/clang/4.0.0",
           ["pV"] = "000000008.*u.000000141.*b.000000015.*zfinal",
           pathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-6.4.0/jdk-8u141-b15-uro6xxpjwwqsixmg2wvrgxldnhzprbtm/bin"] = 1,
+            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/clang-4.0.0/jdk-8u141-b15-eufzbei6oua6wu6xpyb4ce2yia7gejqs/bin"] = 1,
           },
           ["wV"] = "000000008.*u.000000141.*b.000000015.*zfinal",
           whatis = {
             "Name : jdk", "Version : 8u141-b15",
+          },
+        },
+      },
+    },
+    jpeg = {
+      defaultT = {},
+      dirT = {},
+      fileT = {
+        ["jpeg/9b"]  = {
+          ["Name"] = "jpeg",
+          ["Version"] = "9b",
+          ["canonical"] = "9b",
+          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/clang/4.0.0/jpeg/9b.lua",
+          ["help"] = "libjpeg is a widely used free library with functions for handling the JPEG image data format. It implements a JPEG codec (encoding and decoding) alongside various utilities for handling JPEG data.",
+          lpathA = {
+            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/clang-4.0.0/jpeg-9b-2ur5nv5pjd6m5gbhhchx3bw5ckhj6ofa/lib"] = 1,
+          },
+          ["luaExt"] = 3,
+          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/clang/4.0.0",
+          ["pV"] = "000000009.*b.*zfinal",
+          pathA = {
+            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/clang-4.0.0/jpeg-9b-2ur5nv5pjd6m5gbhhchx3bw5ckhj6ofa/bin"] = 1,
+          },
+          ["wV"] = "000000009.*b.*zfinal",
+          whatis = {
+            "Name : jpeg", "Version : 9b",
           },
         },
       },
@@ -391,43 +244,20 @@ spiderT = {
           ["Name"] = "libjpeg-turbo",
           ["Version"] = "1.5.0",
           ["canonical"] = "1.5.0",
-          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/6.4.0/libjpeg-turbo/1.5.0.lua",
+          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/clang/4.0.0/libjpeg-turbo/1.5.0.lua",
           ["help"] = "libjpeg-turbo is a fork of the original IJG libjpeg which uses SIMD to accelerate baseline JPEG compression and decompression. libjpeg is a library that implements JPEG image encoding, decoding and transcoding.",
           lpathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-6.4.0/libjpeg-turbo-1.5.0-qvv7cdpfmvsiabzj7vlr5knboksy6thd/lib"] = 1,
+            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/clang-4.0.0/libjpeg-turbo-1.5.0-gpgcmi4kfi2ndqrv7vbout276geppwx4/lib"] = 1,
           },
           ["luaExt"] = 6,
-          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/6.4.0",
+          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/clang/4.0.0",
           ["pV"] = "000000001.000000005.*zfinal",
           pathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-6.4.0/libjpeg-turbo-1.5.0-qvv7cdpfmvsiabzj7vlr5knboksy6thd/bin"] = 1,
+            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/clang-4.0.0/libjpeg-turbo-1.5.0-gpgcmi4kfi2ndqrv7vbout276geppwx4/bin"] = 1,
           },
           ["wV"] = "000000001.000000005.*zfinal",
           whatis = {
             "Name : libjpeg-turbo", "Version : 1.5.0",
-          },
-        },
-      },
-    },
-    libpciaccess = {
-      defaultT = {},
-      dirT = {},
-      fileT = {
-        ["libpciaccess/0.13.5"]  = {
-          ["Name"] = "libpciaccess",
-          ["Version"] = "0.13.5",
-          ["canonical"] = "0.13.5",
-          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/6.4.0/libpciaccess/0.13.5.lua",
-          ["help"] = "Generic PCI access library.",
-          lpathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-6.4.0/libpciaccess-0.13.5-64shxyb6xudcgnvzwuhgwu5dky5sn7za/lib"] = 1,
-          },
-          ["luaExt"] = 7,
-          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/6.4.0",
-          ["pV"] = "000000000.000000013.000000005.*zfinal",
-          ["wV"] = "000000000.000000013.000000005.*zfinal",
-          whatis = {
-            "Name : libpciaccess", "Version : 0.13.5",
           },
         },
       },
@@ -440,43 +270,20 @@ spiderT = {
           ["Name"] = "libpng",
           ["Version"] = "1.6.29",
           ["canonical"] = "1.6.29",
-          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/6.4.0/libpng/1.6.29.lua",
+          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/clang/4.0.0/libpng/1.6.29.lua",
           ["help"] = "libpng is the official PNG reference library.",
           lpathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-6.4.0/libpng-1.6.29-dzsqjrzhu2tgwyr2kdfu445xjguz4ygm/lib"] = 1,
+            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/clang-4.0.0/libpng-1.6.29-jhdiwtiiqqf34xyh3u4ropxresrlbs6f/lib"] = 1,
           },
           ["luaExt"] = 7,
-          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/6.4.0",
+          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/clang/4.0.0",
           ["pV"] = "000000001.000000006.000000029.*zfinal",
           pathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-6.4.0/libpng-1.6.29-dzsqjrzhu2tgwyr2kdfu445xjguz4ygm/bin"] = 1,
+            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/clang-4.0.0/libpng-1.6.29-jhdiwtiiqqf34xyh3u4ropxresrlbs6f/bin"] = 1,
           },
           ["wV"] = "000000001.000000006.000000029.*zfinal",
           whatis = {
             "Name : libpng", "Version : 1.6.29",
-          },
-        },
-      },
-    },
-    libsigsegv = {
-      defaultT = {},
-      dirT = {},
-      fileT = {
-        ["libsigsegv/2.11"]  = {
-          ["Name"] = "libsigsegv",
-          ["Version"] = "2.11",
-          ["canonical"] = "2.11",
-          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/6.4.0/libsigsegv/2.11.lua",
-          ["help"] = "GNU libsigsegv is a library for handling page faults in user mode.",
-          lpathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-6.4.0/libsigsegv-2.11-b2skaxjchdo53fa6nbtvleaheargnzlw/lib"] = 1,
-          },
-          ["luaExt"] = 5,
-          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/6.4.0",
-          ["pV"] = "000000002.000000011.*zfinal",
-          ["wV"] = "000000002.000000011.*zfinal",
-          whatis = {
-            "Name : libsigsegv", "Version : 2.11",
           },
         },
       },
@@ -489,13 +296,13 @@ spiderT = {
           ["Name"] = "libszip",
           ["Version"] = "2.1.1",
           ["canonical"] = "2.1.1",
-          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/6.4.0/libszip/2.1.1.lua",
+          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/clang/4.0.0/libszip/2.1.1.lua",
           ["help"] = "Szip is an implementation of the extended-Rice lossless compression algorithm. It provides lossless compression of scientific data, and is provided with HDF software products. ",
           lpathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-6.4.0/libszip-2.1.1-wz5ntjrls4zzq4ur7f7ohng4td2fj5gv/lib"] = 1,
+            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/clang-4.0.0/libszip-2.1.1-akbxbi74fkc4lk2mvr4c2sgx5lgrowqe/lib"] = 1,
           },
           ["luaExt"] = 6,
-          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/6.4.0",
+          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/clang/4.0.0",
           ["pV"] = "000000002.000000001.000000001.*zfinal",
           ["wV"] = "000000002.000000001.000000001.*zfinal",
           whatis = {
@@ -512,46 +319,20 @@ spiderT = {
           ["Name"] = "libtiff",
           ["Version"] = "4.0.8",
           ["canonical"] = "4.0.8",
-          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/6.4.0/libtiff/4.0.8.lua",
+          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/clang/4.0.0/libtiff/4.0.8.lua",
           ["help"] = "libtiff graphics format library",
           lpathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-6.4.0/libtiff-4.0.8-dtemdla3kqdmrpjqyod2ggt3lk3g7pfv/lib"] = 1,
+            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/clang-4.0.0/libtiff-4.0.8-6qdayzr7djz6y6f7vowky3vx4vug3lq5/lib"] = 1,
           },
           ["luaExt"] = 6,
-          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/6.4.0",
+          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/clang/4.0.0",
           ["pV"] = "000000004.000000000.000000008.*zfinal",
           pathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-6.4.0/libtiff-4.0.8-dtemdla3kqdmrpjqyod2ggt3lk3g7pfv/bin"] = 1,
+            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/clang-4.0.0/libtiff-4.0.8-6qdayzr7djz6y6f7vowky3vx4vug3lq5/bin"] = 1,
           },
           ["wV"] = "000000004.000000000.000000008.*zfinal",
           whatis = {
             "Name : libtiff", "Version : 4.0.8",
-          },
-        },
-      },
-    },
-    libtool = {
-      defaultT = {},
-      dirT = {},
-      fileT = {
-        ["libtool/2.4.6"]  = {
-          ["Name"] = "libtool",
-          ["Version"] = "2.4.6",
-          ["canonical"] = "2.4.6",
-          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/6.4.0/libtool/2.4.6.lua",
-          ["help"] = "libtool -- library building part of autotools.",
-          lpathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-6.4.0/libtool-2.4.6-7k2nnktomho7zimjvzddm2imn37js2va/lib"] = 1,
-          },
-          ["luaExt"] = 6,
-          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/6.4.0",
-          ["pV"] = "000000002.000000004.000000006.*zfinal",
-          pathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-6.4.0/libtool-2.4.6-7k2nnktomho7zimjvzddm2imn37js2va/bin"] = 1,
-          },
-          ["wV"] = "000000002.000000004.000000006.*zfinal",
-          whatis = {
-            "Name : libtool", "Version : 2.4.6",
           },
         },
       },
@@ -564,16 +345,16 @@ spiderT = {
           ["Name"] = "libxml2",
           ["Version"] = "2.9.4",
           ["canonical"] = "2.9.4",
-          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/6.4.0/libxml2/2.9.4.lua",
+          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/clang/4.0.0/libxml2/2.9.4.lua",
           ["help"] = "Libxml2 is the XML C parser and toolkit developed for the Gnome project (but usable outside of the Gnome platform), it is free software available under the MIT License.",
           lpathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-6.4.0/libxml2-2.9.4-6s66lmpnn5skrnihwqm3biqtbkfzro6n/lib"] = 1,
+            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/clang-4.0.0/libxml2-2.9.4-sclbol7z2if6x7gftm5ni423wk27gtpu/lib"] = 1,
           },
           ["luaExt"] = 6,
-          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/6.4.0",
+          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/clang/4.0.0",
           ["pV"] = "000000002.000000009.000000004.*zfinal",
           pathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-6.4.0/libxml2-2.9.4-6s66lmpnn5skrnihwqm3biqtbkfzro6n/bin"] = 1,
+            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/clang-4.0.0/libxml2-2.9.4-sclbol7z2if6x7gftm5ni423wk27gtpu/bin"] = 1,
           },
           ["wV"] = "000000002.000000009.000000004.*zfinal",
           whatis = {
@@ -582,123 +363,26 @@ spiderT = {
         },
       },
     },
-    m4 = {
+    ["netlib-lapack"]  = {
       defaultT = {},
       dirT = {},
       fileT = {
-        ["m4/1.4.18"]  = {
-          ["Name"] = "m4",
-          ["Version"] = "1.4.18",
-          ["canonical"] = "1.4.18",
-          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/6.4.0/m4/1.4.18.lua",
-          ["help"] = "GNU M4 is an implementation of the traditional Unix macro processor.",
-          ["luaExt"] = 7,
-          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/6.4.0",
-          ["pV"] = "000000001.000000004.000000018.*zfinal",
-          pathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-6.4.0/m4-1.4.18-rzoajy2a3e27b6yhjzghzc7zlpflfotw/bin"] = 1,
-          },
-          ["wV"] = "000000001.000000004.000000018.*zfinal",
-          whatis = {
-            "Name : m4", "Version : 1.4.18",
-          },
-        },
-      },
-    },
-    metis = {
-      defaultT = {},
-      dirT = {},
-      fileT = {
-        ["metis/5.1.0"]  = {
-          ["Name"] = "metis",
-          ["Version"] = "5.1.0",
-          ["canonical"] = "5.1.0",
-          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/6.4.0/metis/5.1.0.lua",
-          ["help"] = "METIS is a set of serial programs for partitioning graphs, partitioning finite element meshes, and producing fill reducing orderings for sparse matrices. The algorithms implemented in METIS are based on the multilevel recursive-bisection, multilevel k-way, and multi-constraint partitioning schemes.",
+        ["netlib-lapack/3.6.1"]  = {
+          ["Name"] = "netlib-lapack",
+          ["Version"] = "3.6.1",
+          ["canonical"] = "3.6.1",
+          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/clang/4.0.0/netlib-lapack/3.6.1.lua",
+          ["help"] = "LAPACK version 3.X is a comprehensive FORTRAN library that does linear algebra operations including matrix inversions, least squared solutions to linear sets of equations, eigenvector analysis, singular value decomposition, etc. It is a very comprehensive and reputable package that has found extensive use in the scientific community. ",
           lpathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-6.4.0/metis-5.1.0-35un5dpanmvjigey3dhnwzzhlyhvaxxl/lib"] = 1,
+            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/clang-4.0.0/netlib-lapack-3.6.1-4362owmnwlp4oqcj5xwroslnhpfj3lcw/lib"] = 1,
+            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/clang-4.0.0/netlib-lapack-3.6.1-4362owmnwlp4oqcj5xwroslnhpfj3lcw/lib64"] = 1,
           },
           ["luaExt"] = 6,
-          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/6.4.0",
-          ["pV"] = "000000005.000000001.*zfinal",
-          pathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-6.4.0/metis-5.1.0-35un5dpanmvjigey3dhnwzzhlyhvaxxl/bin"] = 1,
-          },
-          ["wV"] = "000000005.000000001.*zfinal",
+          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/clang/4.0.0",
+          ["pV"] = "000000003.000000006.000000001.*zfinal",
+          ["wV"] = "000000003.000000006.000000001.*zfinal",
           whatis = {
-            "Name : metis", "Version : 5.1.0",
-          },
-        },
-      },
-    },
-    mpfr = {
-      defaultT = {},
-      dirT = {},
-      fileT = {
-        ["mpfr/3.1.5"]  = {
-          ["Name"] = "mpfr",
-          ["Version"] = "3.1.5",
-          ["canonical"] = "3.1.5",
-          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/6.4.0/mpfr/3.1.5.lua",
-          ["help"] = "The MPFR library is a C library for multiple-precision floating-point computations with correct rounding.",
-          lpathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-6.4.0/mpfr-3.1.5-bcrfu7keokxbayj2d2wzki5am2jq3vhz/lib"] = 1,
-          },
-          ["luaExt"] = 6,
-          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/6.4.0",
-          ["pV"] = "000000003.000000001.000000005.*zfinal",
-          ["wV"] = "000000003.000000001.000000005.*zfinal",
-          whatis = {
-            "Name : mpfr", "Version : 3.1.5",
-          },
-        },
-      },
-    },
-    nasm = {
-      defaultT = {},
-      dirT = {},
-      fileT = {
-        ["nasm/2.11.06"]  = {
-          ["Name"] = "nasm",
-          ["Version"] = "2.11.06",
-          ["canonical"] = "2.11.06",
-          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/6.4.0/nasm/2.11.06.lua",
-          ["help"] = "NASM (Netwide Assembler) is an 80x86 assembler designed for portability and modularity. It includes a disassembler as well.",
-          ["luaExt"] = 8,
-          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/6.4.0",
-          ["pV"] = "000000002.000000011.000000006.*zfinal",
-          pathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-6.4.0/nasm-2.11.06-2gaqjt3xaqjtepay7hz5fxpct7sesusr/bin"] = 1,
-          },
-          ["wV"] = "000000002.000000011.000000006.*zfinal",
-          whatis = {
-            "Name : nasm", "Version : 2.11.06",
-          },
-        },
-      },
-    },
-    ncurses = {
-      defaultT = {},
-      dirT = {},
-      fileT = {
-        ["ncurses/6.0"]  = {
-          ["Name"] = "ncurses",
-          ["Version"] = "6.0",
-          ["canonical"] = "6.0",
-          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/6.4.0/ncurses/6.0.lua",
-          ["help"] = "The ncurses (new curses) library is a free software emulation of curses in System V Release 4.0, and more. It uses terminfo format, supports pads and color and multiple highlights and forms characters and function-key mapping, and has all the other SYSV-curses enhancements over BSD curses.",
-          lpathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-6.4.0/ncurses-6.0-qyp3vlywonauwgwqqwaxj7fjimsetdu6/lib"] = 1,
-          },
-          ["luaExt"] = 4,
-          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/6.4.0",
-          ["pV"] = "000000006.*zfinal",
-          pathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-6.4.0/ncurses-6.0-qyp3vlywonauwgwqqwaxj7fjimsetdu6/bin"] = 1,
-          },
-          ["wV"] = "000000006.*zfinal",
-          whatis = {
-            "Name : ncurses", "Version : 6.0",
+            "Name : netlib-lapack", "Version : 3.6.1",
           },
         },
       },
@@ -711,16 +395,16 @@ spiderT = {
           ["Name"] = "openblas",
           ["Version"] = "0.2.20",
           ["canonical"] = "0.2.20",
-          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/6.4.0/openblas/0.2.20.lua",
+          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/clang/4.0.0/openblas/0.2.20.lua",
           ["help"] = "OpenBLAS: An optimized BLAS library",
           lpathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-6.4.0/openblas-0.2.20-bhwmj5gtiyacr3kfwhx4gmzvuieajzvo/lib"] = 1,
+            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/clang-4.0.0/openblas-0.2.20-uj5vh7y33oztvnag5vhgjqczbl3xgco6/lib"] = 1,
           },
           ["luaExt"] = 7,
-          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/6.4.0",
+          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/clang/4.0.0",
           ["pV"] = "000000000.000000002.000000020.*zfinal",
           pathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-6.4.0/openblas-0.2.20-bhwmj5gtiyacr3kfwhx4gmzvuieajzvo/bin"] = 1,
+            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/clang-4.0.0/openblas-0.2.20-uj5vh7y33oztvnag5vhgjqczbl3xgco6/bin"] = 1,
           },
           ["wV"] = "000000000.000000002.000000020.*zfinal",
           whatis = {
@@ -737,34 +421,43 @@ spiderT = {
           ["Name"] = "opencv",
           ["Version"] = "3.3.0",
           ["canonical"] = "3.3.0-openblas-py2",
-          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/6.4.0/opencv/3.3.0-openblas-py2.lua",
+          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/clang/4.0.0/opencv/3.3.0-openblas-py2.lua",
           ["help"] = "OpenCV is released under a BSD license and hence it's free for both academic and commercial use. It has C++, C, Python and Java interfaces and supports Windows, Linux, Mac OS, iOS and Android. OpenCV was designed for computational efficiency and with a strong focus on real-time applications. Written in optimized C/C++, the library can take advantage of multi-core processing. Enabled with OpenCL, it can take advantage of the hardware acceleration of the underlying heterogeneous compute platform. Adopted all around the world, OpenCV has more than 47 thousand people of user community and estimated number of downloads exceeding 9 million. Usage ranges from interactive art, to mines inspection, stitching maps on the web or through advanced robotics. ",
           lpathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-6.4.0/opencv-3.3.0-erom3x7nmkvviybxu2r2ovfff2hrhpvs/lib"] = 1,
+            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/clang-4.0.0/opencv-3.3.0-kgagi3cabirsiafovvbtp34gu2n4kfye/lib"] = 1,
           },
           ["luaExt"] = 19,
-          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/6.4.0",
+          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/clang/4.0.0",
           ["pV"] = "000000003.000000003.*openblas.*y.000000002.*zfinal",
           ["wV"] = "000000003.000000003.*openblas.*y.000000002.*zfinal",
           whatis = {
             "Name : opencv", "Version : 3.3.0",
           },
         },
-        ["opencv/3.3.0-py3-openblas"]  = {
-          ["Name"] = "opencv",
-          ["Version"] = "3.3.0",
-          ["canonical"] = "3.3.0-py3-openblas",
-          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/6.4.0/opencv/3.3.0-py3-openblas.lua",
-          ["help"] = "OpenCV is released under a BSD license and hence it's free for both academic and commercial use. It has C++, C, Python and Java interfaces and supports Windows, Linux, Mac OS, iOS and Android. OpenCV was designed for computational efficiency and with a strong focus on real-time applications. Written in optimized C/C++, the library can take advantage of multi-core processing. Enabled with OpenCL, it can take advantage of the hardware acceleration of the underlying heterogeneous compute platform. Adopted all around the world, OpenCV has more than 47 thousand people of user community and estimated number of downloads exceeding 9 million. Usage ranges from interactive art, to mines inspection, stitching maps on the web or through advanced robotics. ",
+      },
+    },
+    openjpeg = {
+      defaultT = {},
+      dirT = {},
+      fileT = {
+        ["openjpeg/2.1"]  = {
+          ["Name"] = "openjpeg",
+          ["Version"] = "2.1",
+          ["canonical"] = "2.1",
+          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/clang/4.0.0/openjpeg/2.1.lua",
+          ["help"] = "OpenJPEG is an open-source JPEG 2000 codec written in C language. It has been developed in order to promote the use of JPEG 2000, a still-image compression standard from the Joint Photographic Experts Group (JPEG). Since April 2015, it is officially recognized by ISO/IEC and ITU-T as a JPEG 2000 Reference Software. ",
           lpathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-6.4.0/opencv-3.3.0-2ph7lstqit4likelrpvft3yvbdsw4kcz/lib"] = 1,
+            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/clang-4.0.0/openjpeg-2.1-ndb2xm3rr5jxzdlu7426phs64oavdcvm/lib"] = 1,
           },
-          ["luaExt"] = 19,
-          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/6.4.0",
-          ["pV"] = "000000003.000000003.*y.000000003.*openblas.*zfinal",
-          ["wV"] = "000000003.000000003.*y.000000003.*openblas.*zfinal",
+          ["luaExt"] = 4,
+          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/clang/4.0.0",
+          ["pV"] = "000000002.000000001.*zfinal",
+          pathA = {
+            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/clang-4.0.0/openjpeg-2.1-ndb2xm3rr5jxzdlu7426phs64oavdcvm/bin"] = 1,
+          },
+          ["wV"] = "000000002.000000001.*zfinal",
           whatis = {
-            "Name : opencv", "Version : 3.3.0",
+            "Name : openjpeg", "Version : 2.1",
           },
         },
       },
@@ -777,16 +470,16 @@ spiderT = {
           ["Name"] = "openmpi",
           ["Version"] = "2.1.1",
           ["canonical"] = "2.1.1",
-          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/6.4.0/openmpi/2.1.1.lua",
+          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/clang/4.0.0/openmpi/2.1.1.lua",
           ["help"] = "The Open MPI Project is an open source Message Passing Interface implementation that is developed and maintained by a consortium of academic, research, and industry partners. Open MPI is therefore able to combine the expertise, technologies, and resources from all across the High Performance Computing community in order to build the best MPI library available. Open MPI offers advantages for system and software vendors, application developers and computer science researchers. ",
           lpathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-6.4.0/openmpi-2.1.1-ipjtnf4mahlgflkqwcz5le2ecmfhpqci/lib"] = 1,
+            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/clang-4.0.0/openmpi-2.1.1-mhfgkghd2z4nbglhwuuxwkotlxhciigj/lib"] = 1,
           },
           ["luaExt"] = 6,
-          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/6.4.0",
+          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/clang/4.0.0",
           ["pV"] = "000000002.000000001.000000001.*zfinal",
           pathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-6.4.0/openmpi-2.1.1-ipjtnf4mahlgflkqwcz5le2ecmfhpqci/bin"] = 1,
+            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/clang-4.0.0/openmpi-2.1.1-mhfgkghd2z4nbglhwuuxwkotlxhciigj/bin"] = 1,
           },
           ["wV"] = "000000002.000000001.000000001.*zfinal",
           whatis = {
@@ -803,16 +496,16 @@ spiderT = {
           ["Name"] = "openssl",
           ["Version"] = "1.0.2k",
           ["canonical"] = "1.0.2k",
-          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/6.4.0/openssl/1.0.2k.lua",
+          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/clang/4.0.0/openssl/1.0.2k.lua",
           ["help"] = "OpenSSL is an open source project that provides a robust, commercial-grade, and full-featured toolkit for the Transport Layer Security (TLS) and Secure Sockets Layer (SSL) protocols. It is also a general-purpose cryptography library.",
           lpathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-6.4.0/openssl-1.0.2k-fgt5dykcvjtwhsucz3e2jgu7vxhbf2aj/lib"] = 1,
+            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/clang-4.0.0/openssl-1.0.2k-dx4bwnlwc5rtwbfg2277wusaqq4yn4p2/lib"] = 1,
           },
           ["luaExt"] = 7,
-          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/6.4.0",
+          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/clang/4.0.0",
           ["pV"] = "000000001.000000000.000000002.*k.*zfinal",
           pathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-6.4.0/openssl-1.0.2k-fgt5dykcvjtwhsucz3e2jgu7vxhbf2aj/bin"] = 1,
+            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/clang-4.0.0/openssl-1.0.2k-dx4bwnlwc5rtwbfg2277wusaqq4yn4p2/bin"] = 1,
           },
           ["wV"] = "000000001.000000000.000000002.*k.*zfinal",
           whatis = {
@@ -829,275 +522,17 @@ spiderT = {
           ["Name"] = "pkg-config",
           ["Version"] = "0.29.2",
           ["canonical"] = "0.29.2",
-          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/6.4.0/pkg-config/0.29.2.lua",
+          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/clang/4.0.0/pkg-config/0.29.2.lua",
           ["help"] = "pkg-config is a helper tool used when compiling applications and libraries",
           ["luaExt"] = 7,
-          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/6.4.0",
+          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/clang/4.0.0",
           ["pV"] = "000000000.000000029.000000002.*zfinal",
           pathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-6.4.0/pkg-config-0.29.2-raosogendd3h5k2yknfmqlbukdsw5q4w/bin"] = 1,
+            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/clang-4.0.0/pkg-config-0.29.2-6dyybbbbyshwrcjv6ahotkvdxv2orasz/bin"] = 1,
           },
           ["wV"] = "000000000.000000029.000000002.*zfinal",
           whatis = {
             "Name : pkg-config", "Version : 0.29.2",
-          },
-        },
-      },
-    },
-    ["py-cython"]  = {
-      defaultT = {},
-      dirT = {},
-      fileT = {
-        ["py-cython/0.25.2-py2"]  = {
-          ["Name"] = "py-cython",
-          ["Version"] = "0.25.2",
-          ["canonical"] = "0.25.2-py2",
-          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/6.4.0/py-cython/0.25.2-py2.lua",
-          ["help"] = "The Cython compiler for writing C extensions for the Python language.",
-          lpathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-6.4.0/py-cython-0.25.2-rfnjqajdchnwgis64w3672yhwyqzwjqy/lib"] = 1,
-          },
-          ["luaExt"] = 11,
-          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/6.4.0",
-          ["pV"] = "000000000.000000025.000000002.*y.000000002.*zfinal",
-          pathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-6.4.0/py-cython-0.25.2-rfnjqajdchnwgis64w3672yhwyqzwjqy/bin"] = 1,
-          },
-          ["wV"] = "000000000.000000025.000000002.*y.000000002.*zfinal",
-          whatis = {
-            "Name : py-cython", "Version : 0.25.2",
-          },
-        },
-        ["py-cython/0.25.2-py3"]  = {
-          ["Name"] = "py-cython",
-          ["Version"] = "0.25.2",
-          ["canonical"] = "0.25.2-py3",
-          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/6.4.0/py-cython/0.25.2-py3.lua",
-          ["help"] = "The Cython compiler for writing C extensions for the Python language.",
-          lpathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-6.4.0/py-cython-0.25.2-pzinxpdvgq377nlwovuod4s2ndnalz5x/lib"] = 1,
-          },
-          ["luaExt"] = 11,
-          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/6.4.0",
-          ["pV"] = "000000000.000000025.000000002.*y.000000003.*zfinal",
-          pathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-6.4.0/py-cython-0.25.2-pzinxpdvgq377nlwovuod4s2ndnalz5x/bin"] = 1,
-          },
-          ["wV"] = "000000000.000000025.000000002.*y.000000003.*zfinal",
-          whatis = {
-            "Name : py-cython", "Version : 0.25.2",
-          },
-        },
-      },
-    },
-    ["py-numpy"]  = {
-      defaultT = {},
-      dirT = {},
-      fileT = {
-        ["py-numpy/1.13.1-openblas-py2"]  = {
-          ["Name"] = "py-numpy",
-          ["Version"] = "1.13.1",
-          ["canonical"] = "1.13.1-openblas-py2",
-          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/6.4.0/py-numpy/1.13.1-openblas-py2.lua",
-          ["help"] = "NumPy is the fundamental package for scientific computing with Python. It contains among other things: a powerful N-dimensional array object, sophisticated (broadcasting) functions, tools for integrating C/C++ and Fortran code, and useful linear algebra, Fourier transform, and random number capabilities",
-          lpathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-6.4.0/py-numpy-1.13.1-cndsuqml36esgr5l5feio6arodkdqb2h/lib"] = 1,
-          },
-          ["luaExt"] = 20,
-          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/6.4.0",
-          ["pV"] = "000000001.000000013.000000001.*openblas.*y.000000002.*zfinal",
-          pathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-6.4.0/py-numpy-1.13.1-cndsuqml36esgr5l5feio6arodkdqb2h/bin"] = 1,
-          },
-          ["wV"] = "000000001.000000013.000000001.*openblas.*y.000000002.*zfinal",
-          whatis = {
-            "Name : py-numpy", "Version : 1.13.1",
-          },
-        },
-        ["py-numpy/1.13.1-py3-openblas"]  = {
-          ["Name"] = "py-numpy",
-          ["Version"] = "1.13.1",
-          ["canonical"] = "1.13.1-py3-openblas",
-          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/6.4.0/py-numpy/1.13.1-py3-openblas.lua",
-          ["help"] = "NumPy is the fundamental package for scientific computing with Python. It contains among other things: a powerful N-dimensional array object, sophisticated (broadcasting) functions, tools for integrating C/C++ and Fortran code, and useful linear algebra, Fourier transform, and random number capabilities",
-          lpathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-6.4.0/py-numpy-1.13.1-x7rmrapmhjl2sp2kbawcjdirm2ewjdkd/lib"] = 1,
-          },
-          ["luaExt"] = 20,
-          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/6.4.0",
-          ["pV"] = "000000001.000000013.000000001.*y.000000003.*openblas.*zfinal",
-          pathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-6.4.0/py-numpy-1.13.1-x7rmrapmhjl2sp2kbawcjdirm2ewjdkd/bin"] = 1,
-          },
-          ["wV"] = "000000001.000000013.000000001.*y.000000003.*openblas.*zfinal",
-          whatis = {
-            "Name : py-numpy", "Version : 1.13.1",
-          },
-        },
-      },
-    },
-    ["py-pandas"]  = {
-      defaultT = {},
-      dirT = {},
-      fileT = {
-        ["py-pandas/0.19.0-openblas-py2"]  = {
-          ["Name"] = "py-pandas",
-          ["Version"] = "0.19.0",
-          ["canonical"] = "0.19.0-openblas-py2",
-          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/6.4.0/py-pandas/0.19.0-openblas-py2.lua",
-          ["help"] = "pandas is a Python package providing fast, flexible, and expressive data structures designed to make working with relational or labeled data both easy and intuitive. It aims to be the fundamental high-level building block for doing practical, real world data analysis in Python. Additionally, it has the broader goal of becoming the most powerful and flexible open source data analysis / manipulation tool available in any language. ",
-          lpathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-6.4.0/py-pandas-0.19.0-7lta2jhw7onkxq6llqrllzpu6c42i7ho/lib"] = 1,
-          },
-          ["luaExt"] = 20,
-          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/6.4.0",
-          ["pV"] = "000000000.000000019.*openblas.*y.000000002.*zfinal",
-          ["wV"] = "000000000.000000019.*openblas.*y.000000002.*zfinal",
-          whatis = {
-            "Name : py-pandas", "Version : 0.19.0",
-          },
-        },
-        ["py-pandas/0.19.0-py3-openblas"]  = {
-          ["Name"] = "py-pandas",
-          ["Version"] = "0.19.0",
-          ["canonical"] = "0.19.0-py3-openblas",
-          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/6.4.0/py-pandas/0.19.0-py3-openblas.lua",
-          ["help"] = "pandas is a Python package providing fast, flexible, and expressive data structures designed to make working with relational or labeled data both easy and intuitive. It aims to be the fundamental high-level building block for doing practical, real world data analysis in Python. Additionally, it has the broader goal of becoming the most powerful and flexible open source data analysis / manipulation tool available in any language. ",
-          lpathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-6.4.0/py-pandas-0.19.0-lrpskjr6u6iknmjk62bnuyfkpwdzi65y/lib"] = 1,
-          },
-          ["luaExt"] = 20,
-          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/6.4.0",
-          ["pV"] = "000000000.000000019.*y.000000003.*openblas.*zfinal",
-          ["wV"] = "000000000.000000019.*y.000000003.*openblas.*zfinal",
-          whatis = {
-            "Name : py-pandas", "Version : 0.19.0",
-          },
-        },
-      },
-    },
-    ["py-scipy"]  = {
-      defaultT = {},
-      dirT = {},
-      fileT = {
-        ["py-scipy/0.19.1-openblas-py2"]  = {
-          ["Name"] = "py-scipy",
-          ["Version"] = "0.19.1",
-          ["canonical"] = "0.19.1-openblas-py2",
-          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/6.4.0/py-scipy/0.19.1-openblas-py2.lua",
-          ["help"] = "SciPy (pronounced \"Sigh Pie\") is a Scientific Library for Python. It provides many user-friendly and efficient numerical routines such as routines for numerical integration and optimization.",
-          lpathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-6.4.0/py-scipy-0.19.1-hs23t3dzogad6bh2ci627yoyzekun3u7/lib"] = 1,
-          },
-          ["luaExt"] = 20,
-          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/6.4.0",
-          ["pV"] = "000000000.000000019.000000001.*openblas.*y.000000002.*zfinal",
-          ["wV"] = "000000000.000000019.000000001.*openblas.*y.000000002.*zfinal",
-          whatis = {
-            "Name : py-scipy", "Version : 0.19.1",
-          },
-        },
-        ["py-scipy/0.19.1-py3-openblas"]  = {
-          ["Name"] = "py-scipy",
-          ["Version"] = "0.19.1",
-          ["canonical"] = "0.19.1-py3-openblas",
-          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/6.4.0/py-scipy/0.19.1-py3-openblas.lua",
-          ["help"] = "SciPy (pronounced \"Sigh Pie\") is a Scientific Library for Python. It provides many user-friendly and efficient numerical routines such as routines for numerical integration and optimization.",
-          lpathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-6.4.0/py-scipy-0.19.1-wehbddi6zielcsswd2gjq7yb3dzoz3te/lib"] = 1,
-          },
-          ["luaExt"] = 20,
-          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/6.4.0",
-          ["pV"] = "000000000.000000019.000000001.*y.000000003.*openblas.*zfinal",
-          ["wV"] = "000000000.000000019.000000001.*y.000000003.*openblas.*zfinal",
-          whatis = {
-            "Name : py-scipy", "Version : 0.19.1",
-          },
-        },
-      },
-    },
-    ["py-six"]  = {
-      defaultT = {},
-      dirT = {},
-      fileT = {
-        ["py-six/1.10.0-py2"]  = {
-          ["Name"] = "py-six",
-          ["Version"] = "1.10.0",
-          ["canonical"] = "1.10.0-py2",
-          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/6.4.0/py-six/1.10.0-py2.lua",
-          ["help"] = "Python 2 and 3 compatibility utilities.",
-          lpathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-6.4.0/py-six-1.10.0-qfs64wntqtoc3pi22jnqqxoxdkaupw5p/lib"] = 1,
-          },
-          ["luaExt"] = 11,
-          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/6.4.0",
-          ["pV"] = "000000001.000000010.*y.000000002.*zfinal",
-          ["wV"] = "000000001.000000010.*y.000000002.*zfinal",
-          whatis = {
-            "Name : py-six", "Version : 1.10.0",
-          },
-        },
-        ["py-six/1.10.0-py3"]  = {
-          ["Name"] = "py-six",
-          ["Version"] = "1.10.0",
-          ["canonical"] = "1.10.0-py3",
-          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/6.4.0/py-six/1.10.0-py3.lua",
-          ["help"] = "Python 2 and 3 compatibility utilities.",
-          lpathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-6.4.0/py-six-1.10.0-62vs6mmrwhyaj6gahygz6vx4u463ixy3/lib"] = 1,
-          },
-          ["luaExt"] = 11,
-          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/6.4.0",
-          ["pV"] = "000000001.000000010.*y.000000003.*zfinal",
-          ["wV"] = "000000001.000000010.*y.000000003.*zfinal",
-          whatis = {
-            "Name : py-six", "Version : 1.10.0",
-          },
-        },
-      },
-    },
-    ["py-virtualenv"]  = {
-      defaultT = {},
-      dirT = {},
-      fileT = {
-        ["py-virtualenv/15.1.0-py2"]  = {
-          ["Name"] = "py-virtualenv",
-          ["Version"] = "15.1.0",
-          ["canonical"] = "15.1.0-py2",
-          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/6.4.0/py-virtualenv/15.1.0-py2.lua",
-          ["help"] = "virtualenv is a tool to create isolated Python environments.",
-          lpathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-6.4.0/py-virtualenv-15.1.0-btsxh4wzt4pue5rpvgak7mfdrem6ubie/lib"] = 1,
-          },
-          ["luaExt"] = 11,
-          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/6.4.0",
-          ["pV"] = "000000015.000000001.*y.000000002.*zfinal",
-          pathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-6.4.0/py-virtualenv-15.1.0-btsxh4wzt4pue5rpvgak7mfdrem6ubie/bin"] = 1,
-          },
-          ["wV"] = "000000015.000000001.*y.000000002.*zfinal",
-          whatis = {
-            "Name : py-virtualenv", "Version : 15.1.0",
-          },
-        },
-        ["py-virtualenv/15.1.0-py3"]  = {
-          ["Name"] = "py-virtualenv",
-          ["Version"] = "15.1.0",
-          ["canonical"] = "15.1.0-py3",
-          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/6.4.0/py-virtualenv/15.1.0-py3.lua",
-          ["help"] = "virtualenv is a tool to create isolated Python environments.",
-          lpathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-6.4.0/py-virtualenv-15.1.0-bkifuscwc5bjovyqcqrb3t3iv2sxriyp/lib"] = 1,
-          },
-          ["luaExt"] = 11,
-          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/6.4.0",
-          ["pV"] = "000000015.000000001.*y.000000003.*zfinal",
-          pathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-6.4.0/py-virtualenv-15.1.0-bkifuscwc5bjovyqcqrb3t3iv2sxriyp/bin"] = 1,
-          },
-          ["wV"] = "000000015.000000001.*y.000000003.*zfinal",
-          whatis = {
-            "Name : py-virtualenv", "Version : 15.1.0",
           },
         },
       },
@@ -1110,92 +545,46 @@ spiderT = {
           ["Name"] = "python",
           ["Version"] = "2.7.13",
           ["canonical"] = "2.7.13",
-          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/6.4.0/python/2.7.13.lua",
+          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/clang/4.0.0/python/2.7.13.lua",
           ["help"] = "The Python programming language.",
           lpathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-6.4.0/python-2.7.13-mfi7wo3nwjnfdeawexyzs4cdbykgq4x6/lib"] = 1,
+            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/clang-4.0.0/python-2.7.13-6r7ys4ak75m5ywzy3tpdtjs4ojbhwlqn/lib"] = 1,
           },
           ["luaExt"] = 7,
-          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/6.4.0",
+          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/clang/4.0.0",
           ["pV"] = "000000002.000000007.000000013.*zfinal",
           pathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-6.4.0/python-2.7.13-mfi7wo3nwjnfdeawexyzs4cdbykgq4x6/bin"] = 1,
+            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/clang-4.0.0/python-2.7.13-6r7ys4ak75m5ywzy3tpdtjs4ojbhwlqn/bin"] = 1,
           },
           ["wV"] = "000000002.000000007.000000013.*zfinal",
           whatis = {
             "Name : python", "Version : 2.7.13",
           },
         },
-        ["python/3.6.1"]  = {
-          ["Name"] = "python",
-          ["Version"] = "3.6.1",
-          ["canonical"] = "3.6.1",
-          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/6.4.0/python/3.6.1.lua",
-          ["help"] = "The Python programming language.",
-          lpathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-6.4.0/python-3.6.1-arimbbrmz3kalcjrqaai3mqidb6fehc4/lib"] = 1,
-          },
-          ["luaExt"] = 6,
-          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/6.4.0",
-          ["pV"] = "000000003.000000006.000000001.*zfinal",
-          pathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-6.4.0/python-3.6.1-arimbbrmz3kalcjrqaai3mqidb6fehc4/bin"] = 1,
-          },
-          ["wV"] = "000000003.000000006.000000001.*zfinal",
-          whatis = {
-            "Name : python", "Version : 3.6.1",
-          },
-        },
       },
     },
-    readline = {
+    qhull = {
       defaultT = {},
       dirT = {},
       fileT = {
-        ["readline/7.0"]  = {
-          ["Name"] = "readline",
-          ["Version"] = "7.0",
-          ["canonical"] = "7.0",
-          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/6.4.0/readline/7.0.lua",
-          ["help"] = "The GNU Readline library provides a set of functions for use by applications that allow users to edit command lines as they are typed in. Both Emacs and vi editing modes are available. The Readline library includes additional functions to maintain a list of previously-entered command lines, to recall and perhaps reedit those lines, and perform csh-like history expansion on previous commands.",
+        ["qhull/2015.2"]  = {
+          ["Name"] = "qhull",
+          ["Version"] = "2015.2",
+          ["canonical"] = "2015.2",
+          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/clang/4.0.0/qhull/2015.2.lua",
+          ["help"] = "Qhull computes the convex hull, Delaunay triangulation, Voronoi diagram, halfspace intersection about a point, furt hest-site Delaunay triangulation, and furthest-site Voronoi diagram. The source code runs in 2-d, 3-d, 4-d, and higher dimensions. Qhull implements the Quickhull algorithm for computing the convex hull. It handles roundoff errors from floating point arithmetic. It computes volumes, surface areas, and approximations to the convex hull.",
           lpathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-6.4.0/readline-7.0-cbfcuxrabpgg3z7ylcwuvo2qtumbs4vj/lib"] = 1,
-          },
-          ["luaExt"] = 4,
-          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/6.4.0",
-          ["pV"] = "000000007.*zfinal",
-          pathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-6.4.0/readline-7.0-cbfcuxrabpgg3z7ylcwuvo2qtumbs4vj/bin"] = 1,
-          },
-          ["wV"] = "000000007.*zfinal",
-          whatis = {
-            "Name : readline", "Version : 7.0",
-          },
-        },
-      },
-    },
-    sqlite = {
-      defaultT = {},
-      dirT = {},
-      fileT = {
-        ["sqlite/3.20.0"]  = {
-          ["Name"] = "sqlite",
-          ["Version"] = "3.20.0",
-          ["canonical"] = "3.20.0",
-          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/6.4.0/sqlite/3.20.0.lua",
-          ["help"] = "SQLite3 is an SQL database engine in a C library. Programs that link the SQLite3 library can have SQL database access without running a separate RDBMS process. ",
-          lpathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-6.4.0/sqlite-3.20.0-6xuhfrvbclegp56twsj5ylki4bv66vaw/lib"] = 1,
+            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/clang-4.0.0/qhull-2015.2-qrzrhndzucnpc6r5jiepfuzkc6dqltoo/lib"] = 1,
           },
           ["luaExt"] = 7,
-          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/6.4.0",
-          ["pV"] = "000000003.000000020.*zfinal",
+          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/clang/4.0.0",
+          ["pV"] = "000002015.000000002.*zfinal",
           pathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-6.4.0/sqlite-3.20.0-6xuhfrvbclegp56twsj5ylki4bv66vaw/bin"] = 1,
+            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/clang-4.0.0/qhull-2015.2-qrzrhndzucnpc6r5jiepfuzkc6dqltoo/bin"] = 1,
           },
-          ["wV"] = "000000003.000000020.*zfinal",
+          ["wV"] = "000002015.000000002.*zfinal",
           whatis = {
-            "Name : sqlite", "Version : 3.20.0",
+            "Name : qhull", "Version : 2015.2",
           },
         },
       },
@@ -1208,13 +597,13 @@ spiderT = {
           ["Name"] = "suite-sparse",
           ["Version"] = "4.5.5",
           ["canonical"] = "4.5.5-openblas",
-          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/6.4.0/suite-sparse/4.5.5-openblas.lua",
+          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/clang/4.0.0/suite-sparse/4.5.5-openblas.lua",
           ["help"] = " SuiteSparse is a suite of sparse matrix algorithms ",
           lpathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-6.4.0/suite-sparse-4.5.5-6oyxrrzuhg3lhbihbuxqqttce54xnlvs/lib"] = 1,
+            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/clang-4.0.0/suite-sparse-4.5.5-nsc52rnnnmllvvvug3yf642p33xy2sda/lib"] = 1,
           },
           ["luaExt"] = 15,
-          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/6.4.0",
+          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/clang/4.0.0",
           ["pV"] = "000000004.000000005.000000005.*openblas.*zfinal",
           ["wV"] = "000000004.000000005.000000005.*openblas.*zfinal",
           whatis = {
@@ -1231,13 +620,13 @@ spiderT = {
           ["Name"] = "superlu",
           ["Version"] = "5.2.1",
           ["canonical"] = "5.2.1-openblas",
-          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/6.4.0/superlu/5.2.1-openblas.lua",
+          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/clang/4.0.0/superlu/5.2.1-openblas.lua",
           ["help"] = "SuperLU is a general purpose library for the direct solution of large, sparse, nonsymmetric systems of linear equations on high performance machines. SuperLU is designed for sequential machines.",
           lpathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-6.4.0/superlu-5.2.1-6jvvcgqup335jyahtbl5kl7ls2xs4u4k/lib64"] = 1,
+            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/clang-4.0.0/superlu-5.2.1-to5n7j46wgqjn7gilf6coionaoi2kkeu/lib64"] = 1,
           },
           ["luaExt"] = 15,
-          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/6.4.0",
+          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/clang/4.0.0",
           ["pV"] = "000000005.000000002.000000001.*openblas.*zfinal",
           ["wV"] = "000000005.000000002.000000001.*openblas.*zfinal",
           whatis = {
@@ -1254,37 +643,17 @@ spiderT = {
           ["Name"] = "tar",
           ["Version"] = "1.29",
           ["canonical"] = "1.29",
-          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/6.4.0/tar/1.29.lua",
+          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/clang/4.0.0/tar/1.29.lua",
           ["help"] = "GNU Tar provides the ability to create tar archives, as well as various other kinds of manipulation.",
           ["luaExt"] = 5,
-          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/6.4.0",
+          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/clang/4.0.0",
           ["pV"] = "000000001.000000029.*zfinal",
           pathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-6.4.0/tar-1.29-hprwe5uv5p2b4kenikjfphwexyyisp2h/bin"] = 1,
+            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/clang-4.0.0/tar-1.29-zjg6qvp3hsqol5djru2za3o5ryjt6fsz/bin"] = 1,
           },
           ["wV"] = "000000001.000000029.*zfinal",
           whatis = {
             "Name : tar", "Version : 1.29",
-          },
-        },
-      },
-    },
-    ["util-macros"]  = {
-      defaultT = {},
-      dirT = {},
-      fileT = {
-        ["util-macros/1.19.1"]  = {
-          ["Name"] = "util-macros",
-          ["Version"] = "1.19.1",
-          ["canonical"] = "1.19.1",
-          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/6.4.0/util-macros/1.19.1.lua",
-          ["help"] = "This is a set of autoconf macros used by the configure.ac scripts in other Xorg modular packages, and is needed to generate new versions of their configure scripts with autoconf.",
-          ["luaExt"] = 7,
-          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/6.4.0",
-          ["pV"] = "000000001.000000019.000000001.*zfinal",
-          ["wV"] = "000000001.000000019.000000001.*zfinal",
-          whatis = {
-            "Name : util-macros", "Version : 1.19.1",
           },
         },
       },
@@ -1297,16 +666,16 @@ spiderT = {
           ["Name"] = "xz",
           ["Version"] = "5.2.3",
           ["canonical"] = "5.2.3",
-          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/6.4.0/xz/5.2.3.lua",
+          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/clang/4.0.0/xz/5.2.3.lua",
           ["help"] = "XZ Utils is free general-purpose data compression software with high compression ratio. XZ Utils were written for POSIX-like systems, but also work on some not-so-POSIX systems. XZ Utils are the successor to LZMA Utils.",
           lpathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-6.4.0/xz-5.2.3-uwo6zrsswtft7lyz7n7qj3kd6rrnlofn/lib"] = 1,
+            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/clang-4.0.0/xz-5.2.3-bfetvwfutszgsdv3of7x67lzrprxtyer/lib"] = 1,
           },
           ["luaExt"] = 6,
-          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/6.4.0",
+          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/clang/4.0.0",
           ["pV"] = "000000005.000000002.000000003.*zfinal",
           pathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-6.4.0/xz-5.2.3-uwo6zrsswtft7lyz7n7qj3kd6rrnlofn/bin"] = 1,
+            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/clang-4.0.0/xz-5.2.3-bfetvwfutszgsdv3of7x67lzrprxtyer/bin"] = 1,
           },
           ["wV"] = "000000005.000000002.000000003.*zfinal",
           whatis = {
@@ -1323,13 +692,13 @@ spiderT = {
           ["Name"] = "zlib",
           ["Version"] = "1.2.11",
           ["canonical"] = "1.2.11",
-          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/6.4.0/zlib/1.2.11.lua",
+          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/clang/4.0.0/zlib/1.2.11.lua",
           ["help"] = "A free, general-purpose, legally unencumbered lossless data-compression library.",
           lpathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-6.4.0/zlib-1.2.11-63mel36bhhov6w56x3hina5nvomv5pz7/lib"] = 1,
+            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/clang-4.0.0/zlib-1.2.11-4h7wexxt34yec3ofhworsxxak7avanen/lib"] = 1,
           },
           ["luaExt"] = 7,
-          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/6.4.0",
+          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/clang/4.0.0",
           ["pV"] = "000000001.000000002.000000011.*zfinal",
           ["wV"] = "000000001.000000002.000000011.*zfinal",
           whatis = {
@@ -1340,74 +709,28 @@ spiderT = {
     },
   },
   ["/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/7.2.0"]  = {
-    autoconf = {
+    binutils = {
       defaultT = {},
       dirT = {},
       fileT = {
-        ["autoconf/2.69"]  = {
-          ["Name"] = "autoconf",
-          ["Version"] = "2.69",
-          ["canonical"] = "2.69",
-          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/7.2.0/autoconf/2.69.lua",
-          ["help"] = "Autoconf -- system configuration part of autotools",
-          ["luaExt"] = 5,
-          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/7.2.0",
-          ["pV"] = "000000002.000000069.*zfinal",
-          pathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-7.2.0/autoconf-2.69-wiph7fc7tgkslv7qwsrvplu73vr27srx/bin"] = 1,
-          },
-          ["wV"] = "000000002.000000069.*zfinal",
-          whatis = {
-            "Name : autoconf", "Version : 2.69",
-          },
-        },
-      },
-    },
-    automake = {
-      defaultT = {},
-      dirT = {},
-      fileT = {
-        ["automake/1.15"]  = {
-          ["Name"] = "automake",
-          ["Version"] = "1.15",
-          ["canonical"] = "1.15",
-          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/7.2.0/automake/1.15.lua",
-          ["help"] = "Automake -- make file builder part of autotools",
-          ["luaExt"] = 5,
-          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/7.2.0",
-          ["pV"] = "000000001.000000015.*zfinal",
-          pathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-7.2.0/automake-1.15-s4ohs3gdaal23odu3frcjxxru2svlnyf/bin"] = 1,
-          },
-          ["wV"] = "000000001.000000015.*zfinal",
-          whatis = {
-            "Name : automake", "Version : 1.15",
-          },
-        },
-      },
-    },
-    bison = {
-      defaultT = {},
-      dirT = {},
-      fileT = {
-        ["bison/3.0.4"]  = {
-          ["Name"] = "bison",
-          ["Version"] = "3.0.4",
-          ["canonical"] = "3.0.4",
-          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/7.2.0/bison/3.0.4.lua",
-          ["help"] = "Bison is a general-purpose parser generator that converts an annotated context-free grammar into a deterministic LR or generalized LR (GLR) parser employing LALR(1) parser tables.",
+        ["binutils/2.28"]  = {
+          ["Name"] = "binutils",
+          ["Version"] = "2.28",
+          ["canonical"] = "2.28",
+          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/7.2.0/binutils/2.28.lua",
+          ["help"] = "GNU binutils, which contain the linker, assembler, objdump and others",
           lpathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-7.2.0/bison-3.0.4-hbxwkedhg6kaaazd3fyph2h3rrdgrbey/lib"] = 1,
+            ["/share/apps/spack/spack_compilers/opt/spack/linux-rhel6-x86_64/gcc-4.9.2/binutils-2.28-alrtwoaxcjhyppr2srli5n3od27s4yug/lib"] = 1,
           },
-          ["luaExt"] = 6,
+          ["luaExt"] = 5,
           ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/7.2.0",
-          ["pV"] = "000000003.000000000.000000004.*zfinal",
+          ["pV"] = "000000002.000000028.*zfinal",
           pathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-7.2.0/bison-3.0.4-hbxwkedhg6kaaazd3fyph2h3rrdgrbey/bin"] = 1,
+            ["/share/apps/spack/spack_compilers/opt/spack/linux-rhel6-x86_64/gcc-4.9.2/binutils-2.28-alrtwoaxcjhyppr2srli5n3od27s4yug/bin"] = 1,
           },
-          ["wV"] = "000000003.000000000.000000004.*zfinal",
+          ["wV"] = "000000002.000000028.*zfinal",
           whatis = {
-            "Name : bison", "Version : 3.0.4",
+            "Name : binutils", "Version : 2.28",
           },
         },
       },
@@ -1487,81 +810,6 @@ spiderT = {
         },
       },
     },
-    flex = {
-      defaultT = {},
-      dirT = {},
-      fileT = {
-        ["flex/2.6.4"]  = {
-          ["Name"] = "flex",
-          ["Version"] = "2.6.4",
-          ["canonical"] = "2.6.4",
-          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/7.2.0/flex/2.6.4.lua",
-          ["help"] = "Flex is a tool for generating scanners.",
-          lpathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-7.2.0/flex-2.6.4-kgsi5tsosirom6fufabw5ry7xdl7rdz7/lib"] = 1,
-          },
-          ["luaExt"] = 6,
-          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/7.2.0",
-          ["pV"] = "000000002.000000006.000000004.*zfinal",
-          pathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-7.2.0/flex-2.6.4-kgsi5tsosirom6fufabw5ry7xdl7rdz7/bin"] = 1,
-          },
-          ["wV"] = "000000002.000000006.000000004.*zfinal",
-          whatis = {
-            "Name : flex", "Version : 2.6.4",
-          },
-        },
-      },
-    },
-    gettext = {
-      defaultT = {},
-      dirT = {},
-      fileT = {
-        ["gettext/0.19.8.1"]  = {
-          ["Name"] = "gettext",
-          ["Version"] = "0.19.8.1",
-          ["canonical"] = "0.19.8.1",
-          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/7.2.0/gettext/0.19.8.1.lua",
-          ["help"] = "GNU internationalization (i18n) and localization (l10n) library.",
-          lpathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-7.2.0/gettext-0.19.8.1-x3sjn4b4c24sampugell6ymunlkt4rlx/lib"] = 1,
-          },
-          ["luaExt"] = 9,
-          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/7.2.0",
-          ["pV"] = "000000000.000000019.000000008.000000001.*zfinal",
-          pathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-7.2.0/gettext-0.19.8.1-x3sjn4b4c24sampugell6ymunlkt4rlx/bin"] = 1,
-          },
-          ["wV"] = "000000000.000000019.000000008.000000001.*zfinal",
-          whatis = {
-            "Name : gettext", "Version : 0.19.8.1",
-          },
-        },
-      },
-    },
-    gmp = {
-      defaultT = {},
-      dirT = {},
-      fileT = {
-        ["gmp/6.1.2"]  = {
-          ["Name"] = "gmp",
-          ["Version"] = "6.1.2",
-          ["canonical"] = "6.1.2",
-          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/7.2.0/gmp/6.1.2.lua",
-          ["help"] = "GMP is a free library for arbitrary precision arithmetic, operating on signed integers, rational numbers, and floating-point numbers.",
-          lpathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-7.2.0/gmp-6.1.2-tziihbsopkoddui3bjxhnrqhnyt6txdd/lib"] = 1,
-          },
-          ["luaExt"] = 6,
-          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/7.2.0",
-          ["pV"] = "000000006.000000001.000000002.*zfinal",
-          ["wV"] = "000000006.000000001.000000002.*zfinal",
-          whatis = {
-            "Name : gmp", "Version : 6.1.2",
-          },
-        },
-      },
-    },
     gsl = {
       defaultT = {},
       dirT = {},
@@ -1584,32 +832,6 @@ spiderT = {
           ["wV"] = "000000002.000000003.*zfinal",
           whatis = {
             "Name : gsl", "Version : 2.3",
-          },
-        },
-      },
-    },
-    help2man = {
-      defaultT = {},
-      dirT = {},
-      fileT = {
-        ["help2man/1.47.4"]  = {
-          ["Name"] = "help2man",
-          ["Version"] = "1.47.4",
-          ["canonical"] = "1.47.4",
-          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/7.2.0/help2man/1.47.4.lua",
-          ["help"] = "help2man produces simple manual pages from the '--help' and '--version' output of other commands.",
-          lpathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-7.2.0/help2man-1.47.4-zyohl7rx2t4lnymo4o2ubimh3nccstss/lib"] = 1,
-          },
-          ["luaExt"] = 7,
-          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/7.2.0",
-          ["pV"] = "000000001.000000047.000000004.*zfinal",
-          pathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-7.2.0/help2man-1.47.4-zyohl7rx2t4lnymo4o2ubimh3nccstss/bin"] = 1,
-          },
-          ["wV"] = "000000001.000000047.000000004.*zfinal",
-          whatis = {
-            "Name : help2man", "Version : 1.47.4",
           },
         },
       },
@@ -1663,32 +885,6 @@ spiderT = {
         },
       },
     },
-    jasper = {
-      defaultT = {},
-      dirT = {},
-      fileT = {
-        ["jasper/1.900.1"]  = {
-          ["Name"] = "jasper",
-          ["Version"] = "1.900.1",
-          ["canonical"] = "1.900.1",
-          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/7.2.0/jasper/1.900.1.lua",
-          ["help"] = "Library for manipulating JPEG-2000 images",
-          lpathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-7.2.0/jasper-1.900.1-mphfdeej3v5gwljzk7ze73vw3m3eqk2w/lib"] = 1,
-          },
-          ["luaExt"] = 8,
-          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/7.2.0",
-          ["pV"] = "000000001.000000900.000000001.*zfinal",
-          pathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-7.2.0/jasper-1.900.1-mphfdeej3v5gwljzk7ze73vw3m3eqk2w/bin"] = 1,
-          },
-          ["wV"] = "000000001.000000900.000000001.*zfinal",
-          whatis = {
-            "Name : jasper", "Version : 1.900.1",
-          },
-        },
-      },
-    },
     jdk = {
       defaultT = {},
       dirT = {},
@@ -1711,6 +907,32 @@ spiderT = {
           ["wV"] = "000000008.*u.000000141.*b.000000015.*zfinal",
           whatis = {
             "Name : jdk", "Version : 8u141-b15",
+          },
+        },
+      },
+    },
+    jpeg = {
+      defaultT = {},
+      dirT = {},
+      fileT = {
+        ["jpeg/9b"]  = {
+          ["Name"] = "jpeg",
+          ["Version"] = "9b",
+          ["canonical"] = "9b",
+          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/7.2.0/jpeg/9b.lua",
+          ["help"] = "libjpeg is a widely used free library with functions for handling the JPEG image data format. It implements a JPEG codec (encoding and decoding) alongside various utilities for handling JPEG data.",
+          lpathA = {
+            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-7.2.0/jpeg-9b-drxifjl5dclmqtgkntzdzj5gk4u5n7pz/lib"] = 1,
+          },
+          ["luaExt"] = 3,
+          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/7.2.0",
+          ["pV"] = "000000009.*b.*zfinal",
+          pathA = {
+            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-7.2.0/jpeg-9b-drxifjl5dclmqtgkntzdzj5gk4u5n7pz/bin"] = 1,
+          },
+          ["wV"] = "000000009.*b.*zfinal",
+          whatis = {
+            "Name : jpeg", "Version : 9b",
           },
         },
       },
@@ -1741,29 +963,6 @@ spiderT = {
         },
       },
     },
-    libpciaccess = {
-      defaultT = {},
-      dirT = {},
-      fileT = {
-        ["libpciaccess/0.13.5"]  = {
-          ["Name"] = "libpciaccess",
-          ["Version"] = "0.13.5",
-          ["canonical"] = "0.13.5",
-          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/7.2.0/libpciaccess/0.13.5.lua",
-          ["help"] = "Generic PCI access library.",
-          lpathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-7.2.0/libpciaccess-0.13.5-q4netjekvkzm5ovrepxvdamqkrrdja52/lib"] = 1,
-          },
-          ["luaExt"] = 7,
-          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/7.2.0",
-          ["pV"] = "000000000.000000013.000000005.*zfinal",
-          ["wV"] = "000000000.000000013.000000005.*zfinal",
-          whatis = {
-            "Name : libpciaccess", "Version : 0.13.5",
-          },
-        },
-      },
-    },
     libpng = {
       defaultT = {},
       dirT = {},
@@ -1786,29 +985,6 @@ spiderT = {
           ["wV"] = "000000001.000000006.000000029.*zfinal",
           whatis = {
             "Name : libpng", "Version : 1.6.29",
-          },
-        },
-      },
-    },
-    libsigsegv = {
-      defaultT = {},
-      dirT = {},
-      fileT = {
-        ["libsigsegv/2.11"]  = {
-          ["Name"] = "libsigsegv",
-          ["Version"] = "2.11",
-          ["canonical"] = "2.11",
-          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/7.2.0/libsigsegv/2.11.lua",
-          ["help"] = "GNU libsigsegv is a library for handling page faults in user mode.",
-          lpathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-7.2.0/libsigsegv-2.11-fjuuwzmigo2t56zwhv7xlqlxg3ayamng/lib"] = 1,
-          },
-          ["luaExt"] = 5,
-          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/7.2.0",
-          ["pV"] = "000000002.000000011.*zfinal",
-          ["wV"] = "000000002.000000011.*zfinal",
-          whatis = {
-            "Name : libsigsegv", "Version : 2.11",
           },
         },
       },
@@ -1862,32 +1038,6 @@ spiderT = {
         },
       },
     },
-    libtool = {
-      defaultT = {},
-      dirT = {},
-      fileT = {
-        ["libtool/2.4.6"]  = {
-          ["Name"] = "libtool",
-          ["Version"] = "2.4.6",
-          ["canonical"] = "2.4.6",
-          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/7.2.0/libtool/2.4.6.lua",
-          ["help"] = "libtool -- library building part of autotools.",
-          lpathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-7.2.0/libtool-2.4.6-njk2pzudiprn45ehlnzckluqlojzvv2j/lib"] = 1,
-          },
-          ["luaExt"] = 6,
-          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/7.2.0",
-          ["pV"] = "000000002.000000004.000000006.*zfinal",
-          pathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-7.2.0/libtool-2.4.6-njk2pzudiprn45ehlnzckluqlojzvv2j/bin"] = 1,
-          },
-          ["wV"] = "000000002.000000004.000000006.*zfinal",
-          whatis = {
-            "Name : libtool", "Version : 2.4.6",
-          },
-        },
-      },
-    },
     libxml2 = {
       defaultT = {},
       dirT = {},
@@ -1910,127 +1060,6 @@ spiderT = {
           ["wV"] = "000000002.000000009.000000004.*zfinal",
           whatis = {
             "Name : libxml2", "Version : 2.9.4",
-          },
-        },
-      },
-    },
-    m4 = {
-      defaultT = {},
-      dirT = {},
-      fileT = {
-        ["m4/1.4.18"]  = {
-          ["Name"] = "m4",
-          ["Version"] = "1.4.18",
-          ["canonical"] = "1.4.18",
-          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/7.2.0/m4/1.4.18.lua",
-          ["help"] = "GNU M4 is an implementation of the traditional Unix macro processor.",
-          ["luaExt"] = 7,
-          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/7.2.0",
-          ["pV"] = "000000001.000000004.000000018.*zfinal",
-          pathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-7.2.0/m4-1.4.18-gnldm4kxrfevm5isergehqio6r4gzhzu/bin"] = 1,
-          },
-          ["wV"] = "000000001.000000004.000000018.*zfinal",
-          whatis = {
-            "Name : m4", "Version : 1.4.18",
-          },
-        },
-      },
-    },
-    metis = {
-      defaultT = {},
-      dirT = {},
-      fileT = {
-        ["metis/5.1.0"]  = {
-          ["Name"] = "metis",
-          ["Version"] = "5.1.0",
-          ["canonical"] = "5.1.0",
-          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/7.2.0/metis/5.1.0.lua",
-          ["help"] = "METIS is a set of serial programs for partitioning graphs, partitioning finite element meshes, and producing fill reducing orderings for sparse matrices. The algorithms implemented in METIS are based on the multilevel recursive-bisection, multilevel k-way, and multi-constraint partitioning schemes.",
-          lpathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-7.2.0/metis-5.1.0-kb2dfepzdfetblzawvghybaldb2q4obh/lib"] = 1,
-          },
-          ["luaExt"] = 6,
-          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/7.2.0",
-          ["pV"] = "000000005.000000001.*zfinal",
-          pathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-7.2.0/metis-5.1.0-kb2dfepzdfetblzawvghybaldb2q4obh/bin"] = 1,
-          },
-          ["wV"] = "000000005.000000001.*zfinal",
-          whatis = {
-            "Name : metis", "Version : 5.1.0",
-          },
-        },
-      },
-    },
-    mpfr = {
-      defaultT = {},
-      dirT = {},
-      fileT = {
-        ["mpfr/3.1.5"]  = {
-          ["Name"] = "mpfr",
-          ["Version"] = "3.1.5",
-          ["canonical"] = "3.1.5",
-          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/7.2.0/mpfr/3.1.5.lua",
-          ["help"] = "The MPFR library is a C library for multiple-precision floating-point computations with correct rounding.",
-          lpathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-7.2.0/mpfr-3.1.5-ekl2dhmerlx64dlxjuoogxhumisekhg4/lib"] = 1,
-          },
-          ["luaExt"] = 6,
-          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/7.2.0",
-          ["pV"] = "000000003.000000001.000000005.*zfinal",
-          ["wV"] = "000000003.000000001.000000005.*zfinal",
-          whatis = {
-            "Name : mpfr", "Version : 3.1.5",
-          },
-        },
-      },
-    },
-    nasm = {
-      defaultT = {},
-      dirT = {},
-      fileT = {
-        ["nasm/2.11.06"]  = {
-          ["Name"] = "nasm",
-          ["Version"] = "2.11.06",
-          ["canonical"] = "2.11.06",
-          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/7.2.0/nasm/2.11.06.lua",
-          ["help"] = "NASM (Netwide Assembler) is an 80x86 assembler designed for portability and modularity. It includes a disassembler as well.",
-          ["luaExt"] = 8,
-          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/7.2.0",
-          ["pV"] = "000000002.000000011.000000006.*zfinal",
-          pathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-7.2.0/nasm-2.11.06-zncu5z3l4ucrptahbqpvok6lzodtp47v/bin"] = 1,
-          },
-          ["wV"] = "000000002.000000011.000000006.*zfinal",
-          whatis = {
-            "Name : nasm", "Version : 2.11.06",
-          },
-        },
-      },
-    },
-    ncurses = {
-      defaultT = {},
-      dirT = {},
-      fileT = {
-        ["ncurses/6.0"]  = {
-          ["Name"] = "ncurses",
-          ["Version"] = "6.0",
-          ["canonical"] = "6.0",
-          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/7.2.0/ncurses/6.0.lua",
-          ["help"] = "The ncurses (new curses) library is a free software emulation of curses in System V Release 4.0, and more. It uses terminfo format, supports pads and color and multiple highlights and forms characters and function-key mapping, and has all the other SYSV-curses enhancements over BSD curses.",
-          lpathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-7.2.0/ncurses-6.0-vpld45lk6wjgo6r2iqniqk6alipz55az/lib"] = 1,
-          },
-          ["luaExt"] = 4,
-          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/7.2.0",
-          ["pV"] = "000000006.*zfinal",
-          pathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-7.2.0/ncurses-6.0-vpld45lk6wjgo6r2iqniqk6alipz55az/bin"] = 1,
-          },
-          ["wV"] = "000000006.*zfinal",
-          whatis = {
-            "Name : ncurses", "Version : 6.0",
           },
         },
       },
@@ -2106,21 +1135,30 @@ spiderT = {
             "Name : opencv", "Version : 3.3.0",
           },
         },
-        ["opencv/3.3.0-py3-openblas"]  = {
-          ["Name"] = "opencv",
-          ["Version"] = "3.3.0",
-          ["canonical"] = "3.3.0-py3-openblas",
-          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/7.2.0/opencv/3.3.0-py3-openblas.lua",
-          ["help"] = "OpenCV is released under a BSD license and hence it's free for both academic and commercial use. It has C++, C, Python and Java interfaces and supports Windows, Linux, Mac OS, iOS and Android. OpenCV was designed for computational efficiency and with a strong focus on real-time applications. Written in optimized C/C++, the library can take advantage of multi-core processing. Enabled with OpenCL, it can take advantage of the hardware acceleration of the underlying heterogeneous compute platform. Adopted all around the world, OpenCV has more than 47 thousand people of user community and estimated number of downloads exceeding 9 million. Usage ranges from interactive art, to mines inspection, stitching maps on the web or through advanced robotics. ",
+      },
+    },
+    openjpeg = {
+      defaultT = {},
+      dirT = {},
+      fileT = {
+        ["openjpeg/2.1"]  = {
+          ["Name"] = "openjpeg",
+          ["Version"] = "2.1",
+          ["canonical"] = "2.1",
+          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/7.2.0/openjpeg/2.1.lua",
+          ["help"] = "OpenJPEG is an open-source JPEG 2000 codec written in C language. It has been developed in order to promote the use of JPEG 2000, a still-image compression standard from the Joint Photographic Experts Group (JPEG). Since April 2015, it is officially recognized by ISO/IEC and ITU-T as a JPEG 2000 Reference Software. ",
           lpathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-7.2.0/opencv-3.3.0-uxwr2fjrfja4q4bdwddpuesh2ph3j4m2/lib"] = 1,
+            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-7.2.0/openjpeg-2.1-vkphvom5mqsptcmnym2ctap6wpguy44b/lib"] = 1,
           },
-          ["luaExt"] = 19,
+          ["luaExt"] = 4,
           ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/7.2.0",
-          ["pV"] = "000000003.000000003.*y.000000003.*openblas.*zfinal",
-          ["wV"] = "000000003.000000003.*y.000000003.*openblas.*zfinal",
+          ["pV"] = "000000002.000000001.*zfinal",
+          pathA = {
+            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-7.2.0/openjpeg-2.1-vkphvom5mqsptcmnym2ctap6wpguy44b/bin"] = 1,
+          },
+          ["wV"] = "000000002.000000001.*zfinal",
           whatis = {
-            "Name : opencv", "Version : 3.3.0",
+            "Name : openjpeg", "Version : 2.1",
           },
         },
       },
@@ -2200,264 +1238,6 @@ spiderT = {
         },
       },
     },
-    ["py-cython"]  = {
-      defaultT = {},
-      dirT = {},
-      fileT = {
-        ["py-cython/0.25.2-py2"]  = {
-          ["Name"] = "py-cython",
-          ["Version"] = "0.25.2",
-          ["canonical"] = "0.25.2-py2",
-          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/7.2.0/py-cython/0.25.2-py2.lua",
-          ["help"] = "The Cython compiler for writing C extensions for the Python language.",
-          lpathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-7.2.0/py-cython-0.25.2-5bipn4eesleby7gisgo5fthi2q65ip2e/lib"] = 1,
-          },
-          ["luaExt"] = 11,
-          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/7.2.0",
-          ["pV"] = "000000000.000000025.000000002.*y.000000002.*zfinal",
-          pathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-7.2.0/py-cython-0.25.2-5bipn4eesleby7gisgo5fthi2q65ip2e/bin"] = 1,
-          },
-          ["wV"] = "000000000.000000025.000000002.*y.000000002.*zfinal",
-          whatis = {
-            "Name : py-cython", "Version : 0.25.2",
-          },
-        },
-        ["py-cython/0.25.2-py3"]  = {
-          ["Name"] = "py-cython",
-          ["Version"] = "0.25.2",
-          ["canonical"] = "0.25.2-py3",
-          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/7.2.0/py-cython/0.25.2-py3.lua",
-          ["help"] = "The Cython compiler for writing C extensions for the Python language.",
-          lpathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-7.2.0/py-cython-0.25.2-lyypgqvajol4tihjjt6zsmjf45qu66ai/lib"] = 1,
-          },
-          ["luaExt"] = 11,
-          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/7.2.0",
-          ["pV"] = "000000000.000000025.000000002.*y.000000003.*zfinal",
-          pathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-7.2.0/py-cython-0.25.2-lyypgqvajol4tihjjt6zsmjf45qu66ai/bin"] = 1,
-          },
-          ["wV"] = "000000000.000000025.000000002.*y.000000003.*zfinal",
-          whatis = {
-            "Name : py-cython", "Version : 0.25.2",
-          },
-        },
-      },
-    },
-    ["py-numpy"]  = {
-      defaultT = {},
-      dirT = {},
-      fileT = {
-        ["py-numpy/1.13.1-openblas-py2"]  = {
-          ["Name"] = "py-numpy",
-          ["Version"] = "1.13.1",
-          ["canonical"] = "1.13.1-openblas-py2",
-          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/7.2.0/py-numpy/1.13.1-openblas-py2.lua",
-          ["help"] = "NumPy is the fundamental package for scientific computing with Python. It contains among other things: a powerful N-dimensional array object, sophisticated (broadcasting) functions, tools for integrating C/C++ and Fortran code, and useful linear algebra, Fourier transform, and random number capabilities",
-          lpathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-7.2.0/py-numpy-1.13.1-6ck3ckr5gziifnimissifrf62vg3k2zu/lib"] = 1,
-          },
-          ["luaExt"] = 20,
-          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/7.2.0",
-          ["pV"] = "000000001.000000013.000000001.*openblas.*y.000000002.*zfinal",
-          pathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-7.2.0/py-numpy-1.13.1-6ck3ckr5gziifnimissifrf62vg3k2zu/bin"] = 1,
-          },
-          ["wV"] = "000000001.000000013.000000001.*openblas.*y.000000002.*zfinal",
-          whatis = {
-            "Name : py-numpy", "Version : 1.13.1",
-          },
-        },
-        ["py-numpy/1.13.1-py3-openblas"]  = {
-          ["Name"] = "py-numpy",
-          ["Version"] = "1.13.1",
-          ["canonical"] = "1.13.1-py3-openblas",
-          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/7.2.0/py-numpy/1.13.1-py3-openblas.lua",
-          ["help"] = "NumPy is the fundamental package for scientific computing with Python. It contains among other things: a powerful N-dimensional array object, sophisticated (broadcasting) functions, tools for integrating C/C++ and Fortran code, and useful linear algebra, Fourier transform, and random number capabilities",
-          lpathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-7.2.0/py-numpy-1.13.1-q2mx5yzxgfm7n4kk6c3rigntfk2tew7f/lib"] = 1,
-          },
-          ["luaExt"] = 20,
-          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/7.2.0",
-          ["pV"] = "000000001.000000013.000000001.*y.000000003.*openblas.*zfinal",
-          pathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-7.2.0/py-numpy-1.13.1-q2mx5yzxgfm7n4kk6c3rigntfk2tew7f/bin"] = 1,
-          },
-          ["wV"] = "000000001.000000013.000000001.*y.000000003.*openblas.*zfinal",
-          whatis = {
-            "Name : py-numpy", "Version : 1.13.1",
-          },
-        },
-      },
-    },
-    ["py-pandas"]  = {
-      defaultT = {},
-      dirT = {},
-      fileT = {
-        ["py-pandas/0.19.0-openblas-py2"]  = {
-          ["Name"] = "py-pandas",
-          ["Version"] = "0.19.0",
-          ["canonical"] = "0.19.0-openblas-py2",
-          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/7.2.0/py-pandas/0.19.0-openblas-py2.lua",
-          ["help"] = "pandas is a Python package providing fast, flexible, and expressive data structures designed to make working with relational or labeled data both easy and intuitive. It aims to be the fundamental high-level building block for doing practical, real world data analysis in Python. Additionally, it has the broader goal of becoming the most powerful and flexible open source data analysis / manipulation tool available in any language. ",
-          lpathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-7.2.0/py-pandas-0.19.0-i6jw5pjmxt5xko5tzoj4romvamddew2w/lib"] = 1,
-          },
-          ["luaExt"] = 20,
-          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/7.2.0",
-          ["pV"] = "000000000.000000019.*openblas.*y.000000002.*zfinal",
-          ["wV"] = "000000000.000000019.*openblas.*y.000000002.*zfinal",
-          whatis = {
-            "Name : py-pandas", "Version : 0.19.0",
-          },
-        },
-        ["py-pandas/0.19.0-py3-openblas"]  = {
-          ["Name"] = "py-pandas",
-          ["Version"] = "0.19.0",
-          ["canonical"] = "0.19.0-py3-openblas",
-          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/7.2.0/py-pandas/0.19.0-py3-openblas.lua",
-          ["help"] = "pandas is a Python package providing fast, flexible, and expressive data structures designed to make working with relational or labeled data both easy and intuitive. It aims to be the fundamental high-level building block for doing practical, real world data analysis in Python. Additionally, it has the broader goal of becoming the most powerful and flexible open source data analysis / manipulation tool available in any language. ",
-          lpathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-7.2.0/py-pandas-0.19.0-oxa3mnco224cqm3d64aj7645zlrvi2lt/lib"] = 1,
-          },
-          ["luaExt"] = 20,
-          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/7.2.0",
-          ["pV"] = "000000000.000000019.*y.000000003.*openblas.*zfinal",
-          ["wV"] = "000000000.000000019.*y.000000003.*openblas.*zfinal",
-          whatis = {
-            "Name : py-pandas", "Version : 0.19.0",
-          },
-        },
-      },
-    },
-    ["py-scipy"]  = {
-      defaultT = {},
-      dirT = {},
-      fileT = {
-        ["py-scipy/0.19.1-openblas-py2"]  = {
-          ["Name"] = "py-scipy",
-          ["Version"] = "0.19.1",
-          ["canonical"] = "0.19.1-openblas-py2",
-          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/7.2.0/py-scipy/0.19.1-openblas-py2.lua",
-          ["help"] = "SciPy (pronounced \"Sigh Pie\") is a Scientific Library for Python. It provides many user-friendly and efficient numerical routines such as routines for numerical integration and optimization.",
-          lpathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-7.2.0/py-scipy-0.19.1-bgym3437sofurvlgukjevkfm27aykidu/lib"] = 1,
-          },
-          ["luaExt"] = 20,
-          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/7.2.0",
-          ["pV"] = "000000000.000000019.000000001.*openblas.*y.000000002.*zfinal",
-          ["wV"] = "000000000.000000019.000000001.*openblas.*y.000000002.*zfinal",
-          whatis = {
-            "Name : py-scipy", "Version : 0.19.1",
-          },
-        },
-        ["py-scipy/0.19.1-py3-openblas"]  = {
-          ["Name"] = "py-scipy",
-          ["Version"] = "0.19.1",
-          ["canonical"] = "0.19.1-py3-openblas",
-          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/7.2.0/py-scipy/0.19.1-py3-openblas.lua",
-          ["help"] = "SciPy (pronounced \"Sigh Pie\") is a Scientific Library for Python. It provides many user-friendly and efficient numerical routines such as routines for numerical integration and optimization.",
-          lpathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-7.2.0/py-scipy-0.19.1-3gqlk2fxtyrlnmy5lmmjpeeykzqze6wt/lib"] = 1,
-          },
-          ["luaExt"] = 20,
-          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/7.2.0",
-          ["pV"] = "000000000.000000019.000000001.*y.000000003.*openblas.*zfinal",
-          ["wV"] = "000000000.000000019.000000001.*y.000000003.*openblas.*zfinal",
-          whatis = {
-            "Name : py-scipy", "Version : 0.19.1",
-          },
-        },
-      },
-    },
-    ["py-six"]  = {
-      defaultT = {},
-      dirT = {},
-      fileT = {
-        ["py-six/1.10.0-py2"]  = {
-          ["Name"] = "py-six",
-          ["Version"] = "1.10.0",
-          ["canonical"] = "1.10.0-py2",
-          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/7.2.0/py-six/1.10.0-py2.lua",
-          ["help"] = "Python 2 and 3 compatibility utilities.",
-          lpathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-7.2.0/py-six-1.10.0-rz3wphmr34hhw4lskmxcv34si43ctgzv/lib"] = 1,
-          },
-          ["luaExt"] = 11,
-          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/7.2.0",
-          ["pV"] = "000000001.000000010.*y.000000002.*zfinal",
-          ["wV"] = "000000001.000000010.*y.000000002.*zfinal",
-          whatis = {
-            "Name : py-six", "Version : 1.10.0",
-          },
-        },
-        ["py-six/1.10.0-py3"]  = {
-          ["Name"] = "py-six",
-          ["Version"] = "1.10.0",
-          ["canonical"] = "1.10.0-py3",
-          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/7.2.0/py-six/1.10.0-py3.lua",
-          ["help"] = "Python 2 and 3 compatibility utilities.",
-          lpathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-7.2.0/py-six-1.10.0-mfnzaunym4lo67vlolp2b4hx3ubmiwlr/lib"] = 1,
-          },
-          ["luaExt"] = 11,
-          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/7.2.0",
-          ["pV"] = "000000001.000000010.*y.000000003.*zfinal",
-          ["wV"] = "000000001.000000010.*y.000000003.*zfinal",
-          whatis = {
-            "Name : py-six", "Version : 1.10.0",
-          },
-        },
-      },
-    },
-    ["py-virtualenv"]  = {
-      defaultT = {},
-      dirT = {},
-      fileT = {
-        ["py-virtualenv/15.1.0-py2"]  = {
-          ["Name"] = "py-virtualenv",
-          ["Version"] = "15.1.0",
-          ["canonical"] = "15.1.0-py2",
-          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/7.2.0/py-virtualenv/15.1.0-py2.lua",
-          ["help"] = "virtualenv is a tool to create isolated Python environments.",
-          lpathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-7.2.0/py-virtualenv-15.1.0-gjeakjyqpnqkthwphwsunawm5hvzimsj/lib"] = 1,
-          },
-          ["luaExt"] = 11,
-          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/7.2.0",
-          ["pV"] = "000000015.000000001.*y.000000002.*zfinal",
-          pathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-7.2.0/py-virtualenv-15.1.0-gjeakjyqpnqkthwphwsunawm5hvzimsj/bin"] = 1,
-          },
-          ["wV"] = "000000015.000000001.*y.000000002.*zfinal",
-          whatis = {
-            "Name : py-virtualenv", "Version : 15.1.0",
-          },
-        },
-        ["py-virtualenv/15.1.0-py3"]  = {
-          ["Name"] = "py-virtualenv",
-          ["Version"] = "15.1.0",
-          ["canonical"] = "15.1.0-py3",
-          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/7.2.0/py-virtualenv/15.1.0-py3.lua",
-          ["help"] = "virtualenv is a tool to create isolated Python environments.",
-          lpathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-7.2.0/py-virtualenv-15.1.0-zc2obv6yh4tke5jdfd6gtqjsl2uehdtc/lib"] = 1,
-          },
-          ["luaExt"] = 11,
-          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/7.2.0",
-          ["pV"] = "000000015.000000001.*y.000000003.*zfinal",
-          pathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-7.2.0/py-virtualenv-15.1.0-zc2obv6yh4tke5jdfd6gtqjsl2uehdtc/bin"] = 1,
-          },
-          ["wV"] = "000000015.000000001.*y.000000003.*zfinal",
-          whatis = {
-            "Name : py-virtualenv", "Version : 15.1.0",
-          },
-        },
-      },
-    },
     python = {
       defaultT = {},
       dirT = {},
@@ -2482,76 +1262,30 @@ spiderT = {
             "Name : python", "Version : 2.7.13",
           },
         },
-        ["python/3.6.1"]  = {
-          ["Name"] = "python",
-          ["Version"] = "3.6.1",
-          ["canonical"] = "3.6.1",
-          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/7.2.0/python/3.6.1.lua",
-          ["help"] = "The Python programming language.",
-          lpathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-7.2.0/python-3.6.1-mmc4fw7bmapgpgnc476ixtrfunz2hocs/lib"] = 1,
-          },
-          ["luaExt"] = 6,
-          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/7.2.0",
-          ["pV"] = "000000003.000000006.000000001.*zfinal",
-          pathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-7.2.0/python-3.6.1-mmc4fw7bmapgpgnc476ixtrfunz2hocs/bin"] = 1,
-          },
-          ["wV"] = "000000003.000000006.000000001.*zfinal",
-          whatis = {
-            "Name : python", "Version : 3.6.1",
-          },
-        },
       },
     },
-    readline = {
+    qhull = {
       defaultT = {},
       dirT = {},
       fileT = {
-        ["readline/7.0"]  = {
-          ["Name"] = "readline",
-          ["Version"] = "7.0",
-          ["canonical"] = "7.0",
-          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/7.2.0/readline/7.0.lua",
-          ["help"] = "The GNU Readline library provides a set of functions for use by applications that allow users to edit command lines as they are typed in. Both Emacs and vi editing modes are available. The Readline library includes additional functions to maintain a list of previously-entered command lines, to recall and perhaps reedit those lines, and perform csh-like history expansion on previous commands.",
+        ["qhull/2015.2"]  = {
+          ["Name"] = "qhull",
+          ["Version"] = "2015.2",
+          ["canonical"] = "2015.2",
+          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/7.2.0/qhull/2015.2.lua",
+          ["help"] = "Qhull computes the convex hull, Delaunay triangulation, Voronoi diagram, halfspace intersection about a point, furt hest-site Delaunay triangulation, and furthest-site Voronoi diagram. The source code runs in 2-d, 3-d, 4-d, and higher dimensions. Qhull implements the Quickhull algorithm for computing the convex hull. It handles roundoff errors from floating point arithmetic. It computes volumes, surface areas, and approximations to the convex hull.",
           lpathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-7.2.0/readline-7.0-tnmwqjtstd2zwfcgbkjocfzm2pwzsnxt/lib"] = 1,
-          },
-          ["luaExt"] = 4,
-          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/7.2.0",
-          ["pV"] = "000000007.*zfinal",
-          pathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-7.2.0/readline-7.0-tnmwqjtstd2zwfcgbkjocfzm2pwzsnxt/bin"] = 1,
-          },
-          ["wV"] = "000000007.*zfinal",
-          whatis = {
-            "Name : readline", "Version : 7.0",
-          },
-        },
-      },
-    },
-    sqlite = {
-      defaultT = {},
-      dirT = {},
-      fileT = {
-        ["sqlite/3.20.0"]  = {
-          ["Name"] = "sqlite",
-          ["Version"] = "3.20.0",
-          ["canonical"] = "3.20.0",
-          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/7.2.0/sqlite/3.20.0.lua",
-          ["help"] = "SQLite3 is an SQL database engine in a C library. Programs that link the SQLite3 library can have SQL database access without running a separate RDBMS process. ",
-          lpathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-7.2.0/sqlite-3.20.0-srs4rn5uikzs3zvhp4lb52v5p6pgnyvn/lib"] = 1,
+            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-7.2.0/qhull-2015.2-fhch3nrtnkvalkulusikppk2qbo5nniz/lib"] = 1,
           },
           ["luaExt"] = 7,
           ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/7.2.0",
-          ["pV"] = "000000003.000000020.*zfinal",
+          ["pV"] = "000002015.000000002.*zfinal",
           pathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-7.2.0/sqlite-3.20.0-srs4rn5uikzs3zvhp4lb52v5p6pgnyvn/bin"] = 1,
+            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-7.2.0/qhull-2015.2-fhch3nrtnkvalkulusikppk2qbo5nniz/bin"] = 1,
           },
-          ["wV"] = "000000003.000000020.*zfinal",
+          ["wV"] = "000002015.000000002.*zfinal",
           whatis = {
-            "Name : sqlite", "Version : 3.20.0",
+            "Name : qhull", "Version : 2015.2",
           },
         },
       },
@@ -2625,26 +1359,6 @@ spiderT = {
         },
       },
     },
-    ["util-macros"]  = {
-      defaultT = {},
-      dirT = {},
-      fileT = {
-        ["util-macros/1.19.1"]  = {
-          ["Name"] = "util-macros",
-          ["Version"] = "1.19.1",
-          ["canonical"] = "1.19.1",
-          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/7.2.0/util-macros/1.19.1.lua",
-          ["help"] = "This is a set of autoconf macros used by the configure.ac scripts in other Xorg modular packages, and is needed to generate new versions of their configure scripts with autoconf.",
-          ["luaExt"] = 7,
-          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/7.2.0",
-          ["pV"] = "000000001.000000019.000000001.*zfinal",
-          ["wV"] = "000000001.000000019.000000001.*zfinal",
-          whatis = {
-            "Name : util-macros", "Version : 1.19.1",
-          },
-        },
-      },
-    },
     xz = {
       defaultT = {},
       dirT = {},
@@ -2695,7 +1409,231 @@ spiderT = {
       },
     },
   },
+  ["/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/intel-parallel-studio/composer.2015.3-7gite2v/intel/15.0.3"]  = {
+    ["arpack-ng"]  = {
+      defaultT = {},
+      dirT = {},
+      fileT = {
+        ["arpack-ng/3.5.0"]  = {
+          ["Name"] = "arpack-ng",
+          ["Version"] = "3.5.0",
+          ["canonical"] = "3.5.0",
+          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/intel-parallel-studio/composer.2015.3-7gite2v/intel/15.0.3/arpack-ng/3.5.0.lua",
+          ["help"] = "ARPACK-NG is a collection of Fortran77 subroutines designed to solve large scale eigenvalue problems. Important Features: * Reverse Communication Interface. * Single and Double Precision Real Arithmetic Versions for Symmetric, Non-symmetric, Standard or Generalized Problems. * Single and Double Precision Complex Arithmetic Versions for Standard or Generalized Problems. * Routines for Banded Matrices - Standard or Generalized Problems. * Routines for The Singular Value Decomposition. * Example driver routines that may be used as templates to implement numerous Shift-Invert strategies for all problem types, data types and precision. This project is a joint project between Debian, Octave and Scilab in order to provide a common and maintained version of arpack. Indeed, no single release has been published by Rice university for the last few years and since many software (Octave, Scilab, R, Matlab...) forked it and implemented their own modifications, arpack-ng aims to tackle this by providing a common repository and maintained versions. arpack-ng is replacing arpack almost everywhere. ",
+          lpathA = {
+            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/intel-15.0.3/arpack-ng-3.5.0-nnktddyh6io2myhesxngrzlerdy7v74o/lib64"] = 1,
+          },
+          ["luaExt"] = 6,
+          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/intel-parallel-studio/composer.2015.3-7gite2v/intel/15.0.3",
+          ["pV"] = "000000003.000000005.*zfinal",
+          ["wV"] = "000000003.000000005.*zfinal",
+          whatis = {
+            "Name : arpack-ng", "Version : 3.5.0",
+          },
+        },
+      },
+    },
+    eigen = {
+      defaultT = {},
+      dirT = {},
+      fileT = {
+        ["eigen/3.3.3"]  = {
+          ["Name"] = "eigen",
+          ["Version"] = "3.3.3",
+          ["canonical"] = "3.3.3",
+          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/intel-parallel-studio/composer.2015.3-7gite2v/intel/15.0.3/eigen/3.3.3.lua",
+          ["help"] = "Eigen is a C++ template library for linear algebra matrices, vectors, numerical solvers, and related algorithms. ",
+          ["luaExt"] = 6,
+          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/intel-parallel-studio/composer.2015.3-7gite2v/intel/15.0.3",
+          ["pV"] = "000000003.000000003.000000003.*zfinal",
+          ["wV"] = "000000003.000000003.000000003.*zfinal",
+          whatis = {
+            "Name : eigen", "Version : 3.3.3",
+          },
+        },
+      },
+    },
+    fftw = {
+      defaultT = {},
+      dirT = {},
+      fileT = {
+        ["fftw/3.3.6-pl2"]  = {
+          ["Name"] = "fftw",
+          ["Version"] = "3.3.6-pl2",
+          ["canonical"] = "3.3.6-pl2",
+          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/intel-parallel-studio/composer.2015.3-7gite2v/intel/15.0.3/fftw/3.3.6-pl2.lua",
+          ["help"] = "FFTW is a C subroutine library for computing the discrete Fourier transform (DFT) in one or more dimensions, of arbitrary input size, and of both real and complex data (as well as of even/odd data, i.e. the discrete cosine/sine transforms or DCT/DST). We believe that FFTW, which is free software, should become the FFT library of choice for most applications.",
+          lpathA = {
+            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/intel-15.0.3/fftw-3.3.6-pl2-sitcwnsl65wpjatyom6kvxqtbfxanw2c/lib"] = 1,
+          },
+          ["luaExt"] = 10,
+          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/intel-parallel-studio/composer.2015.3-7gite2v/intel/15.0.3",
+          ["pV"] = "000000003.000000003.000000006.*l.000000002.*zfinal",
+          pathA = {
+            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/intel-15.0.3/fftw-3.3.6-pl2-sitcwnsl65wpjatyom6kvxqtbfxanw2c/bin"] = 1,
+          },
+          ["wV"] = "000000003.000000003.000000006.*l.000000002.*zfinal",
+          whatis = {
+            "Name : fftw", "Version : 3.3.6-pl2",
+          },
+        },
+      },
+    },
+    hdf5 = {
+      defaultT = {},
+      dirT = {},
+      fileT = {
+        ["hdf5/1.10.1"]  = {
+          ["Name"] = "hdf5",
+          ["Version"] = "1.10.1",
+          ["canonical"] = "1.10.1",
+          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/intel-parallel-studio/composer.2015.3-7gite2v/intel/15.0.3/hdf5/1.10.1.lua",
+          ["help"] = "HDF5 is a data model, library, and file format for storing and managing data. It supports an unlimited variety of datatypes, and is designed for flexible and efficient I/O and for high volume and complex data. ",
+          lpathA = {
+            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/intel-15.0.3/hdf5-1.10.1-pthlbgwambz5qyi3zlozkp75t4scij2g/lib"] = 1,
+          },
+          ["luaExt"] = 7,
+          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/intel-parallel-studio/composer.2015.3-7gite2v/intel/15.0.3",
+          ["pV"] = "000000001.000000010.000000001.*zfinal",
+          pathA = {
+            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/intel-15.0.3/hdf5-1.10.1-pthlbgwambz5qyi3zlozkp75t4scij2g/bin"] = 1,
+          },
+          ["wV"] = "000000001.000000010.000000001.*zfinal",
+          whatis = {
+            "Name : hdf5", "Version : 1.10.1",
+          },
+        },
+      },
+    },
+    matio = {
+      defaultT = {},
+      dirT = {},
+      fileT = {
+        ["matio/1.5.9"]  = {
+          ["Name"] = "matio",
+          ["Version"] = "1.5.9",
+          ["canonical"] = "1.5.9",
+          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/intel-parallel-studio/composer.2015.3-7gite2v/intel/15.0.3/matio/1.5.9.lua",
+          ["help"] = "matio is an C library for reading and writing Matlab MAT files",
+          lpathA = {
+            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/intel-15.0.3/matio-1.5.9-7c6bmzo5kgkwxte7hcsamgmh7kutqcu5/lib"] = 1,
+          },
+          ["luaExt"] = 6,
+          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/intel-parallel-studio/composer.2015.3-7gite2v/intel/15.0.3",
+          ["pV"] = "000000001.000000005.000000009.*zfinal",
+          pathA = {
+            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/intel-15.0.3/matio-1.5.9-7c6bmzo5kgkwxte7hcsamgmh7kutqcu5/bin"] = 1,
+          },
+          ["wV"] = "000000001.000000005.000000009.*zfinal",
+          whatis = {
+            "Name : matio", "Version : 1.5.9",
+          },
+        },
+      },
+    },
+    netcdf = {
+      defaultT = {},
+      dirT = {},
+      fileT = {
+        ["netcdf/4.4.1.1"]  = {
+          ["Name"] = "netcdf",
+          ["Version"] = "4.4.1.1",
+          ["canonical"] = "4.4.1.1",
+          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/intel-parallel-studio/composer.2015.3-7gite2v/intel/15.0.3/netcdf/4.4.1.1.lua",
+          ["help"] = "NetCDF is a set of software libraries and self-describing, machine-independent data formats that support the creation, access, and sharing of array-oriented scientific data.",
+          lpathA = {
+            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/intel-15.0.3/netcdf-4.4.1.1-oamnq2jgv23x6hntgc3j4tehvgpvydza/lib"] = 1,
+          },
+          ["luaExt"] = 8,
+          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/intel-parallel-studio/composer.2015.3-7gite2v/intel/15.0.3",
+          ["pV"] = "000000004.000000004.000000001.000000001.*zfinal",
+          pathA = {
+            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/intel-15.0.3/netcdf-4.4.1.1-oamnq2jgv23x6hntgc3j4tehvgpvydza/bin"] = 1,
+          },
+          ["wV"] = "000000004.000000004.000000001.000000001.*zfinal",
+          whatis = {
+            "Name : netcdf", "Version : 4.4.1.1",
+          },
+        },
+      },
+    },
+    ["parallel-netcdf"]  = {
+      defaultT = {},
+      dirT = {},
+      fileT = {
+        ["parallel-netcdf/1.8.0"]  = {
+          ["Name"] = "parallel-netcdf",
+          ["Version"] = "1.8.0",
+          ["canonical"] = "1.8.0",
+          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/intel-parallel-studio/composer.2015.3-7gite2v/intel/15.0.3/parallel-netcdf/1.8.0.lua",
+          ["help"] = "Parallel netCDF (PnetCDF) is a library providing high-performance parallel I/O while still maintaining file-format compatibility with Unidata's NetCDF.",
+          lpathA = {
+            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/intel-15.0.3/parallel-netcdf-1.8.0-ka7nncfx5ooadn2pird4tmxqk2miv3tb/lib"] = 1,
+          },
+          ["luaExt"] = 6,
+          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/intel-parallel-studio/composer.2015.3-7gite2v/intel/15.0.3",
+          ["pV"] = "000000001.000000008.*zfinal",
+          pathA = {
+            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/intel-15.0.3/parallel-netcdf-1.8.0-ka7nncfx5ooadn2pird4tmxqk2miv3tb/bin"] = 1,
+          },
+          ["wV"] = "000000001.000000008.*zfinal",
+          whatis = {
+            "Name : parallel-netcdf", "Version : 1.8.0",
+          },
+        },
+      },
+    },
+    superlu = {
+      defaultT = {},
+      dirT = {},
+      fileT = {
+        ["superlu/5.2.1"]  = {
+          ["Name"] = "superlu",
+          ["Version"] = "5.2.1",
+          ["canonical"] = "5.2.1",
+          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/intel-parallel-studio/composer.2015.3-7gite2v/intel/15.0.3/superlu/5.2.1.lua",
+          ["help"] = "SuperLU is a general purpose library for the direct solution of large, sparse, nonsymmetric systems of linear equations on high performance machines. SuperLU is designed for sequential machines.",
+          lpathA = {
+            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/intel-15.0.3/superlu-5.2.1-cnw7nq547gk7sjy573suiazbuxqvefth/lib64"] = 1,
+          },
+          ["luaExt"] = 6,
+          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/intel-parallel-studio/composer.2015.3-7gite2v/intel/15.0.3",
+          ["pV"] = "000000005.000000002.000000001.*zfinal",
+          ["wV"] = "000000005.000000002.000000001.*zfinal",
+          whatis = {
+            "Name : superlu", "Version : 5.2.1",
+          },
+        },
+      },
+    },
+  },
   ["/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/intel/15.0.3"]  = {
+    binutils = {
+      defaultT = {},
+      dirT = {},
+      fileT = {
+        ["binutils/2.28"]  = {
+          ["Name"] = "binutils",
+          ["Version"] = "2.28",
+          ["canonical"] = "2.28",
+          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/intel/15.0.3/binutils/2.28.lua",
+          ["help"] = "GNU binutils, which contain the linker, assembler, objdump and others",
+          lpathA = {
+            ["/share/apps/spack/spack_compilers/opt/spack/linux-rhel6-x86_64/gcc-4.9.2/binutils-2.28-alrtwoaxcjhyppr2srli5n3od27s4yug/lib"] = 1,
+          },
+          ["luaExt"] = 5,
+          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/intel/15.0.3",
+          ["pV"] = "000000002.000000028.*zfinal",
+          pathA = {
+            ["/share/apps/spack/spack_compilers/opt/spack/linux-rhel6-x86_64/gcc-4.9.2/binutils-2.28-alrtwoaxcjhyppr2srli5n3od27s4yug/bin"] = 1,
+          },
+          ["wV"] = "000000002.000000028.*zfinal",
+          whatis = {
+            "Name : binutils", "Version : 2.28",
+          },
+        },
+      },
+    },
     bzip2 = {
       defaultT = {},
       dirT = {},
@@ -2797,6 +1735,32 @@ spiderT = {
         },
       },
     },
+    hwloc = {
+      defaultT = {},
+      dirT = {},
+      fileT = {
+        ["hwloc/1.11.7"]  = {
+          ["Name"] = "hwloc",
+          ["Version"] = "1.11.7",
+          ["canonical"] = "1.11.7",
+          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/intel/15.0.3/hwloc/1.11.7.lua",
+          ["help"] = "The Portable Hardware Locality (hwloc) software package provides a portable abstraction (across OS, versions, architectures, ...) of the hierarchical topology of modern architectures, including NUMA memory nodes, sockets, shared caches, cores and simultaneous multithreading. It also gathers various system attributes such as cache and memory information as well as the locality of I/O devices such as network interfaces, InfiniBand HCAs or GPUs. It primarily aims at helping applications with gathering information about modern computing hardware so as to exploit it accordingly and efficiently.",
+          lpathA = {
+            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/intel-15.0.3/hwloc-1.11.7-4g7yalygxqsohiclcisgwmdqmjeljs7z/lib"] = 1,
+          },
+          ["luaExt"] = 7,
+          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/intel/15.0.3",
+          ["pV"] = "000000001.000000011.000000007.*zfinal",
+          pathA = {
+            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/intel-15.0.3/hwloc-1.11.7-4g7yalygxqsohiclcisgwmdqmjeljs7z/bin"] = 1,
+          },
+          ["wV"] = "000000001.000000011.000000007.*zfinal",
+          whatis = {
+            "Name : hwloc", "Version : 1.11.7",
+          },
+        },
+      },
+    },
     ["intel-tbb"]  = {
       defaultT = {},
       dirT = {},
@@ -2820,28 +1784,28 @@ spiderT = {
         },
       },
     },
-    jasper = {
+    jdk = {
       defaultT = {},
       dirT = {},
       fileT = {
-        ["jasper/1.900.1"]  = {
-          ["Name"] = "jasper",
-          ["Version"] = "1.900.1",
-          ["canonical"] = "1.900.1",
-          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/intel/15.0.3/jasper/1.900.1.lua",
-          ["help"] = "Library for manipulating JPEG-2000 images",
+        ["jdk/8u141-b15"]  = {
+          ["Name"] = "jdk",
+          ["Version"] = "8u141-b15",
+          ["canonical"] = "8u141-b15",
+          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/intel/15.0.3/jdk/8u141-b15.lua",
+          ["help"] = "The Java Development Kit (JDK) released by Oracle Corporation in the form of a binary product aimed at Java developers.",
           lpathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/intel-15.0.3/jasper-1.900.1-6kv6c4jtcvczigkecbmvo433t6qrqyps/lib"] = 1,
+            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/intel-15.0.3/jdk-8u141-b15-cgvw7ov3jbyleg3rpmz3h4b6nokwq4eb/lib"] = 1,
           },
-          ["luaExt"] = 8,
+          ["luaExt"] = 10,
           ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/intel/15.0.3",
-          ["pV"] = "000000001.000000900.000000001.*zfinal",
+          ["pV"] = "000000008.*u.000000141.*b.000000015.*zfinal",
           pathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/intel-15.0.3/jasper-1.900.1-6kv6c4jtcvczigkecbmvo433t6qrqyps/bin"] = 1,
+            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/intel-15.0.3/jdk-8u141-b15-cgvw7ov3jbyleg3rpmz3h4b6nokwq4eb/bin"] = 1,
           },
-          ["wV"] = "000000001.000000900.000000001.*zfinal",
+          ["wV"] = "000000008.*u.000000141.*b.000000015.*zfinal",
           whatis = {
-            "Name : jasper", "Version : 1.900.1",
+            "Name : jdk", "Version : 8u141-b15",
           },
         },
       },
@@ -2924,29 +1888,6 @@ spiderT = {
         },
       },
     },
-    libsigsegv = {
-      defaultT = {},
-      dirT = {},
-      fileT = {
-        ["libsigsegv/2.11"]  = {
-          ["Name"] = "libsigsegv",
-          ["Version"] = "2.11",
-          ["canonical"] = "2.11",
-          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/intel/15.0.3/libsigsegv/2.11.lua",
-          ["help"] = "GNU libsigsegv is a library for handling page faults in user mode.",
-          lpathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/intel-15.0.3/libsigsegv-2.11-lr2wv5fxwa4n3q7aniqbrmjp2uvhw2lm/lib"] = 1,
-          },
-          ["luaExt"] = 5,
-          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/intel/15.0.3",
-          ["pV"] = "000000002.000000011.*zfinal",
-          ["wV"] = "000000002.000000011.*zfinal",
-          whatis = {
-            "Name : libsigsegv", "Version : 2.11",
-          },
-        },
-      },
-    },
     libszip = {
       defaultT = {},
       dirT = {},
@@ -2996,100 +1937,54 @@ spiderT = {
         },
       },
     },
-    m4 = {
+    libxml2 = {
       defaultT = {},
       dirT = {},
       fileT = {
-        ["m4/1.4.18"]  = {
-          ["Name"] = "m4",
-          ["Version"] = "1.4.18",
-          ["canonical"] = "1.4.18",
-          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/intel/15.0.3/m4/1.4.18.lua",
-          ["help"] = "GNU M4 is an implementation of the traditional Unix macro processor.",
-          ["luaExt"] = 7,
-          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/intel/15.0.3",
-          ["pV"] = "000000001.000000004.000000018.*zfinal",
-          pathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/intel-15.0.3/m4-1.4.18-k2j2oc4s2gmthub3gaqum5bma2llo4xp/bin"] = 1,
-          },
-          ["wV"] = "000000001.000000004.000000018.*zfinal",
-          whatis = {
-            "Name : m4", "Version : 1.4.18",
-          },
-        },
-      },
-    },
-    metis = {
-      defaultT = {},
-      dirT = {},
-      fileT = {
-        ["metis/5.1.0"]  = {
-          ["Name"] = "metis",
-          ["Version"] = "5.1.0",
-          ["canonical"] = "5.1.0",
-          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/intel/15.0.3/metis/5.1.0.lua",
-          ["help"] = "METIS is a set of serial programs for partitioning graphs, partitioning finite element meshes, and producing fill reducing orderings for sparse matrices. The algorithms implemented in METIS are based on the multilevel recursive-bisection, multilevel k-way, and multi-constraint partitioning schemes.",
+        ["libxml2/2.9.4"]  = {
+          ["Name"] = "libxml2",
+          ["Version"] = "2.9.4",
+          ["canonical"] = "2.9.4",
+          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/intel/15.0.3/libxml2/2.9.4.lua",
+          ["help"] = "Libxml2 is the XML C parser and toolkit developed for the Gnome project (but usable outside of the Gnome platform), it is free software available under the MIT License.",
           lpathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/intel-15.0.3/metis-5.1.0-cghsiyfnetxleivlelg2fqjjnsvcg3z2/lib"] = 1,
+            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/intel-15.0.3/libxml2-2.9.4-vkbrpegqtwfkekycckd7o5jfau647qmv/lib"] = 1,
           },
           ["luaExt"] = 6,
           ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/intel/15.0.3",
-          ["pV"] = "000000005.000000001.*zfinal",
+          ["pV"] = "000000002.000000009.000000004.*zfinal",
           pathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/intel-15.0.3/metis-5.1.0-cghsiyfnetxleivlelg2fqjjnsvcg3z2/bin"] = 1,
+            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/intel-15.0.3/libxml2-2.9.4-vkbrpegqtwfkekycckd7o5jfau647qmv/bin"] = 1,
           },
-          ["wV"] = "000000005.000000001.*zfinal",
+          ["wV"] = "000000002.000000009.000000004.*zfinal",
           whatis = {
-            "Name : metis", "Version : 5.1.0",
+            "Name : libxml2", "Version : 2.9.4",
           },
         },
       },
     },
-    nasm = {
+    openjpeg = {
       defaultT = {},
       dirT = {},
       fileT = {
-        ["nasm/2.11.06"]  = {
-          ["Name"] = "nasm",
-          ["Version"] = "2.11.06",
-          ["canonical"] = "2.11.06",
-          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/intel/15.0.3/nasm/2.11.06.lua",
-          ["help"] = "NASM (Netwide Assembler) is an 80x86 assembler designed for portability and modularity. It includes a disassembler as well.",
-          ["luaExt"] = 8,
-          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/intel/15.0.3",
-          ["pV"] = "000000002.000000011.000000006.*zfinal",
-          pathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/intel-15.0.3/nasm-2.11.06-ltjx3wwwnn5i6omkij6vulmcgufhpyow/bin"] = 1,
-          },
-          ["wV"] = "000000002.000000011.000000006.*zfinal",
-          whatis = {
-            "Name : nasm", "Version : 2.11.06",
-          },
-        },
-      },
-    },
-    ncurses = {
-      defaultT = {},
-      dirT = {},
-      fileT = {
-        ["ncurses/6.0"]  = {
-          ["Name"] = "ncurses",
-          ["Version"] = "6.0",
-          ["canonical"] = "6.0",
-          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/intel/15.0.3/ncurses/6.0.lua",
-          ["help"] = "The ncurses (new curses) library is a free software emulation of curses in System V Release 4.0, and more. It uses terminfo format, supports pads and color and multiple highlights and forms characters and function-key mapping, and has all the other SYSV-curses enhancements over BSD curses.",
+        ["openjpeg/2.1"]  = {
+          ["Name"] = "openjpeg",
+          ["Version"] = "2.1",
+          ["canonical"] = "2.1",
+          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/intel/15.0.3/openjpeg/2.1.lua",
+          ["help"] = "OpenJPEG is an open-source JPEG 2000 codec written in C language. It has been developed in order to promote the use of JPEG 2000, a still-image compression standard from the Joint Photographic Experts Group (JPEG). Since April 2015, it is officially recognized by ISO/IEC and ITU-T as a JPEG 2000 Reference Software. ",
           lpathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/intel-15.0.3/ncurses-6.0-pggcdh3tef7soh26htirxnmw6irceg77/lib"] = 1,
+            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/intel-15.0.3/openjpeg-2.1-zy7p4ohk4akih6mcac3nzpspafopjkrd/lib"] = 1,
           },
           ["luaExt"] = 4,
           ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/intel/15.0.3",
-          ["pV"] = "000000006.*zfinal",
+          ["pV"] = "000000002.000000001.*zfinal",
           pathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/intel-15.0.3/ncurses-6.0-pggcdh3tef7soh26htirxnmw6irceg77/bin"] = 1,
+            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/intel-15.0.3/openjpeg-2.1-zy7p4ohk4akih6mcac3nzpspafopjkrd/bin"] = 1,
           },
-          ["wV"] = "000000006.*zfinal",
+          ["wV"] = "000000002.000000001.*zfinal",
           whatis = {
-            "Name : ncurses", "Version : 6.0",
+            "Name : openjpeg", "Version : 2.1",
           },
         },
       },
@@ -3143,46 +2038,6 @@ spiderT = {
         },
       },
     },
-    ["py-six"]  = {
-      defaultT = {},
-      dirT = {},
-      fileT = {
-        ["py-six/1.10.0-py2"]  = {
-          ["Name"] = "py-six",
-          ["Version"] = "1.10.0",
-          ["canonical"] = "1.10.0-py2",
-          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/intel/15.0.3/py-six/1.10.0-py2.lua",
-          ["help"] = "Python 2 and 3 compatibility utilities.",
-          lpathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/intel-15.0.3/py-six-1.10.0-g3ttirorseiouqaverofdxy4xkwa4zt4/lib"] = 1,
-          },
-          ["luaExt"] = 11,
-          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/intel/15.0.3",
-          ["pV"] = "000000001.000000010.*y.000000002.*zfinal",
-          ["wV"] = "000000001.000000010.*y.000000002.*zfinal",
-          whatis = {
-            "Name : py-six", "Version : 1.10.0",
-          },
-        },
-        ["py-six/1.10.0-py3"]  = {
-          ["Name"] = "py-six",
-          ["Version"] = "1.10.0",
-          ["canonical"] = "1.10.0-py3",
-          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/intel/15.0.3/py-six/1.10.0-py3.lua",
-          ["help"] = "Python 2 and 3 compatibility utilities.",
-          lpathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/intel-15.0.3/py-six-1.10.0-nh2xxod6igepw7roxmydnz3utpowweyw/lib"] = 1,
-          },
-          ["luaExt"] = 11,
-          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/intel/15.0.3",
-          ["pV"] = "000000001.000000010.*y.000000003.*zfinal",
-          ["wV"] = "000000001.000000010.*y.000000003.*zfinal",
-          whatis = {
-            "Name : py-six", "Version : 1.10.0",
-          },
-        },
-      },
-    },
     python = {
       defaultT = {},
       dirT = {},
@@ -3207,76 +2062,53 @@ spiderT = {
             "Name : python", "Version : 2.7.13",
           },
         },
-        ["python/3.6.1"]  = {
-          ["Name"] = "python",
-          ["Version"] = "3.6.1",
-          ["canonical"] = "3.6.1",
-          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/intel/15.0.3/python/3.6.1.lua",
-          ["help"] = "The Python programming language.",
-          lpathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/intel-15.0.3/python-3.6.1-664mnn7vb6ta6q6pusoupoepeumbftod/lib"] = 1,
-          },
-          ["luaExt"] = 6,
-          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/intel/15.0.3",
-          ["pV"] = "000000003.000000006.000000001.*zfinal",
-          pathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/intel-15.0.3/python-3.6.1-664mnn7vb6ta6q6pusoupoepeumbftod/bin"] = 1,
-          },
-          ["wV"] = "000000003.000000006.000000001.*zfinal",
-          whatis = {
-            "Name : python", "Version : 3.6.1",
-          },
-        },
       },
     },
-    readline = {
+    qhull = {
       defaultT = {},
       dirT = {},
       fileT = {
-        ["readline/7.0"]  = {
-          ["Name"] = "readline",
-          ["Version"] = "7.0",
-          ["canonical"] = "7.0",
-          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/intel/15.0.3/readline/7.0.lua",
-          ["help"] = "The GNU Readline library provides a set of functions for use by applications that allow users to edit command lines as they are typed in. Both Emacs and vi editing modes are available. The Readline library includes additional functions to maintain a list of previously-entered command lines, to recall and perhaps reedit those lines, and perform csh-like history expansion on previous commands.",
+        ["qhull/2015.2"]  = {
+          ["Name"] = "qhull",
+          ["Version"] = "2015.2",
+          ["canonical"] = "2015.2",
+          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/intel/15.0.3/qhull/2015.2.lua",
+          ["help"] = "Qhull computes the convex hull, Delaunay triangulation, Voronoi diagram, halfspace intersection about a point, furt hest-site Delaunay triangulation, and furthest-site Voronoi diagram. The source code runs in 2-d, 3-d, 4-d, and higher dimensions. Qhull implements the Quickhull algorithm for computing the convex hull. It handles roundoff errors from floating point arithmetic. It computes volumes, surface areas, and approximations to the convex hull.",
           lpathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/intel-15.0.3/readline-7.0-d5q54jfdiv2bx74laf5a42oi6g52sy2q/lib"] = 1,
-          },
-          ["luaExt"] = 4,
-          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/intel/15.0.3",
-          ["pV"] = "000000007.*zfinal",
-          pathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/intel-15.0.3/readline-7.0-d5q54jfdiv2bx74laf5a42oi6g52sy2q/bin"] = 1,
-          },
-          ["wV"] = "000000007.*zfinal",
-          whatis = {
-            "Name : readline", "Version : 7.0",
-          },
-        },
-      },
-    },
-    sqlite = {
-      defaultT = {},
-      dirT = {},
-      fileT = {
-        ["sqlite/3.20.0"]  = {
-          ["Name"] = "sqlite",
-          ["Version"] = "3.20.0",
-          ["canonical"] = "3.20.0",
-          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/intel/15.0.3/sqlite/3.20.0.lua",
-          ["help"] = "SQLite3 is an SQL database engine in a C library. Programs that link the SQLite3 library can have SQL database access without running a separate RDBMS process. ",
-          lpathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/intel-15.0.3/sqlite-3.20.0-nzja66uzx3fbup5j65gyf4d5ba6koqq7/lib"] = 1,
+            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/intel-15.0.3/qhull-2015.2-idjcaisr67k7fttr57bh2a4hwpv3fyr6/lib"] = 1,
           },
           ["luaExt"] = 7,
           ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/intel/15.0.3",
-          ["pV"] = "000000003.000000020.*zfinal",
+          ["pV"] = "000002015.000000002.*zfinal",
           pathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/intel-15.0.3/sqlite-3.20.0-nzja66uzx3fbup5j65gyf4d5ba6koqq7/bin"] = 1,
+            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/intel-15.0.3/qhull-2015.2-idjcaisr67k7fttr57bh2a4hwpv3fyr6/bin"] = 1,
           },
-          ["wV"] = "000000003.000000020.*zfinal",
+          ["wV"] = "000002015.000000002.*zfinal",
           whatis = {
-            "Name : sqlite", "Version : 3.20.0",
+            "Name : qhull", "Version : 2015.2",
+          },
+        },
+      },
+    },
+    tar = {
+      defaultT = {},
+      dirT = {},
+      fileT = {
+        ["tar/1.29"]  = {
+          ["Name"] = "tar",
+          ["Version"] = "1.29",
+          ["canonical"] = "1.29",
+          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/intel/15.0.3/tar/1.29.lua",
+          ["help"] = "GNU Tar provides the ability to create tar archives, as well as various other kinds of manipulation.",
+          ["luaExt"] = 5,
+          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/intel/15.0.3",
+          ["pV"] = "000000001.000000029.*zfinal",
+          pathA = {
+            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/intel-15.0.3/tar-1.29-vb4croafneb55xcydarfd63ivode2yjs/bin"] = 1,
+          },
+          ["wV"] = "000000001.000000029.*zfinal",
+          whatis = {
+            "Name : tar", "Version : 1.29",
           },
         },
       },
@@ -3336,21 +2168,21 @@ spiderT = {
       defaultT = {},
       dirT = {},
       fileT = {
-        ["armadillo/7.900.1-openblas"]  = {
+        ["armadillo/7.950.1-openblas"]  = {
           ["Name"] = "armadillo",
-          ["Version"] = "7.900.1",
-          ["canonical"] = "7.900.1-openblas",
-          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/openmpi/2.1.1-64p3u7r/gcc/7.2.0/armadillo/7.900.1-openblas.lua",
+          ["Version"] = "7.950.1",
+          ["canonical"] = "7.950.1-openblas",
+          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/openmpi/2.1.1-64p3u7r/gcc/7.2.0/armadillo/7.950.1-openblas.lua",
           ["help"] = "Armadillo is a high quality linear algebra library (matrix maths) for the C++ language, aiming towards a good balance between speed and ease of use.",
           lpathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-7.2.0/armadillo-7.900.1-kkyje64wixjiehi3nrbhfno75hl6wobr/lib64"] = 1,
+            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-7.2.0/armadillo-7.950.1-b337ipompsjv3jgehdlarvqtfypyaezy/lib64"] = 1,
           },
           ["luaExt"] = 17,
           ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/openmpi/2.1.1-64p3u7r/gcc/7.2.0",
-          ["pV"] = "000000007.000000900.000000001.*openblas.*zfinal",
-          ["wV"] = "000000007.000000900.000000001.*openblas.*zfinal",
+          ["pV"] = "000000007.000000950.000000001.*openblas.*zfinal",
+          ["wV"] = "000000007.000000950.000000001.*openblas.*zfinal",
           whatis = {
-            "Name : armadillo", "Version : 7.900.1",
+            "Name : armadillo", "Version : 7.950.1",
           },
         },
       },
@@ -3395,23 +2227,6 @@ spiderT = {
           ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/openmpi/2.1.1-64p3u7r/gcc/7.2.0",
           ["pV"] = "000000001.000000063.*y.000000002.*zfinal",
           ["wV"] = "000000001.000000063.*y.000000002.*zfinal",
-          whatis = {
-            "Name : boost", "Version : 1.63.0",
-          },
-        },
-        ["boost/1.63.0-py3"]  = {
-          ["Name"] = "boost",
-          ["Version"] = "1.63.0",
-          ["canonical"] = "1.63.0-py3",
-          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/openmpi/2.1.1-64p3u7r/gcc/7.2.0/boost/1.63.0-py3.lua",
-          ["help"] = "Boost provides free peer-reviewed portable C++ source libraries, emphasizing libraries that work well with the C++ Standard Library. Boost libraries are intended to be widely useful, and usable across a broad spectrum of applications. The Boost license encourages both commercial and non-commercial use. ",
-          lpathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-7.2.0/boost-1.63.0-kkzcsauecff7slefc22jyowomdxter4t/lib"] = 1,
-          },
-          ["luaExt"] = 11,
-          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/openmpi/2.1.1-64p3u7r/gcc/7.2.0",
-          ["pV"] = "000000001.000000063.*y.000000003.*zfinal",
-          ["wV"] = "000000001.000000063.*y.000000003.*zfinal",
           whatis = {
             "Name : boost", "Version : 1.63.0",
           },
@@ -3591,53 +2406,27 @@ spiderT = {
         },
       },
     },
-    scotch = {
-      defaultT = {},
-      dirT = {},
-      fileT = {
-        ["scotch/6.0.4"]  = {
-          ["Name"] = "scotch",
-          ["Version"] = "6.0.4",
-          ["canonical"] = "6.0.4",
-          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/openmpi/2.1.1-64p3u7r/gcc/7.2.0/scotch/6.0.4.lua",
-          ["help"] = "Scotch is a software package for graph and mesh/hypergraph partitioning, graph clustering, and sparse matrix ordering.",
-          lpathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-7.2.0/scotch-6.0.4-wnducdhetxuvz6eploj3qmbn7jdkscsa/lib"] = 1,
-          },
-          ["luaExt"] = 6,
-          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/openmpi/2.1.1-64p3u7r/gcc/7.2.0",
-          ["pV"] = "000000006.000000000.000000004.*zfinal",
-          pathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-7.2.0/scotch-6.0.4-wnducdhetxuvz6eploj3qmbn7jdkscsa/bin"] = 1,
-          },
-          ["wV"] = "000000006.000000000.000000004.*zfinal",
-          whatis = {
-            "Name : scotch", "Version : 6.0.4",
-          },
-        },
-      },
-    },
   },
-  ["/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/openmpi/2.1.1-ipjtnf4/gcc/6.4.0"]  = {
+  ["/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/openmpi/2.1.1-mhfgkgh/clang/4.0.0"]  = {
     armadillo = {
       defaultT = {},
       dirT = {},
       fileT = {
-        ["armadillo/7.900.1-openblas"]  = {
+        ["armadillo/7.950.1-openblas"]  = {
           ["Name"] = "armadillo",
-          ["Version"] = "7.900.1",
-          ["canonical"] = "7.900.1-openblas",
-          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/openmpi/2.1.1-ipjtnf4/gcc/6.4.0/armadillo/7.900.1-openblas.lua",
+          ["Version"] = "7.950.1",
+          ["canonical"] = "7.950.1-openblas",
+          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/openmpi/2.1.1-mhfgkgh/clang/4.0.0/armadillo/7.950.1-openblas.lua",
           ["help"] = "Armadillo is a high quality linear algebra library (matrix maths) for the C++ language, aiming towards a good balance between speed and ease of use.",
           lpathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-6.4.0/armadillo-7.900.1-rmr4mmj5vjc46ahuor7iad3lx34kwr4p/lib64"] = 1,
+            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/clang-4.0.0/armadillo-7.950.1-6flja2omx4f5fw5pxjxfyptirke3efku/lib64"] = 1,
           },
           ["luaExt"] = 17,
-          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/openmpi/2.1.1-ipjtnf4/gcc/6.4.0",
-          ["pV"] = "000000007.000000900.000000001.*openblas.*zfinal",
-          ["wV"] = "000000007.000000900.000000001.*openblas.*zfinal",
+          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/openmpi/2.1.1-mhfgkgh/clang/4.0.0",
+          ["pV"] = "000000007.000000950.000000001.*openblas.*zfinal",
+          ["wV"] = "000000007.000000950.000000001.*openblas.*zfinal",
           whatis = {
-            "Name : armadillo", "Version : 7.900.1",
+            "Name : armadillo", "Version : 7.950.1",
           },
         },
       },
@@ -3650,13 +2439,13 @@ spiderT = {
           ["Name"] = "arpack-ng",
           ["Version"] = "3.5.0",
           ["canonical"] = "3.5.0-openblas",
-          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/openmpi/2.1.1-ipjtnf4/gcc/6.4.0/arpack-ng/3.5.0-openblas.lua",
+          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/openmpi/2.1.1-mhfgkgh/clang/4.0.0/arpack-ng/3.5.0-openblas.lua",
           ["help"] = "ARPACK-NG is a collection of Fortran77 subroutines designed to solve large scale eigenvalue problems. Important Features: * Reverse Communication Interface. * Single and Double Precision Real Arithmetic Versions for Symmetric, Non-symmetric, Standard or Generalized Problems. * Single and Double Precision Complex Arithmetic Versions for Standard or Generalized Problems. * Routines for Banded Matrices - Standard or Generalized Problems. * Routines for The Singular Value Decomposition. * Example driver routines that may be used as templates to implement numerous Shift-Invert strategies for all problem types, data types and precision. This project is a joint project between Debian, Octave and Scilab in order to provide a common and maintained version of arpack. Indeed, no single release has been published by Rice university for the last few years and since many software (Octave, Scilab, R, Matlab...) forked it and implemented their own modifications, arpack-ng aims to tackle this by providing a common repository and maintained versions. arpack-ng is replacing arpack almost everywhere. ",
           lpathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-6.4.0/arpack-ng-3.5.0-zvgc2jhkmyrydpw3bqi337d4duq45mrb/lib64"] = 1,
+            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/clang-4.0.0/arpack-ng-3.5.0-wqp4q4ofmwqo7a6ptzz4nhxko5bk7bii/lib64"] = 1,
           },
           ["luaExt"] = 15,
-          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/openmpi/2.1.1-ipjtnf4/gcc/6.4.0",
+          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/openmpi/2.1.1-mhfgkgh/clang/4.0.0",
           ["pV"] = "000000003.000000005.*openblas.*zfinal",
           ["wV"] = "000000003.000000005.*openblas.*zfinal",
           whatis = {
@@ -3673,32 +2462,15 @@ spiderT = {
           ["Name"] = "boost",
           ["Version"] = "1.63.0",
           ["canonical"] = "1.63.0-py2",
-          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/openmpi/2.1.1-ipjtnf4/gcc/6.4.0/boost/1.63.0-py2.lua",
+          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/openmpi/2.1.1-mhfgkgh/clang/4.0.0/boost/1.63.0-py2.lua",
           ["help"] = "Boost provides free peer-reviewed portable C++ source libraries, emphasizing libraries that work well with the C++ Standard Library. Boost libraries are intended to be widely useful, and usable across a broad spectrum of applications. The Boost license encourages both commercial and non-commercial use. ",
           lpathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-6.4.0/boost-1.63.0-encgvflhfwd2pcake6dx4qavieh4tgkm/lib"] = 1,
+            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/clang-4.0.0/boost-1.63.0-4tpyrpfq7mi5wr432jgvijixgb6g7icm/lib"] = 1,
           },
           ["luaExt"] = 11,
-          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/openmpi/2.1.1-ipjtnf4/gcc/6.4.0",
+          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/openmpi/2.1.1-mhfgkgh/clang/4.0.0",
           ["pV"] = "000000001.000000063.*y.000000002.*zfinal",
           ["wV"] = "000000001.000000063.*y.000000002.*zfinal",
-          whatis = {
-            "Name : boost", "Version : 1.63.0",
-          },
-        },
-        ["boost/1.63.0-py3"]  = {
-          ["Name"] = "boost",
-          ["Version"] = "1.63.0",
-          ["canonical"] = "1.63.0-py3",
-          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/openmpi/2.1.1-ipjtnf4/gcc/6.4.0/boost/1.63.0-py3.lua",
-          ["help"] = "Boost provides free peer-reviewed portable C++ source libraries, emphasizing libraries that work well with the C++ Standard Library. Boost libraries are intended to be widely useful, and usable across a broad spectrum of applications. The Boost license encourages both commercial and non-commercial use. ",
-          lpathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-6.4.0/boost-1.63.0-kd3742xgfdwno4azgdthnwi2pxqfrtwk/lib"] = 1,
-          },
-          ["luaExt"] = 11,
-          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/openmpi/2.1.1-ipjtnf4/gcc/6.4.0",
-          ["pV"] = "000000001.000000063.*y.000000003.*zfinal",
-          ["wV"] = "000000001.000000063.*y.000000003.*zfinal",
           whatis = {
             "Name : boost", "Version : 1.63.0",
           },
@@ -3713,10 +2485,10 @@ spiderT = {
           ["Name"] = "eigen",
           ["Version"] = "3.3.3",
           ["canonical"] = "3.3.3-openblas",
-          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/openmpi/2.1.1-ipjtnf4/gcc/6.4.0/eigen/3.3.3-openblas.lua",
+          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/openmpi/2.1.1-mhfgkgh/clang/4.0.0/eigen/3.3.3-openblas.lua",
           ["help"] = "Eigen is a C++ template library for linear algebra matrices, vectors, numerical solvers, and related algorithms. ",
           ["luaExt"] = 15,
-          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/openmpi/2.1.1-ipjtnf4/gcc/6.4.0",
+          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/openmpi/2.1.1-mhfgkgh/clang/4.0.0",
           ["pV"] = "000000003.000000003.000000003.*openblas.*zfinal",
           ["wV"] = "000000003.000000003.000000003.*openblas.*zfinal",
           whatis = {
@@ -3733,16 +2505,16 @@ spiderT = {
           ["Name"] = "fftw",
           ["Version"] = "3.3.6-pl2",
           ["canonical"] = "3.3.6-pl2",
-          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/openmpi/2.1.1-ipjtnf4/gcc/6.4.0/fftw/3.3.6-pl2.lua",
+          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/openmpi/2.1.1-mhfgkgh/clang/4.0.0/fftw/3.3.6-pl2.lua",
           ["help"] = "FFTW is a C subroutine library for computing the discrete Fourier transform (DFT) in one or more dimensions, of arbitrary input size, and of both real and complex data (as well as of even/odd data, i.e. the discrete cosine/sine transforms or DCT/DST). We believe that FFTW, which is free software, should become the FFT library of choice for most applications.",
           lpathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-6.4.0/fftw-3.3.6-pl2-q2bv3oohchifg4ovm5iqttiyv5ldg2h3/lib"] = 1,
+            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/clang-4.0.0/fftw-3.3.6-pl2-ewjkbgjczp4tnkbafmethpsngemtyoi6/lib"] = 1,
           },
           ["luaExt"] = 10,
-          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/openmpi/2.1.1-ipjtnf4/gcc/6.4.0",
+          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/openmpi/2.1.1-mhfgkgh/clang/4.0.0",
           ["pV"] = "000000003.000000003.000000006.*l.000000002.*zfinal",
           pathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-6.4.0/fftw-3.3.6-pl2-q2bv3oohchifg4ovm5iqttiyv5ldg2h3/bin"] = 1,
+            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/clang-4.0.0/fftw-3.3.6-pl2-ewjkbgjczp4tnkbafmethpsngemtyoi6/bin"] = 1,
           },
           ["wV"] = "000000003.000000003.000000006.*l.000000002.*zfinal",
           whatis = {
@@ -3759,16 +2531,16 @@ spiderT = {
           ["Name"] = "hdf5",
           ["Version"] = "1.10.1",
           ["canonical"] = "1.10.1",
-          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/openmpi/2.1.1-ipjtnf4/gcc/6.4.0/hdf5/1.10.1.lua",
+          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/openmpi/2.1.1-mhfgkgh/clang/4.0.0/hdf5/1.10.1.lua",
           ["help"] = "HDF5 is a data model, library, and file format for storing and managing data. It supports an unlimited variety of datatypes, and is designed for flexible and efficient I/O and for high volume and complex data. ",
           lpathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-6.4.0/hdf5-1.10.1-2t76nmvkpm3grnhzxvuaqnmb7oajtyru/lib"] = 1,
+            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/clang-4.0.0/hdf5-1.10.1-lcnwzwbstbuduqbf3biurvaibluizcvb/lib"] = 1,
           },
           ["luaExt"] = 7,
-          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/openmpi/2.1.1-ipjtnf4/gcc/6.4.0",
+          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/openmpi/2.1.1-mhfgkgh/clang/4.0.0",
           ["pV"] = "000000001.000000010.000000001.*zfinal",
           pathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-6.4.0/hdf5-1.10.1-2t76nmvkpm3grnhzxvuaqnmb7oajtyru/bin"] = 1,
+            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/clang-4.0.0/hdf5-1.10.1-lcnwzwbstbuduqbf3biurvaibluizcvb/bin"] = 1,
           },
           ["wV"] = "000000001.000000010.000000001.*zfinal",
           whatis = {
@@ -3785,69 +2557,20 @@ spiderT = {
           ["Name"] = "matio",
           ["Version"] = "1.5.9",
           ["canonical"] = "1.5.9",
-          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/openmpi/2.1.1-ipjtnf4/gcc/6.4.0/matio/1.5.9.lua",
+          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/openmpi/2.1.1-mhfgkgh/clang/4.0.0/matio/1.5.9.lua",
           ["help"] = "matio is an C library for reading and writing Matlab MAT files",
           lpathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-6.4.0/matio-1.5.9-kga6ntzxtivqlbnw5tqmvv5db7gozksa/lib"] = 1,
+            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/clang-4.0.0/matio-1.5.9-u6kno3wpxpupniclgwvqyvrjhek2b2k7/lib"] = 1,
           },
           ["luaExt"] = 6,
-          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/openmpi/2.1.1-ipjtnf4/gcc/6.4.0",
+          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/openmpi/2.1.1-mhfgkgh/clang/4.0.0",
           ["pV"] = "000000001.000000005.000000009.*zfinal",
           pathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-6.4.0/matio-1.5.9-kga6ntzxtivqlbnw5tqmvv5db7gozksa/bin"] = 1,
+            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/clang-4.0.0/matio-1.5.9-u6kno3wpxpupniclgwvqyvrjhek2b2k7/bin"] = 1,
           },
           ["wV"] = "000000001.000000005.000000009.*zfinal",
           whatis = {
             "Name : matio", "Version : 1.5.9",
-          },
-        },
-      },
-    },
-    netcdf = {
-      defaultT = {},
-      dirT = {},
-      fileT = {
-        ["netcdf/4.4.1.1"]  = {
-          ["Name"] = "netcdf",
-          ["Version"] = "4.4.1.1",
-          ["canonical"] = "4.4.1.1",
-          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/openmpi/2.1.1-ipjtnf4/gcc/6.4.0/netcdf/4.4.1.1.lua",
-          ["help"] = "NetCDF is a set of software libraries and self-describing, machine-independent data formats that support the creation, access, and sharing of array-oriented scientific data.",
-          lpathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-6.4.0/netcdf-4.4.1.1-i23obz666bjo6ejlljdyr6xidxyxypn3/lib"] = 1,
-          },
-          ["luaExt"] = 8,
-          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/openmpi/2.1.1-ipjtnf4/gcc/6.4.0",
-          ["pV"] = "000000004.000000004.000000001.000000001.*zfinal",
-          pathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-6.4.0/netcdf-4.4.1.1-i23obz666bjo6ejlljdyr6xidxyxypn3/bin"] = 1,
-          },
-          ["wV"] = "000000004.000000004.000000001.000000001.*zfinal",
-          whatis = {
-            "Name : netcdf", "Version : 4.4.1.1",
-          },
-        },
-      },
-    },
-    ["netlib-scalapack"]  = {
-      defaultT = {},
-      dirT = {},
-      fileT = {
-        ["netlib-scalapack/2.0.2-openblas"]  = {
-          ["Name"] = "netlib-scalapack",
-          ["Version"] = "2.0.2",
-          ["canonical"] = "2.0.2-openblas",
-          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/openmpi/2.1.1-ipjtnf4/gcc/6.4.0/netlib-scalapack/2.0.2-openblas.lua",
-          ["help"] = "ScaLAPACK is a library of high-performance linear algebra routines for parallel distributed memory machines ",
-          lpathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-6.4.0/netlib-scalapack-2.0.2-4lj2wycwznndipuyyd6hk4luvowxwuwy/lib"] = 1,
-          },
-          ["luaExt"] = 15,
-          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/openmpi/2.1.1-ipjtnf4/gcc/6.4.0",
-          ["pV"] = "000000002.000000000.000000002.*openblas.*zfinal",
-          ["wV"] = "000000002.000000000.000000002.*openblas.*zfinal",
-          whatis = {
-            "Name : netlib-scalapack", "Version : 2.0.2",
           },
         },
       },
@@ -3860,46 +2583,20 @@ spiderT = {
           ["Name"] = "parallel-netcdf",
           ["Version"] = "1.8.0",
           ["canonical"] = "1.8.0",
-          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/openmpi/2.1.1-ipjtnf4/gcc/6.4.0/parallel-netcdf/1.8.0.lua",
+          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/openmpi/2.1.1-mhfgkgh/clang/4.0.0/parallel-netcdf/1.8.0.lua",
           ["help"] = "Parallel netCDF (PnetCDF) is a library providing high-performance parallel I/O while still maintaining file-format compatibility with Unidata's NetCDF.",
           lpathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-6.4.0/parallel-netcdf-1.8.0-227guphzoc2xhjhh2sjuih4x6ejis2vm/lib"] = 1,
+            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/clang-4.0.0/parallel-netcdf-1.8.0-r3ynchg7ghcucvuuowj7f4l65jvddlmf/lib"] = 1,
           },
           ["luaExt"] = 6,
-          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/openmpi/2.1.1-ipjtnf4/gcc/6.4.0",
+          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/openmpi/2.1.1-mhfgkgh/clang/4.0.0",
           ["pV"] = "000000001.000000008.*zfinal",
           pathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-6.4.0/parallel-netcdf-1.8.0-227guphzoc2xhjhh2sjuih4x6ejis2vm/bin"] = 1,
+            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/clang-4.0.0/parallel-netcdf-1.8.0-r3ynchg7ghcucvuuowj7f4l65jvddlmf/bin"] = 1,
           },
           ["wV"] = "000000001.000000008.*zfinal",
           whatis = {
             "Name : parallel-netcdf", "Version : 1.8.0",
-          },
-        },
-      },
-    },
-    scotch = {
-      defaultT = {},
-      dirT = {},
-      fileT = {
-        ["scotch/6.0.4"]  = {
-          ["Name"] = "scotch",
-          ["Version"] = "6.0.4",
-          ["canonical"] = "6.0.4",
-          ["fn"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/openmpi/2.1.1-ipjtnf4/gcc/6.4.0/scotch/6.0.4.lua",
-          ["help"] = "Scotch is a software package for graph and mesh/hypergraph partitioning, graph clustering, and sparse matrix ordering.",
-          lpathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-6.4.0/scotch-6.0.4-qd6ftu62bnhftsche7ai4nw4nqe4fbq2/lib"] = 1,
-          },
-          ["luaExt"] = 6,
-          ["mpath"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/openmpi/2.1.1-ipjtnf4/gcc/6.4.0",
-          ["pV"] = "000000006.000000000.000000004.*zfinal",
-          pathA = {
-            ["/share/apps/spack/spack_all/opt/spack/linux-rhel6-x86_64/gcc-6.4.0/scotch-6.0.4-qd6ftu62bnhftsche7ai4nw4nqe4fbq2/bin"] = 1,
-          },
-          ["wV"] = "000000006.000000000.000000004.*zfinal",
-          whatis = {
-            "Name : scotch", "Version : 6.0.4",
           },
         },
       },
@@ -4077,27 +2774,6 @@ Settarg can do more.  Please see the Lmod website for more details.
       defaultT = {},
       dirT = {},
       fileT = {
-        ["gcc/6.4.0"]  = {
-          ["Name"] = "gcc",
-          ["Version"] = "6.4.0",
-          ["canonical"] = "6.4.0",
-          ["fn"] = "/share/apps/spack/spack_compilers/share/spack/lmod/linux-rhel6-x86_64/Core/gcc/6.4.0.lua",
-          ["help"] = "The GNU Compiler Collection includes front ends for C, C++, Objective-C, Fortran, Ada, and Go, as well as libraries for these languages.",
-          lpathA = {
-            ["/share/apps/spack/spack_compilers/opt/spack/linux-rhel6-x86_64/gcc-4.9.2/gcc-6.4.0-jdutf7f2jgun6prd2zoiiftp2vfsa2i4/lib"] = 1,
-            ["/share/apps/spack/spack_compilers/opt/spack/linux-rhel6-x86_64/gcc-4.9.2/gcc-6.4.0-jdutf7f2jgun6prd2zoiiftp2vfsa2i4/lib64"] = 1,
-          },
-          ["luaExt"] = 6,
-          ["mpath"] = "/share/apps/spack/spack_compilers/share/spack/lmod/linux-rhel6-x86_64/Core",
-          ["pV"] = "000000006.000000004.*zfinal",
-          pathA = {
-            ["/share/apps/spack/spack_compilers/opt/spack/linux-rhel6-x86_64/gcc-4.9.2/gcc-6.4.0-jdutf7f2jgun6prd2zoiiftp2vfsa2i4/bin"] = 1,
-          },
-          ["wV"] = "000000006.000000004.*zfinal",
-          whatis = {
-            "Name : gcc", "Version : 6.4.0",
-          },
-        },
         ["gcc/7.2.0"]  = {
           ["Name"] = "gcc",
           ["Version"] = "7.2.0",
@@ -4285,6 +2961,9 @@ Settarg can do more.  Please see the Lmod website for more details.
         ["luaExt"] = 8,
         ["mpath"] = "/share/apps/spack/totient_spack_configs/modules/lmod/Core",
         ["pV"] = "~",
+        pathA = {
+          ["/share/apps/script"] = 1,
+        },
         propT = {
           state = {
             ["encouraged"] = 1,
@@ -4322,6 +3001,135 @@ Settarg can do more.  Please see the Lmod website for more details.
         },
       },
       ["mpath"] = "/share/apps/spack/totient_spack_configs/modules/lmod/Core",
+    },
+    Totient_clang = {
+      defaultT = {},
+      dirT = {},
+      ["file"] = "/share/apps/spack/totient_spack_configs/modules/lmod/Core/Totient_clang.lua",
+      fileT = {},
+      metaModuleT = {
+        ["Name"] = "Totient_clang",
+        ["Version"] = "1.1",
+        ["canonical"] = "Totient_clang",
+        ["fn"] = "/share/apps/spack/totient_spack_configs/modules/lmod/Core/Totient_clang.lua",
+        ["help"] = "Convenience module for loading all available modules compiled with clang/4.0.0",
+        ["luaExt"] = 14,
+        ["mpath"] = "/share/apps/spack/totient_spack_configs/modules/lmod/Core",
+        ["pV"] = "~",
+        propT = {
+          state = {
+            ["encouraged"] = 1,
+          },
+        },
+        ["wV"] = "~",
+        whatis = {
+          "Name : Totient_clang", "Version : 1.1",
+        },
+      },
+      ["mpath"] = "/share/apps/spack/totient_spack_configs/modules/lmod/Core",
+    },
+    Totient_gcc = {
+      defaultT = {},
+      dirT = {},
+      ["file"] = "/share/apps/spack/totient_spack_configs/modules/lmod/Core/Totient_gcc.lua",
+      fileT = {},
+      metaModuleT = {
+        ["Name"] = "Totient_gcc",
+        ["Version"] = "1.1",
+        ["canonical"] = "Totient_gcc",
+        ["fn"] = "/share/apps/spack/totient_spack_configs/modules/lmod/Core/Totient_gcc.lua",
+        ["help"] = "Convenience module for loading all available modules compiled with gcc/7.2.0.",
+        ["luaExt"] = 12,
+        ["mpath"] = "/share/apps/spack/totient_spack_configs/modules/lmod/Core",
+        ["pV"] = "~",
+        propT = {
+          state = {
+            ["encouraged"] = 1,
+          },
+        },
+        ["wV"] = "~",
+        whatis = {
+          "Name : Totient_gcc", "Version : 1.1",
+        },
+      },
+      ["mpath"] = "/share/apps/spack/totient_spack_configs/modules/lmod/Core",
+    },
+    Totient_intel = {
+      defaultT = {},
+      dirT = {},
+      ["file"] = "/share/apps/spack/totient_spack_configs/modules/lmod/Core/Totient_intel.lua",
+      fileT = {},
+      metaModuleT = {
+        ["Name"] = "Totient_intel",
+        ["Version"] = "1.1",
+        ["canonical"] = "Totient_intel",
+        ["fn"] = "/share/apps/spack/totient_spack_configs/modules/lmod/Core/Totient_intel.lua",
+        ["help"] = "Convenience module for loading all available modules compiled with intel/15.0.3.",
+        ["luaExt"] = 14,
+        ["mpath"] = "/share/apps/spack/totient_spack_configs/modules/lmod/Core",
+        ["pV"] = "~",
+        propT = {
+          state = {
+            ["encouraged"] = 1,
+          },
+        },
+        ["wV"] = "~",
+        whatis = {
+          "Name : Totient_intel", "Version : 1.1",
+        },
+      },
+      ["mpath"] = "/share/apps/spack/totient_spack_configs/modules/lmod/Core",
+    },
+    anaconda = {
+      defaultT = {},
+      dirT = {},
+      fileT = {
+        ["anaconda/4.4.0"]  = {
+          ["Version"] = "4.4.0",
+          ["canonical"] = "4.4.0",
+          ["fn"] = "/share/apps/spack/totient_spack_configs/modules/lmod/Core/anaconda/4.4.0.lua",
+          ["luaExt"] = 6,
+          ["mpath"] = "/share/apps/spack/totient_spack_configs/modules/lmod/Core",
+          ["pV"] = "000000004.000000004.*zfinal",
+          pathA = {
+            ["/share/apps/anaconda3/bin"] = 1,
+          },
+          propT = {
+            state = {
+              ["ignore"] = 1,
+            },
+          },
+          ["wV"] = "000000004.000000004.*zfinal",
+          whatis = {
+            "Anaconda 4.4.0 (Pthon 3.6) package ",
+          },
+        },
+      },
+    },
+    clang = {
+      defaultT = {},
+      dirT = {},
+      fileT = {
+        ["clang/4.0.0"]  = {
+          ["Name"] = "clang/4.0.0",
+          ["Version"] = "1.1",
+          ["canonical"] = "4.0.0",
+          ["fn"] = "/share/apps/spack/totient_spack_configs/modules/lmod/Core/clang/4.0.0.lua",
+          ["help"] = "The Clang 4.0 compiler.",
+          ["luaExt"] = 6,
+          ["mpath"] = "/share/apps/spack/totient_spack_configs/modules/lmod/Core",
+          ["pV"] = "000000004.*zfinal",
+          propT = {
+            state = {
+              ["ignore"] = 1,
+            },
+          },
+          ["wV"] = "000000004.*zfinal",
+          whatis = {
+            "Name : clang/4.0.0", "Version : 1.1",
+          },
+        },
+      },
     },
     devtoolset = {
       defaultT = {},
@@ -4368,6 +3176,11 @@ Settarg can do more.  Please see the Lmod website for more details.
           ["luaExt"] = 7,
           ["mpath"] = "/share/apps/spack/totient_spack_configs/modules/lmod/Core",
           ["pV"] = "000000015.000000000.000000003.*zfinal",
+          propT = {
+            state = {
+              ["ignore"] = 1,
+            },
+          },
           ["wV"] = "000000015.000000000.000000003.*zfinal",
           whatis = {
             "Name : intel/15.0.3", "Version : 1.1",
@@ -4412,11 +3225,14 @@ Settarg can do more.  Please see the Lmod website for more details.
   ["version"] = 5,
 }
 mpathMapT = {
-  ["/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/6.4.0"]  = {
-    ["gcc/6.4.0"] = "/share/apps/spack/spack_compilers/share/spack/lmod/linux-rhel6-x86_64/Core",
+  ["/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/clang/4.0.0"]  = {
+    ["clang/4.0.0"] = "/share/apps/spack/totient_spack_configs/modules/lmod/Core",
   },
   ["/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/7.2.0"]  = {
     ["gcc/7.2.0"] = "/share/apps/spack/spack_compilers/share/spack/lmod/linux-rhel6-x86_64/Core",
+  },
+  ["/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/intel-parallel-studio/composer.2015.3-7gite2v/intel/15.0.3"]  = {
+    ["intel/15.0.3"] = "/share/apps/spack/totient_spack_configs/modules/lmod/Core",
   },
   ["/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/intel/15.0.3"]  = {
     ["intel/15.0.3"] = "/share/apps/spack/totient_spack_configs/modules/lmod/Core",
@@ -4424,8 +3240,8 @@ mpathMapT = {
   ["/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/openmpi/2.1.1-64p3u7r/gcc/7.2.0"]  = {
     ["openmpi/2.1.1"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/7.2.0",
   },
-  ["/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/openmpi/2.1.1-ipjtnf4/gcc/6.4.0"]  = {
-    ["openmpi/2.1.1"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/gcc/6.4.0",
+  ["/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/openmpi/2.1.1-mhfgkgh/clang/4.0.0"]  = {
+    ["openmpi/2.1.1"] = "/share/apps/spack/spack_all/share/spack/lmod/linux-rhel6-x86_64/clang/4.0.0",
   },
   ["/share/apps/spack/spack_compilers/opt/spack/linux-rhel6-x86_64/gcc-4.9.2/lmod-7.4.11-ds2yqqh2l47t7crx7yvxit7vv47ns42m/lmod/lmod/modulefiles/Core"]  = {
     ["TotientAdmin"] = "/share/apps/spack/totient_spack_configs/modules/lmod/Core",

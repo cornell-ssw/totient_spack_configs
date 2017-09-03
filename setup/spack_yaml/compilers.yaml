@@ -43,21 +43,28 @@ compilers:
     spec: intel@15.0.3
     target: x86_64
 ###############################################################################
+# Provided by Anaconda; linked with devtoolset/3 gfortran (gcc@4.9.2)         #
+###############################################################################
+- compiler:
+    environment: {}
+    # Point to where the libraries for anaconda's llvm install
+    extra_rpaths: [/share/apps/anaconda3/lib]
+    flags: {}
+        # cflags: -stdlib=libc++
+        # cxxflags: -stdlib=libc++
+        # ldflags: -lc++abi -lc++
+    # NOTE: do not add devtoolset/3 module; we just need the path to the compiler
+    modules: [anaconda/4.4.0]
+    operating_system: rhel6
+    paths:
+        cc: /share/apps/anaconda3/bin/clang
+        cxx: /share/apps/anaconda3/bin/clang++
+        f77: /opt/rh/devtoolset-3/root/usr/bin/gfortran
+        fc: /opt/rh/devtoolset-3/root/usr/bin/gfortran
+    spec: clang@4.0.0
+    target: x86_64
+###############################################################################
 # Installed via spack_compilers                                               #
-#                                                                             #
-# Current:                                                                    #
-# - gcc@7.2.0                                                                 #
-# - gcc@6.4.0                                                                 #
-#                                                                             #
-# TODO:                                                                       #
-# - llvm@4.0.0                                                                #
-# - llvm@3.8.0                                                                #
-#                                                                             #
-# NOTE:                                                                       #
-# As of 2017, the LLVM fortran compiler is still not available.  Some         #
-# packages in Spack REQUIRE a fortran compiler.  Advise explicitly specifying #
-# either Intel's or possibly just host fortran compiler.                      #
-#                                                                             #
 ###############################################################################
 - compiler:
     environment: {}
@@ -71,17 +78,4 @@ compilers:
         f77: /share/apps/spack/spack_compilers/opt/spack/linux-rhel6-x86_64/gcc-4.9.2/gcc-7.2.0-j74oaigj3p5ikuneldzgxzqg42m3s3op/bin/gfortran
         fc: /share/apps/spack/spack_compilers/opt/spack/linux-rhel6-x86_64/gcc-4.9.2/gcc-7.2.0-j74oaigj3p5ikuneldzgxzqg42m3s3op/bin/gfortran
     spec: gcc@7.2.0
-    target: x86_64
-- compiler:
-    environment: {}
-    extra_rpaths: []
-    flags: {}
-    modules: []
-    operating_system: rhel6
-    paths:
-        cc: /share/apps/spack/spack_compilers/opt/spack/linux-rhel6-x86_64/gcc-4.9.2/gcc-6.4.0-jdutf7f2jgun6prd2zoiiftp2vfsa2i4/bin/gcc
-        cxx: /share/apps/spack/spack_compilers/opt/spack/linux-rhel6-x86_64/gcc-4.9.2/gcc-6.4.0-jdutf7f2jgun6prd2zoiiftp2vfsa2i4/bin/g++
-        f77: /share/apps/spack/spack_compilers/opt/spack/linux-rhel6-x86_64/gcc-4.9.2/gcc-6.4.0-jdutf7f2jgun6prd2zoiiftp2vfsa2i4/bin/gfortran
-        fc: /share/apps/spack/spack_compilers/opt/spack/linux-rhel6-x86_64/gcc-4.9.2/gcc-6.4.0-jdutf7f2jgun6prd2zoiiftp2vfsa2i4/bin/gfortran
-    spec: gcc@6.4.0
     target: x86_64

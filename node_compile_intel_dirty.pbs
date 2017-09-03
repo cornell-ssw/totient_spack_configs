@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #PBS -l nodes=1:ppn=24
-#PBS -N spack_node_install
+#PBS -N spack_node_intel_dirty_install
 #PBS -j oe
 #PBS -M $USER@cornell.edu
 
@@ -26,12 +26,10 @@
 
 # I HATE INTEL AND EVERYTHING ABOUT HOW THEY DO WHAT THEY DO
 
-# TODO: delete these line when the symlinks are up
-# source /share/apps/spack/totient_spack_configs/setup/login/z00_lmod.sh
-# source /share/apps/spack/totient_spack_configs/setup/login/z01_lmod_Totient.sh
-
 SPEC="${spec:-}"
-echo '---> About to run: /share/apps/spack/spack_all/bin/spack --color=always install '"$SPEC"
+echo '---> Loading intel specific module for a dirty environment'
+module load intel/15.0.3
+echo '---> About to run: /share/apps/spack/spack_all/bin/spack --color=always install --dirty '"$SPEC"
 echo '     To view colors, use `less -R <output_file>`'
 # /share/apps/spack/spack_all/bin/spack --color=always install $SPEC
-/share/apps/spack/spack_all/bin/spack -d --color=always install $SPEC
+/share/apps/spack/spack_all/bin/spack -d --color=always install --dirty $SPEC

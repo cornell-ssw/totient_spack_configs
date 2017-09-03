@@ -25,30 +25,7 @@ config:
         #
         #       You would just have to wait until (e.g., `llvm`) is
         #       finished.....better to just not allow that ;)
-        # TODO:
-        #     LLVM is compiling but staged in zzz_spack_stage_DO_NOT_DELETE_MANUALLY
-        #     So subdirectories spack_compilers_stage and spack_all
-        #     cannot be made yet.
-        #
-        #     >>>> FIX BOTH THIS FILE AND cc_config.yaml in this directory <<<<
-        #     >>>>                                                         <<<<
-        #     >>>>                                                         <<<<
-        #     >>>> /home/$user/zzz_spack_stage_DO_NOT_DELETE_MANUALLY/     <<<<
-        #     >>>> /home/$user/zzz_spack_stage_DO_NOT_DELETE_MANUALLY/     <<<<
-        #     >>>> /home/$user/zzz_spack_stage_DO_NOT_DELETE_MANUALLY/     <<<<
-        #     >>>> /home/$user/zzz_spack_stage_DO_NOT_DELETE_MANUALLY/     <<<<
-        #     >>>> /home/$user/zzz_spack_stage_DO_NOT_DELETE_MANUALLY/     <<<<
-        #     >>>> /home/$user/zzz_spack_stage_DO_NOT_DELETE_MANUALLY/     <<<<
-        #     >>>> /home/$user/zzz_spack_stage_DO_NOT_DELETE_MANUALLY/     <<<<
-        #     >>>> /home/$user/zzz_spack_stage_DO_NOT_DELETE_MANUALLY/     <<<<
-        #     >>>> /home/$user/zzz_spack_stage_DO_NOT_DELETE_MANUALLY/     <<<<
-        #     >>>> /home/$user/zzz_spack_stage_DO_NOT_DELETE_MANUALLY/     <<<<
-        #     >>>> /home/$user/zzz_spack_stage_DO_NOT_DELETE_MANUALLY/     <<<<
-        #     >>>> /home/$user/zzz_spack_stage_DO_NOT_DELETE_MANUALLY/     <<<<
-        #     >>>>                                                         <<<<
-        #     >>>>                                                         <<<<
-        # - /home/$user/zzz_spack_stage_DO_NOT_DELETE_MANUALLY/spack_all_stage
-        - /home/$user/000_spack_stage_DO_NOT_DELETE_MANUALLY__rename_after_llvm_this_is_spack_all
+        - /home/$user/zzz_spack_stage_DO_NOT_DELETE_MANUALLY/spack_all_stage
         - $spack/var/spack/stage
     module_roots:
         # Tell spack to only use the `lmod` modules

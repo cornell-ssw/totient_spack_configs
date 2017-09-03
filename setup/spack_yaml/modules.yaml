@@ -6,34 +6,61 @@ modules:
             - 'gcc@4.9.2'
         hash_length: 0
         whitelist:
+            - armadillo
+            - arpack-ng
             - bash
+            - binutils
+            - boost
+            - bzip2
             - cmake
             - curl
+            - eigen
+            - fftw
             - gcc
             - git
             - gnuplot
+            - gsl
+            - hdf5
+            - hwloc
+            - intel-tbb
+            - jdk
+            - jpeg
+            - libjpeg-turbo
+            - libpng
+            - libszip
+            - libtiff
+            - libxml2
             # NOTE: DO NOT PUT `lmod` HERE! It comes from login/z01_Totient.[c]sh
             - lua
+            - matio
+            - netcdf
+            - netlib-lapack
+            - netlib-scalapack
+            - openblas
+            - opencv
+            - openjpeg
+            - openmpi
+            - openssl
+            - parallel-netcdf
+            - pkg-config
+            - python
+            - qhull
+            - suite-sparse
+            - superlu
+            - tar
             - tmux
+            - xz
             - vim
+            - zlib
             - zsh
         blacklist:
             # NOTE: spack generated module file infinite recursion.
             #       made custom module file
             - intel-parallel-studio
             - '%gcc@4.9.2'
-            # Remove bloat from python side
-            # Leaves: py-cython, py-numpy, py-scipy, py-pandas
-            #         py-six, py-virtualenv
-            - py-appdirs
-            - py-bottleneck
-            - py-dateutil
-            - py-numexpr
-            - py-packaging
-            - py-pip
-            - py-pyparsing
-            - py-pytz
-            - py-setuptools
+            - '%gcc@7.2.0'
+            - '%intel@15.0.3'
+            - '%clang@4.0.0'
         all:
             suffixes:
                 '^openblas': openblas
